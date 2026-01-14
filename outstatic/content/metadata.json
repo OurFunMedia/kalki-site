@@ -1,6 +1,6 @@
 {
-  "commit": "4ed1edd79eaa858747e260caa74e2f174449032a",
-  "generated": "2026-01-14T07:07:57.427Z",
+  "commit": "44a4aa411c58303362c602aa0adcb80a5ee68e96",
+  "generated": "2026-01-14T07:44:48.298Z",
   "metadata": [
     {
       "__outstatic": {
@@ -37,6 +37,24 @@
       "slug": "ce-shi-shi-fan",
       "status": "published",
       "title": "測試示範"
+    },
+    {
+      "__outstatic": {
+        "commit": "44a4aa411c58303362c602aa0adcb80a5ee68e96",
+        "hash": "1274709014",
+        "path": "outstatic/content/ngo_projects/healing.md"
+      },
+      "author": {
+        "name": "Kalki Yoga",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "ngo_projects",
+      "coverImage": "",
+      "description": "Yoga\\nArt Healing (藝術療癒)\\nSound Healing (頌缽音療)\\nMeditation (冥想)",
+      "publishedAt": "2024-01-02T10:00:00.000Z",
+      "slug": "healing",
+      "status": "published",
+      "title": "療癒課程(測試)"
     }
   ]
 }
