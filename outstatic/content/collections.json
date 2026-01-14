@@ -28,5 +28,11 @@
     "slug": "products",
     "path": "outstatic/content/products",
     "children": []
+  },
+  {
+    "title": "NGO Projects",
+    "slug": "ngo_projects",
+    "path": "outstatic/content/ngo_projects",
+    "children": []
   }
 ]
