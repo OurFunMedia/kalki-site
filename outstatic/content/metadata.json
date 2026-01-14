@@ -1,6 +1,6 @@
 {
-  "commit": "ff3071da97c7128ff9d9ec96e8b95210ec14538e",
-  "generated": "2026-01-14T06:30:15.275Z",
+  "commit": "959e78ba7100b8c7f366c4fb0a90757f3fab9f79",
+  "generated": "2026-01-14T06:31:44.075Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,6 +19,24 @@
       "slug": "ce-shi-shi-fan",
       "status": "draft",
       "title": "測試示範"
+    },
+    {
+      "__outstatic": {
+        "commit": "959e78ba7100b8c7f366c4fb0a90757f3fab9f79",
+        "hash": "4141873033",
+        "path": "outstatic/content/instructors/sarah-chen.md"
+      },
+      "author": {
+        "name": "Toby Yip",
+        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
+      },
+      "collection": "instructors",
+      "coverImage": "/images/instructor-sarah.jpg",
+      "publishedAt": "2024-01-14T00:00:00.000Z",
+      "slug": "sarah-chen",
+      "specialties": "Hatha / Yin / Mindfulness",
+      "status": "published",
+      "title": "Bella Wong"
     }
   ]
 }
