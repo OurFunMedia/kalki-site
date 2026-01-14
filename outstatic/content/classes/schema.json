@@ -1,0 +1,25 @@
+{
+    "title": "Classes",
+    "slug": "classes",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "fieldType": "String",
+            "required": true
+        },
+        "description": {
+            "title": "Description",
+            "fieldType": "Text",
+            "required": true
+        },
+        "duration": {
+            "title": "Duration",
+            "fieldType": "String"
+        },
+        "intensity": {
+            "title": "Intensity",
+            "fieldType": "String"
+        }
+    }
+}
