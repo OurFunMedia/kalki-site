@@ -1,6 +1,6 @@
 {
-  "commit": "e5d1e289153e831f4de30a8d73f0ece5e826e16e",
-  "generated": "2026-01-14T07:45:43.959Z",
+  "commit": "7096af6e4cf2cb37f56393787146f2808c86a2f8",
+  "generated": "2026-01-14T07:46:12.593Z",
   "metadata": [
     {
       "__outstatic": {
@@ -115,6 +115,27 @@
       "slug": "school",
       "status": "published",
       "title": "校園正念活動(測試)"
+    },
+    {
+      "__outstatic": {
+        "commit": "7096af6e4cf2cb37f56393787146f2808c86a2f8",
+        "hash": "1028667708",
+        "path": "outstatic/content/events/charity-yoga.md"
+      },
+      "author": {
+        "name": "Kalki Yoga",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "Charity",
+      "collection": "events",
+      "coverImage": "",
+      "date": "2024-04-20",
+      "description": "我們會將當日所有課程收益捐贈給流浪動物之家。",
+      "location": "Kalki Studio",
+      "publishedAt": "2024-02-05T10:00:00.000Z",
+      "slug": "charity-yoga",
+      "status": "published",
+      "title": "慈善瑜伽日 Charity Yoga Day (測試)"
     }
   ]
 }
