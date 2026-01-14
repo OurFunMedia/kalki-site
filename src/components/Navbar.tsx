@@ -28,6 +28,7 @@ export default function Navbar({ transparent = false }: { transparent?: boolean 
             <div className={`space-x-6 text-sm font-medium tracking-wide flex items-center`}>
                 <NavLink href="/ngo" current={pathname} transparent={transparent}>NGO</NavLink>
                 <NavLink href="/classes" current={pathname} transparent={transparent}>課程</NavLink>
+                <NavLink href="/instructors" current={pathname} transparent={transparent}>導師</NavLink>
                 <NavLink href="/workshops" current={pathname} transparent={transparent}>工作坊</NavLink>
                 <NavLink href="/events" current={pathname} transparent={transparent}>活動</NavLink>
                 <NavLink href="/shop" current={pathname} transparent={transparent}>商店</NavLink>
