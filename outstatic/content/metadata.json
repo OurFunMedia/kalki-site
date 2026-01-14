@@ -1,6 +1,6 @@
 {
-  "commit": "dd5e6de94634d42fc52c90abc210ebf4714e5afe",
-  "generated": "2026-01-14T07:45:33.723Z",
+  "commit": "e5d1e289153e831f4de30a8d73f0ece5e826e16e",
+  "generated": "2026-01-14T07:45:43.959Z",
   "metadata": [
     {
       "__outstatic": {
@@ -97,6 +97,24 @@
       "slug": "cork-block",
       "status": "published",
       "title": "天然軟木瑜伽磚 Cork Yoga Block(測試)"
+    },
+    {
+      "__outstatic": {
+        "commit": "e5d1e289153e831f4de30a8d73f0ece5e826e16e",
+        "hash": "1888858002",
+        "path": "outstatic/content/ngo_projects/school.md"
+      },
+      "author": {
+        "name": "Kalki Yoga",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "ngo_projects",
+      "coverImage": "",
+      "description": "Mindfulness Activity\\nMindfulness Course",
+      "publishedAt": "2024-01-01T10:00:00.000Z",
+      "slug": "school",
+      "status": "published",
+      "title": "校園正念活動(測試)"
     }
   ]
 }
