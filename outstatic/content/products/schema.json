@@ -1,0 +1,24 @@
+{
+    "title": "Products",
+    "slug": "products",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Product Name",
+            "fieldType": "String",
+            "required": true
+        },
+        "price": {
+            "title": "Price",
+            "fieldType": "String"
+        },
+        "purchaseLink": {
+            "title": "Purchase Link",
+            "fieldType": "String"
+        },
+        "description": {
+            "title": "Description",
+            "fieldType": "Text"
+        }
+    }
+}
