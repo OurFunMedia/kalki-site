@@ -1,11 +1,11 @@
 {
-  "commit": "2296ec1eb9bf9f95f556e3d265a2b88fe39b5b33",
-  "generated": "2026-01-14T06:28:26.076Z",
+  "commit": "ff3071da97c7128ff9d9ec96e8b95210ec14538e",
+  "generated": "2026-01-14T06:30:15.275Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "2296ec1eb9bf9f95f556e3d265a2b88fe39b5b33",
-        "hash": "1840967095",
+        "commit": "ff3071da97c7128ff9d9ec96e8b95210ec14538e",
+        "hash": "2964520952",
         "path": "outstatic/content/classes/ce-shi-shi-fan.mdx"
       },
       "author": {
@@ -13,7 +13,8 @@
         "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
       },
       "collection": "classes",
-      "intensity": "1",
+      "description": "這裡管理所有的瑜伽課程項目。\n\n新增課程：點擊右上角的 \"New Document\"。\n編輯課程：點擊列表中的任何課程標題。\n欄位說明：\nTitle (標題)：課程名稱（例如：Hatha Flow）。\nDescription (描述)：課程的詳細介紹。\nDuration (時間)：課程長度（例如：60 min）。\nIntensity (強度)：強度標示（例如：★★☆☆☆）。\nContent (內容)：(選填) 如果有更長的詳細內文，可寫在下方的編輯器中。\nCover Image (封面圖)：(選填) 上傳課程代表圖。",
+      "intensity": "★☆☆☆☆",
       "publishedAt": "2026-01-18T17:00:00.000Z",
       "slug": "ce-shi-shi-fan",
       "status": "draft",
