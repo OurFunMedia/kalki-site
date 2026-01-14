@@ -1,6 +1,6 @@
 {
-  "commit": "959e78ba7100b8c7f366c4fb0a90757f3fab9f79",
-  "generated": "2026-01-14T06:31:44.075Z",
+  "commit": "13d6d200416fbabf112841e5ad9123a3d54f5d6d",
+  "generated": "2026-01-14T06:32:07.061Z",
   "metadata": [
     {
       "__outstatic": {
@@ -22,8 +22,8 @@
     },
     {
       "__outstatic": {
-        "commit": "959e78ba7100b8c7f366c4fb0a90757f3fab9f79",
-        "hash": "4141873033",
+        "commit": "13d6d200416fbabf112841e5ad9123a3d54f5d6d",
+        "hash": "3487878423",
         "path": "outstatic/content/instructors/sarah-chen.md"
       },
       "author": {
