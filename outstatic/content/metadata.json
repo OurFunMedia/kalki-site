@@ -1,6 +1,6 @@
 {
-  "commit": "7096af6e4cf2cb37f56393787146f2808c86a2f8",
-  "generated": "2026-01-14T07:46:12.593Z",
+  "commit": "597b86d4c5ebe17b72118963253e6e25d81b7d53",
+  "generated": "2026-01-14T07:46:31.812Z",
   "metadata": [
     {
       "__outstatic": {
@@ -136,6 +136,27 @@
       "slug": "charity-yoga",
       "status": "published",
       "title": "慈善瑜伽日 Charity Yoga Day (測試)"
+    },
+    {
+      "__outstatic": {
+        "commit": "597b86d4c5ebe17b72118963253e6e25d81b7d53",
+        "hash": "2145037986",
+        "path": "outstatic/content/events/summer-retreat.md"
+      },
+      "author": {
+        "name": "Kalki Yoga",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "Retreat",
+      "collection": "events",
+      "coverImage": "",
+      "date": "2024-07-12 ~ 2024-07-14",
+      "description": "遠離城市的喧囂，來到大嶼山的山林之間。三天兩夜的靜修，包含每日瑜伽、素食料理與正念步行。",
+      "location": "Lantau Island",
+      "publishedAt": "2024-02-01T10:00:00.000Z",
+      "slug": "summer-retreat",
+      "status": "published",
+      "title": "夏季身心靜修營 Summer Retreat (測試)"
     }
   ]
 }
