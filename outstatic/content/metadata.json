@@ -1,25 +1,7 @@
 {
-  "commit": "13d6d200416fbabf112841e5ad9123a3d54f5d6d",
-  "generated": "2026-01-14T06:32:07.061Z",
+  "commit": "4ed1edd79eaa858747e260caa74e2f174449032a",
+  "generated": "2026-01-14T07:07:57.427Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "ff3071da97c7128ff9d9ec96e8b95210ec14538e",
-        "hash": "2964520952",
-        "path": "outstatic/content/classes/ce-shi-shi-fan.mdx"
-      },
-      "author": {
-        "name": "Toby Yip",
-        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
-      },
-      "collection": "classes",
-      "description": "這裡管理所有的瑜伽課程項目。\n\n新增課程：點擊右上角的 \"New Document\"。\n編輯課程：點擊列表中的任何課程標題。\n欄位說明：\nTitle (標題)：課程名稱（例如：Hatha Flow）。\nDescription (描述)：課程的詳細介紹。\nDuration (時間)：課程長度（例如：60 min）。\nIntensity (強度)：強度標示（例如：★★☆☆☆）。\nContent (內容)：(選填) 如果有更長的詳細內文，可寫在下方的編輯器中。\nCover Image (封面圖)：(選填) 上傳課程代表圖。",
-      "intensity": "★☆☆☆☆",
-      "publishedAt": "2026-01-18T17:00:00.000Z",
-      "slug": "ce-shi-shi-fan",
-      "status": "draft",
-      "title": "測試示範"
-    },
     {
       "__outstatic": {
         "commit": "13d6d200416fbabf112841e5ad9123a3d54f5d6d",
@@ -37,6 +19,24 @@
       "specialties": "Hatha / Yin / Mindfulness",
       "status": "published",
       "title": "Bella Wong"
+    },
+    {
+      "__outstatic": {
+        "commit": "4ed1edd79eaa858747e260caa74e2f174449032a",
+        "hash": "501309344",
+        "path": "outstatic/content/classes/ce-shi-shi-fan.mdx"
+      },
+      "author": {
+        "name": "Toby Yip",
+        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
+      },
+      "collection": "classes",
+      "description": "這裡管理所有的瑜伽課程項目。\n\n新增課程：點擊右上角的 \"New Document\"。\n編輯課程：點擊列表中的任何課程標題。\n欄位說明：\nTitle (標題)：課程名稱（例如：Hatha Flow）。\nDescription (描述)：課程的詳細介紹。\nDuration (時間)：課程長度（例如：60 min）。\nIntensity (強度)：強度標示（例如：★★☆☆☆）。\nContent (內容)：(選填) 如果有更長的詳細內文，可寫在下方的編輯器中。\nCover Image (封面圖)：(選填) 上傳課程代表圖。",
+      "intensity": "★☆☆☆☆",
+      "publishedAt": "2026-01-18T17:00:00.000Z",
+      "slug": "ce-shi-shi-fan",
+      "status": "published",
+      "title": "測試示範"
     }
   ]
 }
