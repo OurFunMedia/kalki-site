@@ -32,6 +32,7 @@ export default function RootLayout({
   return (
     <html lang="zh-TW">
       <body
+        id="outstatic"
         className={`${inter.variable} ${outfit.variable} ${cormorant.variable} antialiased bg-sand text-charcoal`}
       >
         {children}
