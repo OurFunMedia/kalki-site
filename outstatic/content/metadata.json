@@ -1,6 +1,6 @@
 {
-  "commit": "597b86d4c5ebe17b72118963253e6e25d81b7d53",
-  "generated": "2026-01-14T07:46:31.812Z",
+  "commit": "35b8f1cd1d2078a2f4935e54452f4e3e29936a18",
+  "generated": "2026-01-20T09:33:16.357Z",
   "metadata": [
     {
       "__outstatic": {
@@ -157,6 +157,24 @@
       "slug": "summer-retreat",
       "status": "published",
       "title": "夏季身心靜修營 Summer Retreat (測試)"
+    },
+    {
+      "__outstatic": {
+        "commit": "35b8f1cd1d2078a2f4935e54452f4e3e29936a18",
+        "hash": "2583512233",
+        "path": "outstatic/content/classes/ce-shi-shi-fan-2.mdx"
+      },
+      "author": {
+        "name": "Toby Yip",
+        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
+      },
+      "collection": "classes",
+      "description": "Test 2 @20260120_1730",
+      "intensity": "★★★★★",
+      "publishedAt": "2026-01-20T10:19:44.687Z",
+      "slug": "ce-shi-shi-fan-2",
+      "status": "draft",
+      "title": "測試示範2"
     }
   ]
 }
