@@ -52,6 +52,26 @@ export default function Home() {
           </p>
         </div>
       </section>
+      {/* Footer Section */}
+      <footer id="contact" className="bg-charcoal text-cream py-16 px-6 md:px-12 backdrop-blur-sm">
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+          <div className="space-y-3">
+            <h4 className="text-primary tracking-widest text-xs font-bold uppercase">WhatsApp</h4>
+            <p className="text-cream/70 font-light hover:text-white transition-colors cursor-pointer">[請填寫 WhatsApp 號碼]</p>
+          </div>
+          <div className="space-y-3">
+            <h4 className="text-primary tracking-widest text-xs font-bold uppercase">Email</h4>
+            <p className="text-cream/70 font-light hover:text-white transition-colors cursor-pointer">[請填寫 Email]</p>
+          </div>
+          <div className="space-y-3">
+            <h4 className="text-primary tracking-widest text-xs font-bold uppercase">Address</h4>
+            <p className="text-cream/70 font-light leading-relaxed">[請填寫地址]</p>
+          </div>
+        </div>
+        <div className="mt-12 pt-8 border-t border-cream/10 text-center text-sm text-cream/30">
+          <p>&copy; {new Date().getFullYear()} Kalki Yoga. All Rights Reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -1,13 +1,13 @@
 ---
-title: "校園正念活動(測試)"
+title: "中小學及幼兒"
 status: "published"
 author:
   name: "Kalki Yoga"
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
 slug: "school"
-description: "Mindfulness Activity\\nMindfulness Course"
+description: "更多內容"
 coverImage: ""
-publishedAt: "2024-01-01T10:00:00.000Z"
+publishedAt: "2024-01-02T10:00:00.000Z"
 ---
 
-我們提供專為學生設計的正念活動，幫助他們在學業壓力中找到平靜。
+多元化的療癒課程，滿足不同族群的身心需求。

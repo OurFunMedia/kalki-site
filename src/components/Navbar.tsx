@@ -26,14 +26,13 @@ export default function Navbar({ transparent = false }: { transparent?: boolean 
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
 
     const navLinks = [
-        { href: '/ngo', label: 'NGO' },
-        { href: '/classes', label: '課程' },
-        { href: '/instructors', label: '導師' },
-        { href: '/workshops', label: '工作坊' },
-        { href: '/events', label: '活動' },
+        { href: '/ngo', label: '外展/到校' },
+        { href: '/workshops', label: '課堂/工作坊' },
+        { href: '/classes', label: '培訓/課程' },
         { href: '/shop', label: '商店' },
-        { href: '/about', label: '關於' },
-        { href: '/contact', label: '聯絡' },
+        { href: '/instructors', label: '導師' },
+        { href: '/about', label: '關於我們' },
+        { href: '/#contact', label: '聯絡' },
     ]
 
     return (

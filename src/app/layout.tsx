@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-TW">
+    <html lang="zh-TW" suppressHydrationWarning>
       <body
         id="outstatic"
         className={`${inter.variable} ${outfit.variable} ${cormorant.variable} antialiased bg-sand text-charcoal`}

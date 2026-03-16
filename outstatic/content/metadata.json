@@ -4,6 +4,24 @@
   "metadata": [
     {
       "__outstatic": {
+        "commit": "new_commit_hash",
+        "hash": "new_file_hash",
+        "path": "outstatic/content/ngo_projects/ngo-seniors.md"
+      },
+      "author": {
+        "name": "Kalki Yoga",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "ngo_projects",
+      "coverImage": "",
+      "description": "更多內容",
+      "publishedAt": "2023-12-31T10:00:00.000Z",
+      "slug": "ngo-seniors",
+      "status": "published",
+      "title": "NGO及樂齡"
+    },
+    {
+      "__outstatic": {
         "commit": "13d6d200416fbabf112841e5ad9123a3d54f5d6d",
         "hash": "3487878423",
         "path": "outstatic/content/instructors/sarah-chen.md"
@@ -42,7 +60,7 @@
       "__outstatic": {
         "commit": "44a4aa411c58303362c602aa0adcb80a5ee68e96",
         "hash": "1274709014",
-        "path": "outstatic/content/ngo_projects/healing.md"
+        "path": "outstatic/content/ngo_projects/school.md"
       },
       "author": {
         "name": "Kalki Yoga",
@@ -50,11 +68,11 @@
       },
       "collection": "ngo_projects",
       "coverImage": "",
-      "description": "Yoga\\nArt Healing (藝術療癒)\\nSound Healing (頌缽音療)\\nMeditation (冥想)",
+      "description": "更多內容",
       "publishedAt": "2024-01-02T10:00:00.000Z",
-      "slug": "healing",
+      "slug": "school",
       "status": "published",
-      "title": "療癒課程(測試)"
+      "title": "中小學及幼兒"
     },
     {
       "__outstatic": {
@@ -102,7 +120,7 @@
       "__outstatic": {
         "commit": "e5d1e289153e831f4de30a8d73f0ece5e826e16e",
         "hash": "1888858002",
-        "path": "outstatic/content/ngo_projects/school.md"
+        "path": "outstatic/content/ngo_projects/enterprise.md"
       },
       "author": {
         "name": "Kalki Yoga",
@@ -110,11 +128,11 @@
       },
       "collection": "ngo_projects",
       "coverImage": "",
-      "description": "Mindfulness Activity\\nMindfulness Course",
+      "description": "更多內容",
       "publishedAt": "2024-01-01T10:00:00.000Z",
-      "slug": "school",
+      "slug": "enterprise",
       "status": "published",
-      "title": "校園正念活動(測試)"
+      "title": "企業及團體"
     },
     {
       "__outstatic": {
