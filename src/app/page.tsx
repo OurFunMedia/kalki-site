@@ -47,7 +47,7 @@ export default function Home() {
             瑜伽不只是體式，<br />而是一種<span className="italic text-primary">生活方式</span>。
           </h3>
           <p className="text-charcoal/70 leading-relaxed text-lg pt-4">
-            Kalki Yoga 致力於提供一個安全、包容的環境，讓每個人都能依照自己的節奏練習。
+            Kalki Mindfulness & Yoga 致力於提供一個安全、包容的環境，讓每個人都能依照自己的節奏練習。
             無論你是初學者還是資深練習者，我們都有適合你的課程。
           </p>
         </div>
