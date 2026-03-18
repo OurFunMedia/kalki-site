@@ -1,71 +1,43 @@
-import { load } from 'outstatic/server'
 import Navbar from "@/components/Navbar";
 import Link from 'next/link';
 
-type Product = {
-    title: string
-    price: string
-    purchaseLink: string
-    description: string
-    slug: string
-    coverImage?: string
-}
-
-async function getProducts() {
-    const db = await load()
-    const products = await db
-        .find({ collection: 'products', status: 'published' })
-        .project(['title', 'price', 'purchaseLink', 'description', 'coverImage', 'slug'])
-        .sort({ publishedAt: -1 })
-        .toArray()
-    return products
-}
-
-export default async function ShopPage() {
-    const products = await getProducts() as unknown as Product[]
-
+export default function ShopPage() {
     return (
         <div className="min-h-screen pt-24 px-6 md:px-12 bg-cream text-charcoal">
             <Navbar />
             <div className="max-w-6xl mx-auto py-12">
                 <h1 className="text-4xl md:text-6xl font-serif mb-12 text-center text-primary">商店 <span className="block text-lg font-sans text-stone-400 mt-4 tracking-widest uppercase">Shop</span></h1>
 
-                {products.length === 0 ? (
-                    <div className="text-center py-16">
-                        <p className="text-stone-500 text-lg">精選瑜伽選品準備中...</p>
+                <div className="grid md:grid-cols-3 gap-8 md:gap-12 max-w-6xl mx-auto mt-16 px-4 md:px-0">
+                    {/* Card 1 */}
+                    <div className="border-2 border-[#4A3B32] bg-white aspect-[3/4] md:aspect-[4/5] flex flex-col items-center justify-center p-8 md:p-12 text-center shadow-sm hover:shadow-md transition-shadow">
+                        <h2 className="text-3xl md:text-4xl font-serif mb-12 leading-snug tracking-wider text-[#1a1a1a]">空間及個人<br/>能量用品</h2>
+                        <div className="text-sm md:text-base tracking-widest text-[#4a4a4a] space-y-2 font-light mb-8">
+                            <p>來自各地聖木，鼠尾草，天然香薰，水晶</p>
+                            <p>(所有產品以生態倫理方式獲得)</p>
+                        </div>
+                        <Link href="/shop/energy-products" className="mt-auto px-8 py-3 bg-[#4A3B32] text-white tracking-widest hover:bg-[#3a2e27] transition-colors rounded-sm text-sm uppercase">
+                            查看商品
+                        </Link>
                     </div>
-                ) : (
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {products.map(product => (
-                            <div key={product.slug} className="group cursor-pointer">
-                                <div className="aspect-square bg-stone-200 rounded-xl mb-4 overflow-hidden relative">
-                                    {product.coverImage ? (
-                                        <img src={product.coverImage} alt={product.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                                    ) : (
-                                        <div className="w-full h-full flex items-center justify-center text-stone-300 bg-stone-100">Product Image</div>
-                                    )}
-                                </div>
-                                <h3 className="text-xl font-serif mb-1 text-charcoal">{product.title}</h3>
-                                <p className="text-primary font-bold mb-2">{product.price}</p>
-                                <p className="text-xs text-stone-500 mb-4 line-clamp-2">{product.description}</p>
 
-                                {product.purchaseLink ? (
-                                    <Link
-                                        href={product.purchaseLink}
-                                        target="_blank"
-                                        className="block w-full py-2 border border-charcoal text-charcoal text-center text-xs tracking-widest hover:bg-charcoal hover:text-white transition-colors uppercase"
-                                    >
-                                        購買連結
-                                    </Link>
-                                ) : (
-                                    <button disabled className="block w-full py-2 border border-stone-200 text-stone-300 text-center text-xs tracking-widest cursor-not-allowed uppercase">
-                                        尚無連結
-                                    </button>
-                                )}
-                            </div>
-                        ))}
+                    {/* Card 2 */}
+                    <div className="border-2 border-[#4A3B32] bg-white aspect-[3/4] md:aspect-[4/5] flex flex-col items-center justify-center p-8 md:p-12 text-center shadow-sm hover:shadow-md transition-shadow">
+                        <h2 className="text-3xl md:text-4xl font-serif mb-12 tracking-wider text-[#1a1a1a]">天然能量食物</h2>
+                        <div className="text-sm md:text-base tracking-widest text-[#4a4a4a] space-y-2 font-light">
+                            <p>來自各地超級食物及養生食品</p>
+                            <p>(所有產品天然有機)</p>
+                        </div>
                     </div>
-                )}
+
+                    {/* Card 3 */}
+                    <div className="border-2 border-[#4A3B32] bg-white aspect-[3/4] md:aspect-[4/5] flex flex-col items-center justify-center p-8 md:p-12 text-center shadow-sm hover:shadow-md transition-shadow">
+                        <h2 className="text-3xl md:text-4xl font-serif mb-12 tracking-wider text-[#1a1a1a]">原住民族手造品</h2>
+                        <div className="text-sm md:text-base tracking-widest text-[#4a4a4a] space-y-2 font-light">
+                            <p>獨一無二的人手製造產品</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
