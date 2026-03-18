@@ -1,6 +1,6 @@
 {
-  "commit": "c750697909a9da6e81d962b79eda1b88902c6e0b",
-  "generated": "2026-01-20T09:36:59.400Z",
+  "commit": "68d8563b719b26104b0a5ffe7996fbba07c3e591",
+  "generated": "2026-03-18T08:20:23.630Z",
   "metadata": [
     {
       "__outstatic": {
@@ -193,6 +193,22 @@
       "slug": "ce-shi-shi-fan-2",
       "status": "published",
       "title": "測試示範2"
+    },
+    {
+      "__outstatic": {
+        "commit": "68d8563b719b26104b0a5ffe7996fbba07c3e591",
+        "hash": "554601341",
+        "path": "outstatic/content/products/nan-mei-shu-wei-cao-ce-shi.mdx"
+      },
+      "author": {
+        "name": "Toby Yip",
+        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
+      },
+      "collection": "products",
+      "publishedAt": "2026-03-18T09:03:30.276Z",
+      "slug": "nan-mei-shu-wei-cao-ce-shi",
+      "status": "published",
+      "title": "南美鼠尾草(測試)"
     }
   ]
 }
