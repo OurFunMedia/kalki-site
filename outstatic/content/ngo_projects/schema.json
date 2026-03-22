@@ -1,0 +1,21 @@
+{
+    "title": "NGO Projects",
+    "slug": "ngo_projects",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Service/Project Name",
+            "fieldType": "String",
+            "required": true
+        },
+        "description": {
+            "title": "Description/Items (one per line)",
+            "fieldType": "Text"
+        },
+        "coverImage": {
+            "title": "Cover Image",
+            "fieldType": "String",
+            "format": "url"
+        }
+    }
+}

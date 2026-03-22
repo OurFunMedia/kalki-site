@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #7d5a45; /* Warm earthy brown */
+  --color-secondary: #b59a85; /* Soft brownish grey/taupe */
+  --color-accent: #c47b5f; /* Warmer terracotta/brick red */
+  --color-sand: #f5f0eb; /* Warm beige */
+  --color-cream: #fbf8f5; /* Warm off-white */
+  --color-charcoal: #4a3628; /* Dark brown for text */
+  --color-terracotta: #c47b5f;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui;
+  --font-display: var(--font-outfit), ui-serif, Georgia;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia;
+}
+
+/* Explicit fallback utilities */
+.font-serif {
+  font-family: var(--font-cormorant), ui-serif, Georgia;
+}
+
+.font-sans {
+  font-family: var(--font-inter), ui-sans-serif, system-ui;
+}
+
+@layer base {
+  :root {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-serif);
+  }
+}

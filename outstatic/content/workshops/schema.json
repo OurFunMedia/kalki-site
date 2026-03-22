@@ -1,0 +1,32 @@
+{
+    "title": "Workshops",
+    "slug": "workshops",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "fieldType": "String",
+            "required": true
+        },
+        "date": {
+            "title": "Date & Time",
+            "fieldType": "String"
+        },
+        "location": {
+            "title": "Location",
+            "fieldType": "String"
+        },
+        "price": {
+            "title": "Price",
+            "fieldType": "String"
+        },
+        "registrationLink": {
+            "title": "Registration Link",
+            "fieldType": "String"
+        },
+        "description": {
+            "title": "Short Description",
+            "fieldType": "Text"
+        }
+    }
+}

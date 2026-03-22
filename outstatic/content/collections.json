@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Classes",
+    "slug": "classes",
+    "path": "outstatic/content/classes",
+    "children": []
+  },
+  {
+    "title": "Instructors",
+    "slug": "instructors",
+    "path": "outstatic/content/instructors",
+    "children": []
+  },
+  {
+    "title": "Workshops",
+    "slug": "workshops",
+    "path": "outstatic/content/workshops",
+    "children": []
+  },
+  {
+    "title": "Events",
+    "slug": "events",
+    "path": "outstatic/content/events",
+    "children": []
+  },
+  {
+    "title": "Products",
+    "slug": "products",
+    "path": "outstatic/content/products",
+    "children": []
+  },
+  {
+    "title": "NGO Projects",
+    "slug": "ngo_projects",
+    "path": "outstatic/content/ngo_projects",
+    "children": []
+  }
+]

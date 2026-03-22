@@ -1,0 +1,29 @@
+{
+    "title": "Events",
+    "slug": "events",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "fieldType": "String",
+            "required": true
+        },
+        "category": {
+            "title": "Category (Retreat/Event/Charity)",
+            "fieldType": "String",
+            "required": true
+        },
+        "date": {
+            "title": "Date",
+            "fieldType": "String"
+        },
+        "location": {
+            "title": "Location",
+            "fieldType": "String"
+        },
+        "description": {
+            "title": "Short Description",
+            "fieldType": "Text"
+        }
+    }
+}
