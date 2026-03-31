@@ -1,41 +1,31 @@
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
-import { load } from "outstatic/server";
 
 type Product = {
     title: string
     price: string
-    purchaseLink: string
-    description: string
+    purchaseLink?: string
+    description?: string
     slug: string
     coverImage?: string
     category?: string
 }
 
 async function getCategoryProducts() {
-    const db = await load()
-    // Fetch all published products
-    const allProducts = await db
-        .find({ collection: 'products', status: 'published' })
-        .project(['title', 'price', 'purchaseLink', 'description', 'coverImage', 'slug', 'category'])
-        .sort({ publishedAt: -1 })
-        .toArray()
-
-    // Filter products for this specific category (or show all if category not set for testing flexibility)
-    // Here we assume products for this page should have category '空間及個人能量用品'
-    // But for now, since it's a new schema field, we return all products if the user hasn't categorized them yet, 
-    // or specifically check if they match.
-    return allProducts as unknown as Product[];
+    return [
+        { title: "南美鼠尾草(2束)", price: "HKD$ 82", slug: "white-sage-2", category: "空間及個人能量用品" },
+        { title: "南美洲聖木(10支)", price: "HKD$ 79", slug: "palo-santo-10", category: "空間及個人能量用品" },
+        { title: "西北太平洋鮑魚殼(1個)", price: "HKD$ 58", slug: "abalone-shell-1", category: "空間及個人能量用品" },
+        { title: "巴西白水晶(4吋)", price: "HKD$ 325", slug: "white-crystal-4", category: "空間及個人能量用品" },
+        { title: "鮑魚殼+聖木+鼠尾草 套裝", price: "HKD$ 195", slug: "shell-wood-sage-set", category: "空間及個人能量用品" },
+        { title: "南美洲聖木鼠尾草純露噴霧", price: "HKD$ 150", slug: "palo-santo-sage-spray", category: "空間及個人能量用品" },
+        { title: "南美洲聖木鼠尾草噴霧+鼠尾草 套裝", price: "HKD$ 220", slug: "spray-sage-set", category: "空間及個人能量用品" },
+        { title: "南美洲聖木鼠尾草噴霧+聖木 套裝", price: "HKD$ 215", slug: "spray-wood-set", category: "空間及個人能量用品" }
+    ] as unknown as Product[];
 }
 
 export default async function EnergyProductsPage() {
     let products = await getCategoryProducts();
-    // Optional: Filter only '空間及個人能量用品' 
-    const filteredProducts = products.filter(p => p.category === '空間及個人能量用品');
-    // If no products matched the strict category filter, just show all products for now so the page isn't empty after schema update.
-    if (filteredProducts.length > 0) {
-        products = filteredProducts;
-    }
 
     return (
         <div className="min-h-screen pt-24 px-6 md:px-12 bg-cream text-charcoal">
