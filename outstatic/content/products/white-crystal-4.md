@@ -6,7 +6,7 @@ author:
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
 slug: "white-crystal-4"
 description: "未經打磨的巴西純白水晶原石，能放大並淨化周圍的磁場。"
-coverImage: ""
+coverImage: "/images/products/p004.jpg"
 price: "HKD$ 325"
 purchaseLink: ""
 category: "空間及個人能量用品"
