@@ -1,6 +1,6 @@
 {
-  "commit": "86495ac63ff09f4fc7d4d26e52d43b1d2b06e578",
-  "generated": "2026-04-01T07:47:47.660Z",
+  "commit": "988f941fa5e4553ed6157811a02b381d63254893",
+  "generated": "2026-04-01T07:54:29.061Z",
   "metadata": [
     {
       "__outstatic": {
@@ -316,8 +316,8 @@
     },
     {
       "__outstatic": {
-        "commit": "86495ac63ff09f4fc7d4d26e52d43b1d2b06e578",
-        "hash": "3521210677",
+        "commit": "988f941fa5e4553ed6157811a02b381d63254893",
+        "hash": "3255830803",
         "path": "outstatic/content/products/white-sage-2.md"
       },
       "author": {
@@ -329,7 +329,7 @@
       "coverImage": "/images/products/p001.jpg",
       "description": "來自南美洲的純淨鼠尾草，能夠有效淨化空間能量、去除負面磁場。",
       "price": "HKD$ 82",
-      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "publishedAt": "2024-03-31T17:00:00.000Z",
       "purchaseLink": "",
       "slug": "white-sage-2",
       "status": "published",
