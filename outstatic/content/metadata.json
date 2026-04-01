@@ -1,6 +1,6 @@
 {
-  "commit": "19ccc38c371ff4d1a44bbefa99b90d008062210a",
-  "generated": "2026-04-01T08:02:52.343Z",
+  "commit": "5536128966e9d47fa5091ba43337c893887202f0",
+  "generated": "2026-04-01T08:03:57.984Z",
   "metadata": [
     {
       "__outstatic": {
@@ -237,27 +237,6 @@
     },
     {
       "__outstatic": {
-        "commit": "692125925f2f454d5a8be07a629e78637c68c82d",
-        "hash": "394734490",
-        "path": "outstatic/content/products/palo-santo-10.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p002.jpg",
-      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
-      "price": "HKD$ 79",
-      "publishedAt": "2024-04-01T10:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "palo-santo-10",
-      "status": "published",
-      "title": "南美洲聖木(10支)"
-    },
-    {
-      "__outstatic": {
         "commit": "1768d70dcdca5fdb9d216019bcd3a5935c7fb4a1",
         "hash": "4038251453",
         "path": "outstatic/content/products/abalone-shell-1.md"
@@ -339,6 +318,27 @@
       "slug": "palo-santo-sage-spray",
       "status": "published",
       "title": "南美洲聖木鼠尾草純露噴霧"
+    },
+    {
+      "__outstatic": {
+        "commit": "5536128966e9d47fa5091ba43337c893887202f0",
+        "hash": "2059870541",
+        "path": "outstatic/content/products/palo-santo-10.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p002.jpg",
+      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
+      "price": "HKD$ 79",
+      "publishedAt": "2024-03-31T18:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "palo-santo-10",
+      "status": "published",
+      "title": "南美洲聖木(10支)"
     }
   ]
 }
