@@ -1,6 +1,6 @@
 {
-  "commit": "4a1ee04e3642873e4c0ff54246eb78ff6eb17d29",
-  "generated": "2026-04-01T08:04:42.175Z",
+  "commit": "858d2a5b345b36fa2b5392ea2784bf1a71c79db3",
+  "generated": "2026-04-01T08:05:07.754Z",
   "metadata": [
     {
       "__outstatic": {
@@ -237,27 +237,6 @@
     },
     {
       "__outstatic": {
-        "commit": "843ba857f498d8d2a77f7d7974d7f086819fe00a",
-        "hash": "4177412445",
-        "path": "outstatic/content/products/shell-wood-sage-set.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p005.jpg",
-      "description": "完整的淨化套裝，包含深度淨化、聖木帶來祝福與正能量，以及鮑魚殼作為承托。",
-      "price": "HKD$ 195",
-      "publishedAt": "2024-04-01T10:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "shell-wood-sage-set",
-      "status": "published",
-      "title": "鮑魚殼+聖木+鼠尾草 套裝"
-    },
-    {
-      "__outstatic": {
         "commit": "19ccc38c371ff4d1a44bbefa99b90d008062210a",
         "hash": "2045632039",
         "path": "outstatic/content/products/palo-santo-sage-spray.md"
@@ -339,6 +318,27 @@
       "slug": "white-crystal-4",
       "status": "published",
       "title": "巴西白水晶(4吋)"
+    },
+    {
+      "__outstatic": {
+        "commit": "858d2a5b345b36fa2b5392ea2784bf1a71c79db3",
+        "hash": "4030513966",
+        "path": "outstatic/content/products/shell-wood-sage-set.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p005.jpg",
+      "description": "完整的淨化套裝，包含深度淨化、聖木帶來祝福與正能量，以及鮑魚殼作為承托。",
+      "price": "HKD$ 195",
+      "publishedAt": "2024-03-31T21:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "shell-wood-sage-set",
+      "status": "published",
+      "title": "鮑魚殼+聖木+鼠尾草 套裝"
     }
   ]
 }

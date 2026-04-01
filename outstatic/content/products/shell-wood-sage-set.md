@@ -10,7 +10,7 @@ coverImage: "/images/products/p005.jpg"
 price: "HKD$ 195"
 purchaseLink: ""
 category: "空間及個人能量用品"
-publishedAt: "2024-04-01T10:00:00.000Z"
+publishedAt: "2024-03-31T21:00:00.000Z"
 ---
 
 這組完整的淨化套裝包含了您所需的所有基礎元素。透過鼠尾草的深度淨化、聖木的帶來祝福與正能量，以及鮑魚殼作為承托，讓您能立即開始建立屬於自己的平靜神聖空間。
