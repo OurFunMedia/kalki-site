@@ -6,7 +6,7 @@ author:
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
 slug: "shell-wood-sage-set"
 description: "完整的淨化套裝，包含深度淨化、聖木帶來祝福與正能量，以及鮑魚殼作為承托。"
-coverImage: ""
+coverImage: "/images/products/p005.jpg"
 price: "HKD$ 195"
 purchaseLink: ""
 category: "空間及個人能量用品"
