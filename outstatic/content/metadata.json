@@ -1,6 +1,6 @@
 {
-  "commit": "5536128966e9d47fa5091ba43337c893887202f0",
-  "generated": "2026-04-01T08:03:57.984Z",
+  "commit": "5d445406e97a48842c83688077d8daed8ee7def4",
+  "generated": "2026-04-01T08:04:23.815Z",
   "metadata": [
     {
       "__outstatic": {
@@ -237,27 +237,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1768d70dcdca5fdb9d216019bcd3a5935c7fb4a1",
-        "hash": "4038251453",
-        "path": "outstatic/content/products/abalone-shell-1.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p003.jpg",
-      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
-      "price": "HKD$ 58",
-      "publishedAt": "2024-04-01T10:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "abalone-shell-1",
-      "status": "published",
-      "title": "西北太平洋鮑魚殼(1個)"
-    },
-    {
-      "__outstatic": {
         "commit": "d10625dc797fccdf6bbe22681b34dcadaaba25f3",
         "hash": "2887820423",
         "path": "outstatic/content/products/white-crystal-4.md"
@@ -339,6 +318,27 @@
       "slug": "palo-santo-10",
       "status": "published",
       "title": "南美洲聖木(10支)"
+    },
+    {
+      "__outstatic": {
+        "commit": "5d445406e97a48842c83688077d8daed8ee7def4",
+        "hash": "116607667",
+        "path": "outstatic/content/products/abalone-shell-1.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p003.jpg",
+      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
+      "price": "HKD$ 58",
+      "publishedAt": "2024-03-31T19:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "abalone-shell-1",
+      "status": "published",
+      "title": "西北太平洋鮑魚殼(1個)"
     }
   ]
 }
