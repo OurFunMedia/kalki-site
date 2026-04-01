@@ -1,6 +1,6 @@
 {
-  "commit": "843ba857f498d8d2a77f7d7974d7f086819fe00a",
-  "generated": "2026-04-01T08:02:17.717Z",
+  "commit": "19ccc38c371ff4d1a44bbefa99b90d008062210a",
+  "generated": "2026-04-01T08:02:52.343Z",
   "metadata": [
     {
       "__outstatic": {
@@ -177,26 +177,6 @@
     {
       "__outstatic": {
         "commit": "local",
-        "hash": "r9rrht",
-        "path": "outstatic/content/products/palo-santo-sage-spray.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "",
-      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
-      "price": "HKD$ 150",
-      "publishedAt": "2024-04-01T10:00:00.000Z",
-      "slug": "palo-santo-sage-spray",
-      "status": "published",
-      "title": "南美洲聖木鼠尾草純露噴霧"
-    },
-    {
-      "__outstatic": {
-        "commit": "local",
         "hash": "ag45qp",
         "path": "outstatic/content/products/spray-sage-set.md"
       },
@@ -338,6 +318,27 @@
       "slug": "shell-wood-sage-set",
       "status": "published",
       "title": "鮑魚殼+聖木+鼠尾草 套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "19ccc38c371ff4d1a44bbefa99b90d008062210a",
+        "hash": "2045632039",
+        "path": "outstatic/content/products/palo-santo-sage-spray.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p006.jpg",
+      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
+      "price": "HKD$ 150",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "palo-santo-sage-spray",
+      "status": "published",
+      "title": "南美洲聖木鼠尾草純露噴霧"
     }
   ]
 }
