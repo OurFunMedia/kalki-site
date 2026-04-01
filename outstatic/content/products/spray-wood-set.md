@@ -6,7 +6,7 @@ author:
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
 slug: "spray-wood-set"
 description: "能隨身攜帶的淨化噴霧，以及傳統的南美聖木，日常靈性實踐必備。"
-coverImage: ""
+coverImage: "/images/products/p008.jpg"
 price: "HKD$ 215"
 purchaseLink: ""
 category: "空間及個人能量用品"
