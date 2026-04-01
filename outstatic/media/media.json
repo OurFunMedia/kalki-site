@@ -1,17 +1,6 @@
 {
-  "commit": "",
-  "generated": "2026-04-01T08:33:26.736Z",
+  "commit": "6e6284ff62cc60e4dcecdb7bec3fed315f30b8f2",
+  "generated": "2026-04-01T08:38:28.908Z",
   "media": [
-    {
-      "__outstatic": {
-        "commit": "",
-        "hash": "3733162351",
-        "path": "public/images/p007-c3Mj.jpg"
-      },
-      "alt": "",
-      "filename": "p007-c3Mj.jpg",
-      "publishedAt": "2026-04-01T08:33:26.736Z",
-      "type": "image"
-    }
   ]
 }
