@@ -1,12 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #7d5a45; /* Warm earthy brown */
-  --color-secondary: #b59a85; /* Soft brownish grey/taupe */
-  --color-accent: #c47b5f; /* Warmer terracotta/brick red */
-  --color-sand: #f5f0eb; /* Warm beige */
-  --color-cream: #fbf8f5; /* Warm off-white */
-  --color-charcoal: #4a3628; /* Dark brown for text */
+  --color-primary: #7d5a45;
+  /* Warm earthy brown */
+  --color-secondary: #b59a85;
+  /* Soft brownish grey/taupe */
+  --color-accent: #c47b5f;
+  /* Warmer terracotta/brick red */
+  --color-sand: #f5f0eb;
+  /* Warm beige */
+  --color-cream: #fbf8f5;
+  /* Warm off-white */
+  --color-charcoal: #4a3628;
+  /* Dark brown for text */
   --color-terracotta: #c47b5f;
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui;
@@ -42,4 +48,19 @@
   h6 {
     font-family: var(--font-serif);
   }
+}
+
+/* Base marquee animation for carousel */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@utility animate-marquee {
+  animation: marquee 180s linear infinite;
 }

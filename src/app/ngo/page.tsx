@@ -1,6 +1,7 @@
 import { load } from 'outstatic/server'
 import Navbar from "@/components/Navbar";
 import Link from 'next/link';
+import NgoCarousel from '@/components/NgoCarousel';
 
 type NgoProject = {
     title: string
@@ -88,6 +89,8 @@ export default async function NgoPage() {
                     </div>
                 )}
             </div>
+            
+            <NgoCarousel />
         </div>
     )
 }
