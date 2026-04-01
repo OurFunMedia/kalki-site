@@ -6,7 +6,7 @@ author:
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
 slug: "white-sage-2"
 description: "來自南美洲的純淨鼠尾草，能夠有效淨化空間能量、去除負面磁場。"
-coverImage: ""
+coverImage: "/images/products/p001.jpg"
 price: "HKD$ 82"
 purchaseLink: ""
 category: "空間及個人能量用品"

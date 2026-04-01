@@ -1,6 +1,6 @@
 {
-  "commit": "1c80752d6689ee7027b31d995ca6411c0af2fb89",
-  "generated": "2026-04-01T07:22:45.173Z",
+  "commit": "86495ac63ff09f4fc7d4d26e52d43b1d2b06e578",
+  "generated": "2026-04-01T07:47:47.660Z",
   "metadata": [
     {
       "__outstatic": {
@@ -177,26 +177,6 @@
     {
       "__outstatic": {
         "commit": "local",
-        "hash": "tm94dg",
-        "path": "outstatic/content/products/white-sage-2.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "",
-      "description": "來自南美洲的純淨鼠尾草，能夠有效淨化空間能量、去除負面磁場。",
-      "price": "HKD$ 82",
-      "publishedAt": "2024-04-01T10:00:00.000Z",
-      "slug": "white-sage-2",
-      "status": "published",
-      "title": "南美鼠尾草(2束)"
-    },
-    {
-      "__outstatic": {
-        "commit": "local",
         "hash": "iu0ez",
         "path": "outstatic/content/products/palo-santo-10.md"
       },
@@ -333,6 +313,27 @@
       "slug": "spray-wood-set",
       "status": "published",
       "title": "南美洲聖木鼠尾草噴霧+聖木 套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "86495ac63ff09f4fc7d4d26e52d43b1d2b06e578",
+        "hash": "3521210677",
+        "path": "outstatic/content/products/white-sage-2.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p001.jpg",
+      "description": "來自南美洲的純淨鼠尾草，能夠有效淨化空間能量、去除負面磁場。",
+      "price": "HKD$ 82",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "white-sage-2",
+      "status": "published",
+      "title": "南美鼠尾草(2束)"
     }
   ]
 }
