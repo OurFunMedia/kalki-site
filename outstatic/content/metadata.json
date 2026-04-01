@@ -1,6 +1,6 @@
 {
-  "commit": "858d2a5b345b36fa2b5392ea2784bf1a71c79db3",
-  "generated": "2026-04-01T08:05:07.754Z",
+  "commit": "89c593fc0298a82a6fd4a75bdce37bad4f4673ec",
+  "generated": "2026-04-01T08:05:23.212Z",
   "metadata": [
     {
       "__outstatic": {
@@ -237,27 +237,6 @@
     },
     {
       "__outstatic": {
-        "commit": "19ccc38c371ff4d1a44bbefa99b90d008062210a",
-        "hash": "2045632039",
-        "path": "outstatic/content/products/palo-santo-sage-spray.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p006.jpg",
-      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
-      "price": "HKD$ 150",
-      "publishedAt": "2024-04-01T10:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "palo-santo-sage-spray",
-      "status": "published",
-      "title": "南美洲聖木鼠尾草純露噴霧"
-    },
-    {
-      "__outstatic": {
         "commit": "5536128966e9d47fa5091ba43337c893887202f0",
         "hash": "2059870541",
         "path": "outstatic/content/products/palo-santo-10.md"
@@ -339,6 +318,27 @@
       "slug": "shell-wood-sage-set",
       "status": "published",
       "title": "鮑魚殼+聖木+鼠尾草 套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "89c593fc0298a82a6fd4a75bdce37bad4f4673ec",
+        "hash": "1063686736",
+        "path": "outstatic/content/products/palo-santo-sage-spray.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p006.jpg",
+      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
+      "price": "HKD$ 150",
+      "publishedAt": "2024-03-31T22:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "palo-santo-sage-spray",
+      "status": "published",
+      "title": "南美洲聖木鼠尾草純露噴霧"
     }
   ]
 }
