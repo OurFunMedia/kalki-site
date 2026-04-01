@@ -210,6 +210,166 @@
       "slug": "nan-mei-shu-wei-cao-ce-shi",
       "status": "published",
       "title": "南美鼠尾草(測試)"
+    },
+    {
+      "__outstatic": {
+        "commit": "local",
+        "hash": "tm94dg",
+        "path": "outstatic/content/products/white-sage-2.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "products",
+      "price": "HKD$ 82",
+      "category": "空間及個人能量用品",
+      "description": "來自南美洲的純淨鼠尾草，能夠有效淨化空間能量、去除負面磁場。",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "slug": "white-sage-2",
+      "status": "published",
+      "coverImage": "",
+      "title": "南美鼠尾草(2束)"
+    },
+    {
+      "__outstatic": {
+        "commit": "local",
+        "hash": "iu0ez",
+        "path": "outstatic/content/products/palo-santo-10.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "products",
+      "price": "HKD$ 79",
+      "category": "空間及個人能量用品",
+      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "slug": "palo-santo-10",
+      "status": "published",
+      "coverImage": "",
+      "title": "南美洲聖木(10支)"
+    },
+    {
+      "__outstatic": {
+        "commit": "local",
+        "hash": "vcxlwt",
+        "path": "outstatic/content/products/abalone-shell-1.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "products",
+      "price": "HKD$ 58",
+      "category": "空間及個人能量用品",
+      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "slug": "abalone-shell-1",
+      "status": "published",
+      "coverImage": "",
+      "title": "西北太平洋鮑魚殼(1個)"
+    },
+    {
+      "__outstatic": {
+        "commit": "local",
+        "hash": "cjohm",
+        "path": "outstatic/content/products/white-crystal-4.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "products",
+      "price": "HKD$ 325",
+      "category": "空間及個人能量用品",
+      "description": "未經打磨的巴西純白水晶原石，能放大並淨化周圍的磁場。",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "slug": "white-crystal-4",
+      "status": "published",
+      "coverImage": "",
+      "title": "巴西白水晶(4吋)"
+    },
+    {
+      "__outstatic": {
+        "commit": "local",
+        "hash": "ev5692",
+        "path": "outstatic/content/products/shell-wood-sage-set.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "products",
+      "price": "HKD$ 195",
+      "category": "空間及個人能量用品",
+      "description": "完整的淨化套裝，包含深度淨化、聖木帶來祝福與正能量，以及鮑魚殼作為承托。",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "slug": "shell-wood-sage-set",
+      "status": "published",
+      "coverImage": "",
+      "title": "鮑魚殼+聖木+鼠尾草 套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "local",
+        "hash": "r9rrht",
+        "path": "outstatic/content/products/palo-santo-sage-spray.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "products",
+      "price": "HKD$ 150",
+      "category": "空間及個人能量用品",
+      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "slug": "palo-santo-sage-spray",
+      "status": "published",
+      "coverImage": "",
+      "title": "南美洲聖木鼠尾草純露噴霧"
+    },
+    {
+      "__outstatic": {
+        "commit": "local",
+        "hash": "ag45qp",
+        "path": "outstatic/content/products/spray-sage-set.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "products",
+      "price": "HKD$ 220",
+      "category": "空間及個人能量用品",
+      "description": "這套組合包含純天然無煙淨化噴霧與傳統鼠尾草。",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "slug": "spray-sage-set",
+      "status": "published",
+      "coverImage": "",
+      "title": "南美洲聖木鼠尾草噴霧+鼠尾草 套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "local",
+        "hash": "9s4bfr",
+        "path": "outstatic/content/products/spray-wood-set.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "collection": "products",
+      "price": "HKD$ 215",
+      "category": "空間及個人能量用品",
+      "description": "能隨身攜帶的淨化噴霧，以及傳統的南美聖木，日常靈性實踐必備。",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "slug": "spray-wood-set",
+      "status": "published",
+      "coverImage": "",
+      "title": "南美洲聖木鼠尾草噴霧+聖木 套裝"
     }
   ]
 }

@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
+import { load } from 'outstatic/server';
 
 type Product = {
     title: string
@@ -12,16 +13,13 @@ type Product = {
 }
 
 async function getCategoryProducts() {
-    return [
-        { title: "南美鼠尾草(2束)", price: "HKD$ 82", slug: "white-sage-2", category: "空間及個人能量用品" },
-        { title: "南美洲聖木(10支)", price: "HKD$ 79", slug: "palo-santo-10", category: "空間及個人能量用品" },
-        { title: "西北太平洋鮑魚殼(1個)", price: "HKD$ 58", slug: "abalone-shell-1", category: "空間及個人能量用品" },
-        { title: "巴西白水晶(4吋)", price: "HKD$ 325", slug: "white-crystal-4", category: "空間及個人能量用品" },
-        { title: "鮑魚殼+聖木+鼠尾草 套裝", price: "HKD$ 195", slug: "shell-wood-sage-set", category: "空間及個人能量用品" },
-        { title: "南美洲聖木鼠尾草純露噴霧", price: "HKD$ 150", slug: "palo-santo-sage-spray", category: "空間及個人能量用品" },
-        { title: "南美洲聖木鼠尾草噴霧+鼠尾草 套裝", price: "HKD$ 220", slug: "spray-sage-set", category: "空間及個人能量用品" },
-        { title: "南美洲聖木鼠尾草噴霧+聖木 套裝", price: "HKD$ 215", slug: "spray-wood-set", category: "空間及個人能量用品" }
-    ] as unknown as Product[];
+    const db = await load()
+    const products = await db
+        .find({ collection: 'products', status: 'published' })
+        .project(['title', 'price', 'purchaseLink', 'description', 'slug', 'coverImage', 'category'])
+        .sort({ publishedAt: 1 })
+        .toArray()
+    return products as unknown as Product[];
 }
 
 export default async function EnergyProductsPage() {
@@ -75,8 +73,8 @@ export default async function EnergyProductsPage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10">
                         {products.map((product) => (
                             <div key={product.slug} className="border-2 border-[#4A3B32] bg-white aspect-[3/4] flex flex-col p-6 text-center hover:shadow-lg transition-all group relative overflow-hidden">
-                                <Link href={product.purchaseLink || '#'} target={product.purchaseLink ? "_blank" : undefined} className="absolute inset-0 z-10">
-                                    <span className="sr-only">購買 {product.title}</span>
+                                <Link href={`/shop/product/${product.slug}`} className="absolute inset-0 z-10">
+                                    <span className="sr-only">了解更多 {product.title}</span>
                                 </Link>
                                 <div className="w-full flex-grow bg-stone-50 mb-6 flex items-center justify-center text-stone-400 border border-stone-100 group-hover:bg-stone-100 transition-colors relative overflow-hidden">
                                     {product.coverImage ? (
