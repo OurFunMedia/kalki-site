@@ -1,5 +1,5 @@
 ---
-title: "南美洲聖木鼠尾草噴霧+聖木 套裝"
+title: "聖木鼠尾草噴霧+聖木 套裝"
 status: "published"
 author:
   name: "Kalki Admin"
