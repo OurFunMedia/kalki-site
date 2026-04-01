@@ -15,6 +15,14 @@ type OutstaticProduct = {
     category?: string
 }
 
+export async function generateStaticParams() {
+    const db = await load();
+    const products = await db.find({ collection: 'products', status: 'published' }).project(['slug']).toArray();
+    return products.map((product) => ({
+        slug: product.slug,
+    }));
+}
+
 export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
     const resolvedParams = await params;
     const db = await load()
