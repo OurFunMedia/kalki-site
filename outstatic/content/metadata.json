@@ -1,6 +1,6 @@
 {
-  "commit": "596e693158bf94eb397cc498736083787008cb18",
-  "generated": "2026-04-01T07:22:35.676Z",
+  "commit": "1c80752d6689ee7027b31d995ca6411c0af2fb89",
+  "generated": "2026-04-01T07:22:45.173Z",
   "metadata": [
     {
       "__outstatic": {
@@ -95,26 +95,6 @@
       "slug": "chakra-healing",
       "status": "published",
       "title": "脈輪淨化工作坊 Chakra Healing Workshop(測試)"
-    },
-    {
-      "__outstatic": {
-        "commit": "dd5e6de94634d42fc52c90abc210ebf4714e5afe",
-        "hash": "1583816655",
-        "path": "outstatic/content/products/cork-block.md"
-      },
-      "author": {
-        "name": "Kalki Yoga",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "collection": "products",
-      "coverImage": "",
-      "description": "使用可持續採收的天然軟木製成，觸感溫潤，提供穩定的支撐。",
-      "price": "HK$ 120",
-      "publishedAt": "2024-01-10T10:00:00.000Z",
-      "purchaseLink": "https://shopee.tw",
-      "slug": "cork-block",
-      "status": "published",
-      "title": "天然軟木瑜伽磚 Cork Yoga Block(測試)"
     },
     {
       "__outstatic": {
