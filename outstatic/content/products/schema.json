@@ -1,28 +1,33 @@
 {
-    "title": "Products",
-    "slug": "products",
-    "type": "object",
-    "properties": {
-        "title": {
-            "title": "Product Name",
-            "fieldType": "String",
-            "required": true
-        },
-        "price": {
-            "title": "Price",
-            "fieldType": "String"
-        },
-        "purchaseLink": {
-            "title": "Purchase Link",
-            "fieldType": "String"
-        },
-        "description": {
-            "title": "Description",
-            "fieldType": "Text"
-        },
-        "category": {
-            "title": "Category",
-            "fieldType": "String"
-        }
+  "title": "products",
+  "type": "object",
+  "properties": {
+    "title": {
+      "title": "Product Name",
+      "fieldType": "String",
+      "required": true
+    },
+    "price": {
+      "title": "Price",
+      "fieldType": "String"
+    },
+    "purchaseLink": {
+      "title": "Purchase Link",
+      "fieldType": "String"
+    },
+    "description": {
+      "title": "Description",
+      "fieldType": "Text"
+    },
+    "category": {
+      "title": "Category",
+      "fieldType": "String"
+    },
+    "coverImage": {
+      "required": false,
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Cover Image"
     }
+  }
 }
