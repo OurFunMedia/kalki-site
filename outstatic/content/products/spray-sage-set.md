@@ -6,7 +6,7 @@ author:
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
 slug: "spray-sage-set"
 description: "這套組合包含純天然無煙淨化噴霧與傳統鼠尾草。"
-coverImage: "/images/p007-c3Mj.jpg"
+coverImage: "/images/products/p007.jpg"
 price: "HKD$ 220"
 purchaseLink: ""
 category: "空間及個人能量用品"

@@ -1,6 +1,6 @@
 {
-  "commit": "f9798a2f2ee30606a0b212babe623419eecb0ed8",
-  "generated": "2026-04-01T08:33:45.457Z",
+  "commit": "a7930e4be2a7614c70be68b496548d2b84d49f03",
+  "generated": "2026-04-01T08:36:09.629Z",
   "metadata": [
     {
       "__outstatic": {
@@ -323,8 +323,8 @@
     },
     {
       "__outstatic": {
-        "commit": "f9798a2f2ee30606a0b212babe623419eecb0ed8",
-        "hash": "1724715050",
+        "commit": "a7930e4be2a7614c70be68b496548d2b84d49f03",
+        "hash": "2384060868",
         "path": "outstatic/content/products/spray-sage-set.md"
       },
       "author": {
@@ -333,7 +333,7 @@
       },
       "category": "空間及個人能量用品",
       "collection": "products",
-      "coverImage": "/images/p007-c3Mj.jpg",
+      "coverImage": "/images/products/p007.jpg",
       "description": "這套組合包含純天然無煙淨化噴霧與傳統鼠尾草。",
       "price": "HKD$ 220",
       "publishedAt": "2024-03-31T23:00:00.000Z",
