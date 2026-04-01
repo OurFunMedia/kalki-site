@@ -6,7 +6,7 @@ author:
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
 slug: "abalone-shell-1"
 description: "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。"
-coverImage: ""
+coverImage: "/images/products/p003.jpg"
 price: "HKD$ 58"
 purchaseLink: ""
 category: "空間及個人能量用品"
