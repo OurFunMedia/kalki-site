@@ -6,7 +6,7 @@ author:
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
 slug: "palo-santo-10"
 description: "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。"
-coverImage: ""
+coverImage: "/images/products/p002.jpg"
 price: "HKD$ 79"
 purchaseLink: ""
 category: "空間及個人能量用品"

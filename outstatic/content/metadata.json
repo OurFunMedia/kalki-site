@@ -1,6 +1,6 @@
 {
-  "commit": "30ee09800cbe56705b333197a12afba7a79f0e47",
-  "generated": "2026-04-01T07:55:19.084Z",
+  "commit": "692125925f2f454d5a8be07a629e78637c68c82d",
+  "generated": "2026-04-01T07:59:16.455Z",
   "metadata": [
     {
       "__outstatic": {
@@ -177,26 +177,6 @@
     {
       "__outstatic": {
         "commit": "local",
-        "hash": "iu0ez",
-        "path": "outstatic/content/products/palo-santo-10.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "",
-      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
-      "price": "HKD$ 79",
-      "publishedAt": "2024-04-01T10:00:00.000Z",
-      "slug": "palo-santo-10",
-      "status": "published",
-      "title": "南美洲聖木(10支)"
-    },
-    {
-      "__outstatic": {
-        "commit": "local",
         "hash": "vcxlwt",
         "path": "outstatic/content/products/abalone-shell-1.md"
       },
@@ -334,6 +314,27 @@
       "slug": "white-sage-2",
       "status": "published",
       "title": "南美鼠尾草(2束)"
+    },
+    {
+      "__outstatic": {
+        "commit": "692125925f2f454d5a8be07a629e78637c68c82d",
+        "hash": "394734490",
+        "path": "outstatic/content/products/palo-santo-10.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p002.jpg",
+      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
+      "price": "HKD$ 79",
+      "publishedAt": "2024-04-01T10:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "palo-santo-10",
+      "status": "published",
+      "title": "南美洲聖木(10支)"
     }
   ]
 }
