@@ -42,6 +42,9 @@ export default function Home() {
       {/* Intro Section */}
       <section className="py-32 px-6 md:px-12 bg-cream text-center">
         <div className="max-w-3xl mx-auto space-y-8">
+          <p className="text-charcoal/80 text-lg max-w-2xl mx-auto mb-16 leading-relaxed italic font-serif">
+            「KALKI」源自吠陀哲學，象徵覺知的開始及更新。我們的中文名稱「求其・放心」（Kau Kei・Fong Sam）出自孟子－「尋回迷失的心」－呼喚人們重拾內心的平靜喚醒生活的智慧。我們將東方瑜伽及養生智慧，融合西方正念練習服務社區。
+          </p>
           <span className="text-primary tracking-[0.2em] text-xs font-bold uppercase">Philosophy</span>
           <h3 className="text-3xl md:text-5xl font-serif text-charcoal font-light leading-tight">
             瑜伽不只是體式，<br />而是一種<span className="italic text-primary">生活方式</span>。
@@ -57,11 +60,15 @@ export default function Home() {
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div className="space-y-3">
             <h4 className="text-primary tracking-widest text-xs font-bold uppercase">WhatsApp</h4>
-            <p className="text-cream/70 font-light hover:text-white transition-colors cursor-pointer">[請填寫 WhatsApp 號碼]</p>
+            <a href="https://wa.me/85268091683" target="_blank" rel="noopener noreferrer" className="block text-cream/70 font-light hover:text-white transition-colors">
+              +852 6809 1683
+            </a>
           </div>
           <div className="space-y-3">
             <h4 className="text-primary tracking-widest text-xs font-bold uppercase">Email</h4>
-            <p className="text-cream/70 font-light hover:text-white transition-colors cursor-pointer">[請填寫 Email]</p>
+            <a href="mailto:info@kalkiwellnessproject.com" className="block text-cream/70 font-light hover:text-white transition-colors">
+              info@kalkiwellnessproject.com
+            </a>
           </div>
           <div className="space-y-3">
             <h4 className="text-primary tracking-widest text-xs font-bold uppercase">Address</h4>

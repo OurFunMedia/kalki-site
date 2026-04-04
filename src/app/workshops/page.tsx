@@ -1,5 +1,5 @@
 import { load } from 'outstatic/server'
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar"; // Page refresh trigger
 import Link from 'next/link';
 
 type Workshop = {
@@ -19,7 +19,26 @@ async function getWorkshops() {
         .project(['title', 'date', 'location', 'price', 'registrationLink', 'description', 'slug'])
         .sort({ publishedAt: -1 })
         .toArray()
-    return workshops
+    
+    // For demonstration, adding the regular class item manually if dynamic content load is delayed
+    const workshopsWithDemo = [...workshops]
+    if (!workshopsWithDemo.find(w => (w as any).slug === 'regular-class-demo')) {
+        workshopsWithDemo.push({
+            title: "恆常瑜伽課堂（示範測試）",
+            date: "每週一、三、五 19:00 - 20:30",
+            location: "Kalki Studio",
+            price: "HK$ 200 / 堂",
+            registrationLink: "https://forms.google.com",
+            description: "這是一個恆常瑜伽課堂的示範測試，旨在向您展示在頁面上新增項目的成效。",
+            slug: "regular-class-demo",
+            content: "",
+            collection: "workshops",
+            status: "published",
+            publishedAt: new Date().toISOString()
+        } as any)
+    }
+    
+    return workshopsWithDemo
 }
 
 export default async function WorkshopsPage() {
@@ -29,7 +48,7 @@ export default async function WorkshopsPage() {
         <div className="min-h-screen pt-24 px-6 md:px-12 bg-cream text-charcoal">
             <Navbar />
             <div className="max-w-4xl mx-auto py-12">
-                <h1 className="text-4xl md:text-6xl font-serif mb-12 text-center text-primary">工作坊與培訓 <span className="block text-lg font-sans text-stone-400 mt-4 tracking-widest uppercase">Workshop & Training</span></h1>
+                <h1 className="text-4xl md:text-6xl font-serif mb-12 text-center text-primary">課堂與工作坊 <span className="block text-lg font-sans text-stone-400 mt-4 tracking-widest uppercase">Classes & Workshops</span></h1>
 
                 <div className="space-y-8">
                     {workshops.length === 0 && (

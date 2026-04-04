@@ -31,8 +31,8 @@ export default function NgoCarousel() {
   const carouselImages = [...DEFAULT_IMAGES, ...DEFAULT_IMAGES];
 
   return (
-    <div className="w-full mt-24 overflow-hidden bg-cream py-16 border-t border-stone-200">
-        <div className="max-w-6xl mx-auto px-6 md:px-12 mb-10 text-center">
+    <div className="w-full mt-8 overflow-hidden bg-cream py-10">
+        <div className="max-w-6xl mx-auto px-6 md:px-12 mb-6 text-center">
             <h3 className="text-3xl font-serif text-charcoal mb-4">活動花絮</h3>
             <p className="text-stone-600 font-medium">記錄我們在不同社區與學校的美好瑜伽時光</p>
         </div>
