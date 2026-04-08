@@ -28,12 +28,26 @@ export default function Home() {
           <p className="text-lg md:text-xl font-light max-w-lg mx-auto opacity-95 drop-shadow-md">
             在城市的喧囂中，尋找一片寧靜。<br />回歸身心的平衡與和諧。
           </p>
-          <div className="pt-8">
+          <div className="pt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/classes"
-              className="px-8 py-3 bg-white/10 backdrop-blur-md border border-white/40 rounded-full text-white hover:bg-white hover:text-primary hover:border-white transition-all duration-300"
+              className="px-8 py-3 bg-white/10 backdrop-blur-md border border-white/40 rounded-full text-white hover:bg-white hover:text-primary hover:border-white transition-all duration-300 w-full sm:w-auto text-center"
             >
               預約課程
+            </Link>
+            <Link
+              href="#"
+              className="px-8 py-3 bg-white/10 backdrop-blur-md border border-white/40 rounded-full text-white hover:bg-white hover:text-primary hover:border-white transition-all duration-300 w-full sm:w-auto text-center"
+            >
+              購買套票
+            </Link>
+            <Link
+              href="https://wa.me/85268091683?text=%E6%88%91%E6%83%B3%E7%B4%A2%E5%8F%96%E5%A0%B1%E5%83%B9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-white/10 backdrop-blur-md border border-white/40 rounded-full text-white hover:bg-white hover:text-primary hover:border-white transition-all duration-300 w-full sm:w-auto text-center"
+            >
+              索取報價
             </Link>
           </div>
         </div>

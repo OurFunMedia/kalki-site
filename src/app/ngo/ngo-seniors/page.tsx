@@ -97,6 +97,19 @@ export default function SeniorsPage() {
                         </div>
                     </div>
                 </div>
+
+                {/* CTA Section */}
+                <div className="mt-20 text-center py-16 border-t border-stone-200/60">
+                    <p className="text-stone-600 text-lg mb-8 font-serif">想了解更多細節或預約服務？</p>
+                    <Link 
+                        href="https://wa.me/85268091683?text=%E6%88%91%E6%83%B3%E7%B4%A2%E5%8F%96%E5%A0%B1%E5%83%B9" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block px-10 py-4 bg-primary text-white rounded-full font-medium hover:bg-primary/90 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 transform tracking-wider"
+                    >
+                        索取報價
+                    </Link>
+                </div>
             </div>
         </div>
     );
