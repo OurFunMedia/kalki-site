@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import { load } from 'outstatic/server';
 import ProductFilters from "@/components/shop/ProductFilters";
+import { Suspense } from "react";
 
 type Product = {
     title: string
@@ -14,13 +15,18 @@ type Product = {
 }
 
 async function getCategoryProducts() {
-    const db = await load()
-    const products = await db
-        .find({ collection: 'products', status: 'published' })
-        .project(['title', 'price', 'purchaseLink', 'description', 'slug', 'coverImage', 'category'])
-        .sort({ publishedAt: 1 })
-        .toArray()
-    return products as unknown as Product[];
+    try {
+        const db = await load()
+        const products = await db
+            .find({ collection: 'products', status: 'published' })
+            .project(['title', 'price', 'purchaseLink', 'description', 'slug', 'coverImage', 'category'])
+            .sort({ publishedAt: 1 })
+            .toArray()
+        return (products || []) as unknown as Product[];
+    } catch (error) {
+        console.error('Error loading products:', error);
+        return [];
+    }
 }
 
 export default async function EnergyProductsPage({
@@ -32,16 +38,18 @@ export default async function EnergyProductsPage({
     const q = typeof params.q === 'string' ? params.q : '';
     const category = typeof params.category === 'string' ? params.category : '';
 
-    const allProducts = await getCategoryProducts();
+    const allProducts = await getCategoryProducts() || [];
     
     // Extract unique categories
-    const categories = Array.from(new Set(allProducts.map(p => p.category).filter(Boolean))) as string[];
+    const categories = Array.from(new Set(allProducts.map(p => p?.category).filter(Boolean))) as string[];
 
     // Filter products
     const filteredProducts = allProducts.filter(product => {
+        if (!product || !product.title) return false;
+        
         const matchesSearch = !q || 
             product.title.toLowerCase().includes(q.toLowerCase()) || 
-            (product.description && product.description.toLowerCase().includes(q.toLowerCase()));
+            (product.description && typeof product.description === 'string' && product.description.toLowerCase().includes(q.toLowerCase()));
         
         const matchesCategory = !category || product.category === category;
         
@@ -68,11 +76,13 @@ export default async function EnergyProductsPage({
                     </div>
 
                     {/* Right: Search & Filter */}
-                    <ProductFilters 
-                        initialSearch={q} 
-                        initialCategory={category} 
-                        categories={categories}
-                    />
+                    <Suspense fallback={<div className="h-10 w-64 bg-stone-100 animate-pulse rounded-full" />}>
+                        <ProductFilters 
+                            initialSearch={q} 
+                            initialCategory={category} 
+                            categories={categories}
+                        />
+                    </Suspense>
                 </div>
 
                 {/* Products Grid */}

@@ -25,15 +25,19 @@ export async function generateStaticParams() {
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
     const resolvedParams = await params;
-    const db = await load()
-    const product = await db
-        .find({ collection: 'products', slug: resolvedParams.slug })
-        .project(['title', 'price', 'purchaseLink', 'description', 'content', 'slug', 'coverImage', 'category'])
-        .first() as unknown as OutstaticProduct;
+    let product: OutstaticProduct | null = null;
+    
+    try {
+        const db = await load()
+        product = await db
+            .find({ collection: 'products', slug: resolvedParams.slug })
+            .project(['title', 'price', 'purchaseLink', 'description', 'content', 'slug', 'coverImage', 'category'])
+            .first() as unknown as OutstaticProduct;
+    } catch (error) {
+        console.error('Error loading product details:', error);
+    }
 
-
-
-    if (!product) {
+    if (!product || !product.title) {
         notFound();
     }
 
