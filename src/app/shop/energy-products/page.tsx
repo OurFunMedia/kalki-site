@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import { load } from 'outstatic/server';
+import ProductFilters from "@/components/shop/ProductFilters";
 
 type Product = {
     title: string
@@ -22,8 +23,30 @@ async function getCategoryProducts() {
     return products as unknown as Product[];
 }
 
-export default async function EnergyProductsPage() {
-    let products = await getCategoryProducts();
+export default async function EnergyProductsPage({
+    searchParams,
+}: {
+    searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}) {
+    const params = await searchParams;
+    const q = typeof params.q === 'string' ? params.q : '';
+    const category = typeof params.category === 'string' ? params.category : '';
+
+    const allProducts = await getCategoryProducts();
+    
+    // Extract unique categories
+    const categories = Array.from(new Set(allProducts.map(p => p.category).filter(Boolean))) as string[];
+
+    // Filter products
+    const filteredProducts = allProducts.filter(product => {
+        const matchesSearch = !q || 
+            product.title.toLowerCase().includes(q.toLowerCase()) || 
+            (product.description && product.description.toLowerCase().includes(q.toLowerCase()));
+        
+        const matchesCategory = !category || product.category === category;
+        
+        return matchesSearch && matchesCategory;
+    });
 
     return (
         <div className="min-h-screen pt-24 px-6 md:px-12 bg-cream text-charcoal">
@@ -45,33 +68,28 @@ export default async function EnergyProductsPage() {
                     </div>
 
                     {/* Right: Search & Filter */}
-                    <div className="flex items-center gap-4 w-full md:w-auto">
-                        <div className="relative flex-grow md:flex-grow-0">
-                            <input 
-                                type="text" 
-                                placeholder="搜尋" 
-                                className="w-full md:w-64 pl-4 pr-10 py-2.5 border border-stone-300 rounded-full bg-white text-sm focus:outline-none focus:border-[#4A3B32] focus:ring-1 focus:ring-[#4A3B32] transition-shadow"
-                            />
-                            <div className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400">
-                                {/* SVG Magnifying Glass */}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                            </div>
-                        </div>
-                        <button className="flex items-center gap-2 px-5 py-2.5 border border-stone-300 rounded-full bg-white text-sm hover:bg-stone-50 hover:border-stone-400 text-stone-600 transition-colors whitespace-nowrap">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" y1="2" y2="6"/><line x1="8" y1="10" y2="14"/><line x1="16" y1="18" y2="22"/></svg>
-                            篩選
-                        </button>
-                    </div>
+                    <ProductFilters 
+                        initialSearch={q} 
+                        initialCategory={category} 
+                        categories={categories}
+                    />
                 </div>
 
                 {/* Products Grid */}
-                {products.length === 0 ? (
-                    <div className="text-center py-20 text-stone-500">
-                        <p>目前尚無商品或商品準備中...</p>
+                {filteredProducts.length === 0 ? (
+                    <div className="text-center py-20 text-stone-500 bg-white/50 rounded-2xl border border-stone-100 flex flex-col items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="mb-4 text-stone-300"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                        <p className="text-lg mb-2">找不到相關商品</p>
+                        <p className="text-sm">試試更改關鍵字或篩選條件</p>
+                        {(q || category) && (
+                            <Link href="/shop/energy-products" className="mt-6 text-[#8B7355] border-b border-[#8B7355] pb-0.5 hover:text-[#4A3B32] hover:border-[#4A3B32] transition-colors">
+                                清除所有篩選
+                            </Link>
+                        )}
                     </div>
                 ) : (
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10">
-                        {products.map((product) => (
+                        {filteredProducts.map((product) => (
                             <div key={product.slug} className="border-2 border-[#4A3B32] bg-white aspect-[3/4] flex flex-col p-6 text-center hover:shadow-lg transition-all group relative overflow-hidden">
                                 <Link href={`/shop/product/${product.slug}`} className="absolute inset-0 z-10">
                                     <span className="sr-only">了解更多 {product.title}</span>
