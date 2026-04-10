@@ -3,6 +3,7 @@ import Link from "next/link";
 import { load } from 'outstatic/server';
 import ProductFilters from "@/components/shop/ProductFilters";
 import { Suspense } from "react";
+import { unstable_cache } from 'next/cache';
 
 type Product = {
     title: string
@@ -14,19 +15,27 @@ type Product = {
     category?: string
 }
 
+const getCachedProducts = unstable_cache(
+    async () => {
+        try {
+            const db = await load()
+            const products = await db
+                .find({ collection: 'products', status: 'published' })
+                .project(['title', 'price', 'purchaseLink', 'description', 'slug', 'coverImage', 'category'])
+                .sort({ publishedAt: 1 })
+                .toArray()
+            return (products || []) as unknown as Product[];
+        } catch (error) {
+            console.error('Error loading products from Outstatic:', error);
+            return [];
+        }
+    },
+    ['products-list'],
+    { revalidate: 3600, tags: ['products'] }
+);
+
 async function getCategoryProducts() {
-    try {
-        const db = await load()
-        const products = await db
-            .find({ collection: 'products', status: 'published' })
-            .project(['title', 'price', 'purchaseLink', 'description', 'slug', 'coverImage', 'category'])
-            .sort({ publishedAt: 1 })
-            .toArray()
-        return (products || []) as unknown as Product[];
-    } catch (error) {
-        console.error('Error loading products:', error);
-        return [];
-    }
+    return await getCachedProducts();
 }
 
 export default async function EnergyProductsPage({
