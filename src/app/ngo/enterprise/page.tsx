@@ -22,7 +22,7 @@ export default function SchoolPage() {
                     {/* Card 1 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=800&auto=format&fit=crop" alt="團體瑜伽恆常班" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <img src="/images/enterprise/b001.png" alt="團體瑜伽恆常班" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
                         </div>
                         <div className="p-8">
@@ -34,7 +34,7 @@ export default function SchoolPage() {
                     {/* Card 2 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop" alt="團體建設活動" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <img src="/images/enterprise/b002.png" alt="團體建設活動" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
                         </div>
                         <div className="p-8">
@@ -46,7 +46,7 @@ export default function SchoolPage() {
                     {/* Card 3 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800&auto=format&fit=crop" alt="頌缽聲頻浴" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <img src="/images/enterprise/b003.png" alt="頌缽聲頻浴" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
                         </div>
                         <div className="p-8">
@@ -58,7 +58,7 @@ export default function SchoolPage() {
                     {/* Card 4 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop" alt="創意工作坊" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <img src="/images/enterprise/b004.png" alt="創意工作坊" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
                         </div>
                         <div className="p-8">
@@ -70,7 +70,7 @@ export default function SchoolPage() {
                     {/* Card 5 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=800&auto=format&fit=crop" alt="網上正念練習" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <img src="/images/enterprise/b005.png" alt="網上正念練習" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
                         </div>
                         <div className="p-8">
@@ -82,7 +82,7 @@ export default function SchoolPage() {
                     {/* Card 6 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop" alt="瑜伽治療及正念靜觀" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <img src="/images/enterprise/b006.png" alt="瑜伽治療及正念靜觀" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
                         </div>
                         <div className="p-8">

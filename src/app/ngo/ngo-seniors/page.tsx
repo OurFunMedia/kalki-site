@@ -22,9 +22,8 @@ export default function SeniorsPage() {
                     {/* Card 1 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-colors flex items-center justify-center">
-                                <span className="text-primary text-3xl font-serif px-4 text-center">頌缽聲頻療法</span>
-                            </div>
+                            <Image src="/images/seniors/b001.png" alt="頌缽聲頻療法" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
                             <h2 className="text-2xl font-serif mb-4 text-charcoal">頌缽聲頻療法</h2>
@@ -35,9 +34,8 @@ export default function SeniorsPage() {
                     {/* Card 2 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-colors flex items-center justify-center">
-                                <span className="text-primary text-3xl font-serif px-4 text-center">肌筋膜按摩</span>
-                            </div>
+                            <Image src="/images/seniors/b002.png" alt="肌筋膜按摩" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
                             <h2 className="text-2xl font-serif mb-4 text-charcoal">肌筋膜按摩</h2>
@@ -48,9 +46,8 @@ export default function SeniorsPage() {
                     {/* Card 3 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-colors flex items-center justify-center">
-                                <span className="text-primary text-3xl font-serif px-4 text-center">力量與平衡瑜伽</span>
-                            </div>
+                            <Image src="/images/seniors/b003.png" alt="力量與平衡瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
                             <h2 className="text-2xl font-serif mb-4 text-charcoal">力量與平衡瑜伽</h2>
@@ -61,9 +58,8 @@ export default function SeniorsPage() {
                     {/* Card 4 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-colors flex items-center justify-center">
-                                <span className="text-primary text-3xl font-serif px-4 text-center">痛症陰瑜伽</span>
-                            </div>
+                            <Image src="/images/seniors/b004.png" alt="痛症陰瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
                             <h2 className="text-2xl font-serif mb-4 text-charcoal">痛症陰瑜伽</h2>
@@ -74,9 +70,8 @@ export default function SeniorsPage() {
                     {/* Card 5 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-colors flex items-center justify-center">
-                                <span className="text-primary text-3xl font-serif px-4 text-center">椅子瑜伽</span>
-                            </div>
+                            <Image src="/images/seniors/b005.png" alt="椅子瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
                             <h2 className="text-2xl font-serif mb-4 text-charcoal">椅子瑜伽</h2>
@@ -87,9 +82,8 @@ export default function SeniorsPage() {
                     {/* Card 6 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-colors flex items-center justify-center">
-                                <span className="text-primary text-3xl font-serif px-4 text-center">社交與互動瑜伽</span>
-                            </div>
+                            <Image src="/images/seniors/b006.png" alt="社交與互動瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
                             <h2 className="text-2xl font-serif mb-4 text-charcoal">社交與互動瑜伽</h2>

@@ -3,27 +3,27 @@ import Image from "next/image";
 import Link from "next/link";
 
 const activities = [
-    { title: "瑜伽體式", description: "兒童能夠感知身體的變化，提升協調性與靈活性，為身體覺知打下基礎。", image: "/images/school/kids_yoga_poses.png" },
-    { title: "繪本故事串連", description: "引導兒童理解動作與情緒的關聯，增強專注力與想像力，讓學習更有趣味。", image: "/images/school/teacher_reading_story.png" },
-    { title: "靜觀呼吸遊戲", description: "專注於呼吸技巧，幫助兒童認識身體感受，學會情緒管理，促進內心平靜。", image: "/images/school/mindful_breathing_game.png" },
-    { title: "情緒覺察/管理遊戲", description: "透過情緒卡、角色扮演等互動遊戲，幫助認識及表達情緒，學習情緒管理技巧。", image: "/images/school/emotion_cards_game.png" },
-    { title: "正念藝術創作", description: "自由表達當下情緒，觀察內心感受，幫助兒童建立個人價值和形象。", image: "/images/school/mindful_art_creation.png" },
-    { title: "頌缽/銅鑼聲音療癒", description: "感受聲音共振，培養專注力及平靜心靈，改善情緒健康，幫助兒童深層放鬆身心。", image: "/images/school/singing_bowl_healing.png" },
-    { title: "正念靜觀", description: "透過專注當下，提高個人自我理解和自我價值認知，幫助兒童與社會價值連結。", image: "/images/school/mindful_meditation_kids.png" },
-    { title: "親子瑜伽", description: "促進家庭成員之間的情感連結，透過練習增強信任與溝通能力，增進同理心。", image: "/images/school/family_yoga_partner.png" },
-    { title: "義工服務", description: "與慈善團體/社區中心合作，鼓勵兒童分享專長和技能，提升個人價值，增強社會責任感。", image: "/images/school/children_volunteer_elderly.png" }
+    { title: "瑜伽體式", description: "兒童能夠感知身體的變化，提升協調性與靈活性，為身體覺知打下基礎。", image: "/images/school/k001.png" },
+    { title: "繪本故事串連", description: "引導兒童理解動作與情緒的關聯，增強專注力與想像力，讓學習更有趣味。", image: "/images/school/k002.png" },
+    { title: "靜觀呼吸遊戲", description: "專注於呼吸技巧，幫助兒童認識身體感受，學會情緒管理，促進內心平靜。", image: "/images/school/k003.png" },
+    { title: "情緒覺察/管理遊戲", description: "透過情緒卡、角色扮演等互動遊戲，幫助認識及表達情緒，學習情緒管理技巧。", image: "/images/school/k004.png" },
+    { title: "正念藝術創作", description: "自由表達當下情緒，觀察內心感受，幫助兒童建立個人價值和形象。", image: "/images/school/k005.png" },
+    { title: "頌缽/銅鑼聲音療癒", description: "感受聲音共振，培養專注力及平靜心靈，改善情緒健康，幫助兒童深層放鬆身心。", image: "/images/school/k006.png" },
+    { title: "正念靜觀", description: "透過專注當下，提高個人自我理解和自我價值認知，幫助兒童與社會價值連結。", image: "/images/school/k007.png" },
+    { title: "親子瑜伽", description: "促進家庭成員之間的情感連結，透過練習增強信任與溝通能力，增進同理心。", image: "/images/school/k008.png" },
+    { title: "義工服務", description: "與慈善團體/社區中心合作，鼓勵兒童分享專長和技能，提升個人價值，增強社會責任感。", image: "/images/school/k009.png" }
 ];
 
 const teenActivities = [
-    { title: "瑜伽體式", description: "青少年能深入感知身體的狀態，改善因長期學習或使用電子產品而引致的姿勢問題，提升柔韌度與平衡感。", image: "/images/school/youth_yoga_poses.png" },
-    { title: "聞香放鬆伸展", description: "在練習伸展與瑜伽體式時，結合天然精油的香氣，引導感官深度放鬆，快速進入身心舒緩的狀態。", image: "/images/school/youth_aroma_stretching.png" },
-    { title: "靜觀呼吸技巧分享", description: "幫助青少年在感到焦慮或分心時，穩定心神，清晰地覺察身體訊號，從而掌握情緒調節的主導權。", image: "/images/school/youth_breathing_workshop.png" },
-    { title: "情緒覺察/表達互動", description: "透過情境討論、小組分享等互動方式，幫助青少年深入理解自身和他人的情緒，並學習有效的溝通與應對策略。", image: "/images/school/youth_emotion_sharing.png" },
-    { title: "正念藝術創作", description: "在無批判的環境下自由表達內心世界，觀察思緒與感受的流動，加深自我認識。", image: "/images/school/youth_mindful_art.png" },
-    { title: "頌缽/銅鑼聲音療癒", description: "舒緩緊繃的神經系統，提升專注力以應對學業，改善睡眠質素，達深層身心修復。", image: "/images/school/youth_sound_healing.png" },
-    { title: "正念靜觀", description: "練習在生活中保持覺察，能更清晰理解自己的價值觀，並以更開放和同理的心態與他人互動。", image: "/images/school/youth_meditation.png" },
-    { title: "雙人瑜伽", description: "在輕鬆的氛圍中建立溝通橋樑，學習互信與協作，深化同伴間的理解與支持。", image: "/images/school/youth_partner_yoga.png" },
-    { title: "社區連結服務學習", description: "將課程中所學應用於服務他人，從實踐中發現個人價值，培養社會公民意識。", image: "" }
+    { title: "瑜伽體式", description: "青少年能深入感知身體的狀態，改善因長期學習或使用電子產品而引致的姿勢問題，提升柔韌度與平衡感。", image: "/images/school/y001.png" },
+    { title: "聞香放鬆伸展", description: "在練習伸展與瑜伽體式時，結合天然精油的香氣，引導感官深度放鬆，快速進入身心舒緩的狀態。", image: "/images/school/y002.png" },
+    { title: "靜觀呼吸技巧分享", description: "幫助青少年在感到焦慮或分心時，穩定心神，清晰地覺察身體訊號，從而掌握情緒調節的主導權。", image: "/images/school/y003.png" },
+    { title: "情緒覺察/表達互動", description: "透過情境討論、小組分享等互動方式，幫助青少年深入理解自身和他人的情緒，並學習有效的溝通與應對策略。", image: "/images/school/y004.png" },
+    { title: "正念藝術創作", description: "在無批判的環境下自由表達內心世界，觀察思緒與感受的流動，加深自我認識。", image: "/images/school/y005.png" },
+    { title: "頌缽/銅鑼聲音療癒", description: "舒緩緊繃的神經系統，提升專注力以應對學業，改善睡眠質素，達深層身心修復。", image: "/images/school/y006.png" },
+    { title: "正念靜觀", description: "練習在生活中保持覺察，能更清晰理解自己的價值觀，並以更開放和同理的心態與他人互動。", image: "/images/school/y007.png" },
+    { title: "雙人瑜伽", description: "在輕鬆的氛圍中建立溝通橋樑，學習互信與協作，深化同伴間的理解與支持。", image: "/images/school/y008.png" },
+    { title: "社區連結服務學習", description: "將課程中所學應用於服務他人，從實踐中發現個人價值，培養社會公民意識。", image: "/images/school/y009.png" }
 ];
 
 export default function HealingPage() {
