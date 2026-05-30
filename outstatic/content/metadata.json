@@ -1,6 +1,6 @@
 {
-  "commit": "6a12e2569d6ec2e1e962adf991ce35ca2af4ec0a",
-  "generated": "2026-05-30T09:28:43.089Z",
+  "commit": "1942450cee216baac3b87c831d14db3fcd4138e7",
+  "generated": "2026-05-30T09:29:21.530Z",
   "metadata": [
     {
       "__outstatic": {
@@ -323,7 +323,7 @@
     },
     {
       "__outstatic": {
-        "commit": "6a12e2569d6ec2e1e962adf991ce35ca2af4ec0a",
+        "commit": "1942450cee216baac3b87c831d14db3fcd4138e7",
         "hash": "4021391157",
         "path": "outstatic/content/products/abalone-shell-1.md"
       },
