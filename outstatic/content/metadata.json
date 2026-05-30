@@ -1,6 +1,6 @@
 {
-  "commit": "629ac5fb0e203dfdadbdb48a69987548c5d85048",
-  "generated": "2026-04-01T08:36:37.100Z",
+  "commit": "6a12e2569d6ec2e1e962adf991ce35ca2af4ec0a",
+  "generated": "2026-05-30T09:28:43.089Z",
   "metadata": [
     {
       "__outstatic": {
@@ -218,27 +218,6 @@
     },
     {
       "__outstatic": {
-        "commit": "5d445406e97a48842c83688077d8daed8ee7def4",
-        "hash": "116607667",
-        "path": "outstatic/content/products/abalone-shell-1.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p003.jpg",
-      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
-      "price": "HKD$ 58",
-      "publishedAt": "2024-03-31T19:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "abalone-shell-1",
-      "status": "published",
-      "title": "西北太平洋鮑魚殼(1個)"
-    },
-    {
-      "__outstatic": {
         "commit": "4a1ee04e3642873e4c0ff54246eb78ff6eb17d29",
         "hash": "82389873",
         "path": "outstatic/content/products/white-crystal-4.md"
@@ -341,6 +320,27 @@
       "slug": "spray-wood-set",
       "status": "published",
       "title": "聖木鼠尾草噴霧+聖木 套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "6a12e2569d6ec2e1e962adf991ce35ca2af4ec0a",
+        "hash": "4021391157",
+        "path": "outstatic/content/products/abalone-shell-1.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p003.jpg",
+      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
+      "price": "HKD$ 58",
+      "publishedAt": "2024-01-31T16:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "abalone-shell-1",
+      "status": "published",
+      "title": "西北太平洋鮑魚殼(1個)"
     }
   ]
 }
