@@ -32,7 +32,7 @@ export default function Navbar({ transparent = false }: { transparent?: boolean 
         { href: '/shop', label: '商店' },
         { href: '/instructors', label: '導師' },
         { href: '/about', label: '關於我們' },
-        { href: '/#contact', label: '聯絡' },
+        { href: '/inquiry', label: '查詢及報價' },
     ]
 
     return (
