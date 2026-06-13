@@ -99,9 +99,9 @@ export default function InquiryPage() {
                                 立即報價
                             </a>
                             <a
-                                href="/downloads/Kalki_Booklet.pdf"
+                                href="https://forms.gle/qTmiN1kZ2cCuycyX8"
                                 target="_blank"
-                                download
+                                rel="noopener noreferrer"
                                 className="inline-block text-center py-3 px-6 border border-primary text-primary rounded-lg hover:bg-primary hover:text-white transition-colors font-medium tracking-wide"
                             >
                                 索取最新活動小冊子

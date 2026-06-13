@@ -40,12 +40,22 @@ export default async function NgoPage() {
                             <span className="block text-base md:text-lg font-sans text-stone-200 mt-4 tracking-widest uppercase">Services</span>
                         </h1>
                         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-                            <button className="px-8 py-3.5 bg-white text-charcoal rounded-full font-medium hover:bg-stone-100 transition-colors shadow-lg hover:-translate-y-0.5 transform">
+                            <a
+                                href="https://forms.gle/qTmiN1kZ2cCuycyX8"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-8 py-3.5 bg-white text-charcoal rounded-full font-medium hover:bg-stone-100 transition-colors shadow-lg hover:-translate-y-0.5 transform inline-block text-center"
+                            >
                                 服務內容
-                            </button>
-                            <button className="px-8 py-3.5 bg-stone-800 text-white border border-stone-700 hover:border-stone-500 rounded-full font-medium hover:bg-stone-700 transition-colors shadow-lg hover:-translate-y-0.5 transform">
+                            </a>
+                            <a
+                                href="https://forms.gle/JxyCUSom7s78diJd7"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-8 py-3.5 bg-stone-800 text-white border border-stone-700 hover:border-stone-500 rounded-full font-medium hover:bg-stone-700 transition-colors shadow-lg hover:-translate-y-0.5 transform inline-block text-center"
+                            >
                                 索取報價
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
