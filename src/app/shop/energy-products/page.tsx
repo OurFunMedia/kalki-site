@@ -24,7 +24,7 @@ async function getCategoryProducts() {
         // Filter and sort products from metadata
         const products = metadata
             .filter((item: any) => item.collection === 'products' && item.status === 'published')
-            .sort((a: any, b: any) => new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime());
+            .sort((a: any, b: any) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
             
         return products as Product[];
     } catch (error) {
