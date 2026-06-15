@@ -1,6 +1,17 @@
 {
-  "commit": "6e6284ff62cc60e4dcecdb7bec3fed315f30b8f2",
-  "generated": "2026-04-01T08:38:28.908Z",
+  "commit": "7328217f9ab814cc1377b60e2d8aebeb5b46b934",
+  "generated": "2026-06-15T05:38:59.169Z",
   "media": [
+    {
+      "__outstatic": {
+        "commit": "7328217f9ab814cc1377b60e2d8aebeb5b46b934",
+        "hash": "2931692301",
+        "path": "public/images/dscf1519-A5Mz.jpeg"
+      },
+      "alt": "",
+      "filename": "dscf1519-A5Mz.jpeg",
+      "publishedAt": "2026-06-15T05:38:59.169Z",
+      "type": "image"
+    }
   ]
 }
