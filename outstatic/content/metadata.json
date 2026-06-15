@@ -1,6 +1,6 @@
 {
-  "commit": "756907ffd34d377ea036e30451ac125a5bb05591",
-  "generated": "2026-06-15T16:34:29.896Z",
+  "commit": "ae8fa931b429b532d5648d4317b7ad7710f696be",
+  "generated": "2026-06-15T17:02:15.805Z",
   "metadata": [
     {
       "__outstatic": {
@@ -176,27 +176,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4a1ee04e3642873e4c0ff54246eb78ff6eb17d29",
-        "hash": "82389873",
-        "path": "outstatic/content/products/white-crystal-4.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p004.jpg",
-      "description": "未經打磨的巴西純白水晶原石，能放大並淨化周圍的磁場。",
-      "price": "HKD$ 325",
-      "publishedAt": "2024-03-31T20:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "white-crystal-4",
-      "status": "published",
-      "title": "巴西白水晶(4吋)"
-    },
-    {
-      "__outstatic": {
         "commit": "a7930e4be2a7614c70be68b496548d2b84d49f03",
         "hash": "2384060868",
         "path": "outstatic/content/products/spray-sage-set.md"
@@ -360,6 +339,27 @@
       "slug": "abalone-shell-1",
       "status": "published",
       "title": "西北太平洋鮑魚殼(1個)"
+    },
+    {
+      "__outstatic": {
+        "commit": "ae8fa931b429b532d5648d4317b7ad7710f696be",
+        "hash": "8848655",
+        "path": "outstatic/content/products/white-crystal-4.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p004.jpg",
+      "description": "未經打磨的巴西純白水晶原石，能放大並淨化周圍的磁場。",
+      "price": "HKD$ 325",
+      "publishedAt": "2024-03-31T20:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "white-crystal-4",
+      "status": "published",
+      "title": "巴西白水晶(4吋)"
     }
   ]
 }
