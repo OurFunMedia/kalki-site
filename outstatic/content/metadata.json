@@ -1,6 +1,6 @@
 {
-  "commit": "c858a9d16c35728382795d7d0d325ada0bab8ded",
-  "generated": "2026-06-15T06:06:28.925Z",
+  "commit": "1891ab712b499aa7b3f0020b90b15346e68d55f2",
+  "generated": "2026-06-15T06:16:02.487Z",
   "metadata": [
     {
       "__outstatic": {
@@ -176,27 +176,6 @@
     },
     {
       "__outstatic": {
-        "commit": "30ee09800cbe56705b333197a12afba7a79f0e47",
-        "hash": "4124637360",
-        "path": "outstatic/content/products/white-sage-2.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p001.jpg",
-      "description": "來自南美洲的純淨鼠尾草，能夠有效淨化空間能量、去除負面磁場。",
-      "price": "HKD$ 82",
-      "publishedAt": "2024-03-30T17:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "white-sage-2",
-      "status": "published",
-      "title": "南美鼠尾草(2束)"
-    },
-    {
-      "__outstatic": {
         "commit": "5536128966e9d47fa5091ba43337c893887202f0",
         "hash": "2059870541",
         "path": "outstatic/content/products/palo-santo-10.md"
@@ -360,6 +339,27 @@
       "slug": "oil",
       "status": "published",
       "title": "冥想香薰滾珠精油"
+    },
+    {
+      "__outstatic": {
+        "commit": "1891ab712b499aa7b3f0020b90b15346e68d55f2",
+        "hash": "38591647",
+        "path": "outstatic/content/products/white-sage-2.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p001.jpg",
+      "description": "來自南美洲的純淨鼠尾草，能夠有效淨化空間能量、去除負面磁場。",
+      "price": "HKD$ 82",
+      "publishedAt": "2024-03-30T17:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "white-sage-2",
+      "status": "published",
+      "title": "南美鼠尾草(2束)"
     }
   ]
 }
