@@ -2,6 +2,8 @@ import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { load } from 'outstatic/server';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 
 type OutstaticProduct = {
@@ -80,9 +82,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                             {product.price}
                         </p>
                         
-                        <div className="mb-10 text-stone-600 leading-relaxed tracking-wide whitespace-pre-line space-y-4">
+                        <div className="mb-10 text-stone-600 leading-relaxed tracking-wide space-y-4">
                             {product.content || product.description ? (
-                                <p>{product.content || product.description}</p>
+                                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                    {product.content || product.description}
+                                </ReactMarkdown>
                             ) : (
                                 <p>（產品描述準備中）</p>
                             )}
