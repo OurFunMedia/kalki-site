@@ -1,6 +1,6 @@
 {
-  "commit": "21e4bae8ef82524ffc0c9d6f02f547ebbbf2b817",
-  "generated": "2026-06-15T05:09:08.166Z",
+  "commit": "a6c1301b7cbd5c321b5b9192d44fb7fd9840d4d9",
+  "generated": "2026-06-15T05:38:21.373Z",
   "metadata": [
     {
       "__outstatic": {
@@ -344,8 +344,8 @@
     },
     {
       "__outstatic": {
-        "commit": "21e4bae8ef82524ffc0c9d6f02f547ebbbf2b817",
-        "hash": "3996514624",
+        "commit": "a6c1301b7cbd5c321b5b9192d44fb7fd9840d4d9",
+        "hash": "21389607",
         "path": "outstatic/content/products/test-123.mdx"
       },
       "author": {
