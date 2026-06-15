@@ -1,6 +1,6 @@
 {
-  "commit": "4d2d8d04d555b5d1d6e16c80592d369685e72d01",
-  "generated": "2026-06-15T08:20:17.707Z",
+  "commit": "756907ffd34d377ea036e30451ac125a5bb05591",
+  "generated": "2026-06-15T16:34:29.896Z",
   "metadata": [
     {
       "__outstatic": {
@@ -239,27 +239,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1942450cee216baac3b87c831d14db3fcd4138e7",
-        "hash": "4021391157",
-        "path": "outstatic/content/products/abalone-shell-1.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p003.jpg",
-      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
-      "price": "HKD$ 58",
-      "publishedAt": "2024-01-31T16:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "abalone-shell-1",
-      "status": "published",
-      "title": "西北太平洋鮑魚殼(1個)"
-    },
-    {
-      "__outstatic": {
         "commit": "1891ab712b499aa7b3f0020b90b15346e68d55f2",
         "hash": "38591647",
         "path": "outstatic/content/products/white-sage-2.md"
@@ -360,6 +339,27 @@
       "slug": "shell-wood-sage-set",
       "status": "published",
       "title": "鮑魚殼+聖木+鼠尾草 套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "756907ffd34d377ea036e30451ac125a5bb05591",
+        "hash": "3718554197",
+        "path": "outstatic/content/products/abalone-shell-1.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p003.jpg",
+      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
+      "price": "HKD$ 58",
+      "publishedAt": "2024-01-31T16:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "abalone-shell-1",
+      "status": "published",
+      "title": "西北太平洋鮑魚殼(1個)"
     }
   ]
 }
