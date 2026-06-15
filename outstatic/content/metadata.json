@@ -1,6 +1,6 @@
 {
-  "commit": "7ad27980a395f24fd8afa2bcdacc38fbcf45c614",
-  "generated": "2026-06-15T06:05:08.244Z",
+  "commit": "c858a9d16c35728382795d7d0d325ada0bab8ded",
+  "generated": "2026-06-15T06:06:28.925Z",
   "metadata": [
     {
       "__outstatic": {
@@ -344,9 +344,9 @@
     },
     {
       "__outstatic": {
-        "commit": "7ad27980a395f24fd8afa2bcdacc38fbcf45c614",
-        "hash": "2702565422",
-        "path": "outstatic/content/products/test-123.mdx"
+        "commit": "c858a9d16c35728382795d7d0d325ada0bab8ded",
+        "hash": "938824386",
+        "path": "outstatic/content/products/oil.mdx"
       },
       "author": {
         "name": "Toby Yip",
@@ -357,7 +357,7 @@
       "description": "這款精油滾珠筆，含有鼠尾草、乳香、黑胡椒、尤加利、桃金娘含等成份，能幫你平靜心神、放鬆隨時隨地都能享受療癒香氣，超適合冥想或放鬆時用。\n精油已用天然基底油稀釋，可直接塗用\n\n溫馨提示\n因為已經用基底油稀釋過，正常皮膚直接用沒問題；如果皮膚特別敏感，建議先塗一點在耳後測試一下\n\n使用方法\n這支精油採用滾珠設計，一般可以塗在手腕、耳後、頸後，或者胸口位置，讓你隨時聞到香氣，放鬆心情\n\n保存方法\n請存放於陰涼地方，避免陽光直接照射\n建議半年至一年內使用完\n\n容量\n9ML",
       "price": "188",
       "publishedAt": "2026-05-30T10:26:20.220Z",
-      "slug": "test-123",
+      "slug": "oil",
       "status": "published",
       "title": "冥想香薰滾珠精油"
     }
