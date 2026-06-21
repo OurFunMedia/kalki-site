@@ -1,6 +1,6 @@
 {
-  "commit": "2987bd233641c4a76056d8f10990f44aa383325a",
-  "generated": "2026-06-15T17:53:06.328Z",
+  "commit": "b519e16a581f67b0f7378e56eed7ee50ef378c5d",
+  "generated": "2026-06-21T15:07:38.767Z",
   "metadata": [
     {
       "__outstatic": {
@@ -197,25 +197,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4d1aaac57e56dbf61d266b3fdfc924d3d2430f15",
-        "hash": "3042434265",
-        "path": "outstatic/content/products/oil.mdx"
-      },
-      "author": {
-        "name": "Toby Yip",
-        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
-      },
-      "collection": "products",
-      "coverImage": "/images/dscf1519-MwOT.jpeg",
-      "description": "這款精油滾珠筆，含有鼠尾草、乳香、黑胡椒、尤加利、桃金娘含等成份，能幫你平靜心神、放鬆隨時隨地都能享受療癒香氣，超適合冥想或放鬆時用。\n精油已用天然基底油稀釋，可直接塗用\n\n溫馨提示\n因為已經用基底油稀釋過，正常皮膚直接用沒問題；如果皮膚特別敏感，建議先塗一點在耳後測試一下\n\n使用方法\n這支精油採用滾珠設計，一般可以塗在手腕、耳後、頸後，或者胸口位置，讓你隨時聞到香氣，放鬆心情\n\n保存方法\n請存放於陰涼地方，避免陽光直接照射\n建議半年至一年內使用完\n\n容量\n9ML",
-      "price": "HKD$ 150",
-      "publishedAt": "2026-05-30T10:26:20.220Z",
-      "slug": "oil",
-      "status": "published",
-      "title": "冥想香薰滾珠精油"
-    },
-    {
-      "__outstatic": {
         "commit": "de04a0b4c7abaf606a1f380e8bae97d8c1d54381",
         "hash": "1830469140",
         "path": "outstatic/content/products/palo-santo-sage-spray.md"
@@ -360,6 +341,25 @@
       "slug": "spray-wood-set",
       "status": "published",
       "title": "聖木鼠尾草噴霧+聖木 套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "b519e16a581f67b0f7378e56eed7ee50ef378c5d",
+        "hash": "1010604034",
+        "path": "outstatic/content/products/oil.mdx"
+      },
+      "author": {
+        "name": "Toby Yip",
+        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
+      },
+      "collection": "products",
+      "coverImage": "/images/dscf1519-MwOT.jpeg",
+      "description": "這款精油滾珠筆，含有鼠尾草、乳香、黑胡椒、尤加利、桃金娘含等成份，能幫你平靜心神、放鬆隨時隨地都能享受療癒香氣，超適合冥想或放鬆時用。\n精油已用天然基底油稀釋，可直接塗用\n\n溫馨提示\n因為已經用基底油稀釋過，正常皮膚直接用沒問題；如果皮膚特別敏感，建議先塗一點在耳後測試一下\n\n使用方法\n這支精油採用滾珠設計，一般可以塗在手腕、耳後、頸後，或者胸口位置，讓你隨時聞到香氣，放鬆心情\n\n保存方法\n請存放於陰涼地方，避免陽光直接照射\n建議半年至一年內使用完\n\n容量\n9ML",
+      "price": "HKD$ 150",
+      "publishedAt": "2026-05-30T10:26:20.220Z",
+      "slug": "oil",
+      "status": "published",
+      "title": "冥想香薰滾珠精油"
     }
   ]
 }
