@@ -1,6 +1,6 @@
 {
-  "commit": "e2f566d1de05a465745bdfa92ef131a3ae030cc3",
-  "generated": "2026-06-23T15:01:58.519Z",
+  "commit": "e17f90b3756f9f5405915220bf4429946db2de3f",
+  "generated": "2026-06-23T15:06:03.318Z",
   "metadata": [
     {
       "__outstatic": {
@@ -344,8 +344,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e2f566d1de05a465745bdfa92ef131a3ae030cc3",
-        "hash": "2716351361",
+        "commit": "e17f90b3756f9f5405915220bf4429946db2de3f",
+        "hash": "3726591541",
         "path": "outstatic/content/products/oil.mdx"
       },
       "author": {
