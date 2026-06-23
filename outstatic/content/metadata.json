@@ -1,6 +1,6 @@
 {
-  "commit": "ef47abe071daa50621bb68dfb9477dbba63235be",
-  "generated": "2026-06-23T15:06:55.736Z",
+  "commit": "743e6756e823b374fd8c9afaa664d07b848e9d39",
+  "generated": "2026-06-23T15:26:17.426Z",
   "metadata": [
     {
       "__outstatic": {
@@ -218,27 +218,6 @@
     },
     {
       "__outstatic": {
-        "commit": "14b04b531ca6bd6d4582d05ce9121f6fa939204b",
-        "hash": "1079120103",
-        "path": "outstatic/content/products/palo-santo-10.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p002.jpg",
-      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
-      "price": "HKD$ 79",
-      "publishedAt": "2024-03-31T18:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "palo-santo-10",
-      "status": "published",
-      "title": "南美洲聖木(10支)"
-    },
-    {
-      "__outstatic": {
         "commit": "4d2d8d04d555b5d1d6e16c80592d369685e72d01",
         "hash": "1433273270",
         "path": "outstatic/content/products/shell-wood-sage-set.md"
@@ -360,6 +339,27 @@
       "slug": "oil",
       "status": "published",
       "title": "冥想香薰滾珠精油"
+    },
+    {
+      "__outstatic": {
+        "commit": "743e6756e823b374fd8c9afaa664d07b848e9d39",
+        "hash": "1802788292",
+        "path": "outstatic/content/products/palo-santo-10.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p002.jpg",
+      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
+      "price": "HKD$ 79",
+      "publishedAt": "2024-03-31T18:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "palo-santo-10",
+      "status": "published",
+      "title": "南美洲聖木(10支)"
     }
   ]
 }
