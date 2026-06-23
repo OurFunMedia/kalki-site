@@ -1,6 +1,6 @@
 {
-  "commit": "743e6756e823b374fd8c9afaa664d07b848e9d39",
-  "generated": "2026-06-23T15:26:17.426Z",
+  "commit": "ee64867064a7e0fee638f2525986ffd435cf72bd",
+  "generated": "2026-06-23T15:28:49.160Z",
   "metadata": [
     {
       "__outstatic": {
@@ -342,8 +342,8 @@
     },
     {
       "__outstatic": {
-        "commit": "743e6756e823b374fd8c9afaa664d07b848e9d39",
-        "hash": "1802788292",
+        "commit": "ee64867064a7e0fee638f2525986ffd435cf72bd",
+        "hash": "1030937462",
         "path": "outstatic/content/products/palo-santo-10.md"
       },
       "author": {
