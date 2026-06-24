@@ -1,6 +1,6 @@
 {
-  "commit": "ac1929a755d69c2f59b304a36b0e8b8e3d2c01a1",
-  "generated": "2026-06-24T08:24:54.220Z",
+  "commit": "a0f9b3b1c08d935738ebd08f73cfe7f3c6963016",
+  "generated": "2026-06-24T13:43:41.546Z",
   "metadata": [
     {
       "__outstatic": {
@@ -239,27 +239,6 @@
     },
     {
       "__outstatic": {
-        "commit": "2987bd233641c4a76056d8f10990f44aa383325a",
-        "hash": "3810568121",
-        "path": "outstatic/content/products/spray-wood-set.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p008.jpg",
-      "description": "能隨身攜帶的淨化噴霧，以及傳統的南美聖木，日常靈性實踐必備。",
-      "price": "HKD$ 215",
-      "publishedAt": "2024-04-01T00:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "spray-wood-set",
-      "status": "published",
-      "title": "聖木鼠尾草噴霧+聖木 套裝"
-    },
-    {
-      "__outstatic": {
         "commit": "ef47abe071daa50621bb68dfb9477dbba63235be",
         "hash": "3331526796",
         "path": "outstatic/content/products/oil.mdx"
@@ -360,6 +339,27 @@
       "slug": "spray-sage-set",
       "status": "published",
       "title": "聖木鼠尾草噴霧+鼠尾草套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "a0f9b3b1c08d935738ebd08f73cfe7f3c6963016",
+        "hash": "3784655301",
+        "path": "outstatic/content/products/spray-wood-set.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p008.jpg",
+      "description": "能隨身攜帶的淨化噴霧，以及傳統的南美聖木，日常靈性實踐必備。",
+      "price": "HKD$ 215",
+      "publishedAt": "2024-04-01T00:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "spray-wood-set",
+      "status": "published",
+      "title": "聖木鼠尾草噴霧+聖木 套裝"
     }
   ]
 }
