@@ -1,6 +1,6 @@
 {
-  "commit": "3533d47d106855c8eef1a3090391cf54610b0ed0",
-  "generated": "2026-06-24T15:32:48.471Z",
+  "commit": "ff37992cd3553f035d45323e38b833e9b1de812e",
+  "generated": "2026-06-24T15:36:07.863Z",
   "metadata": [
     {
       "__outstatic": {
@@ -258,27 +258,6 @@
     },
     {
       "__outstatic": {
-        "commit": "3547b06f84bfd2828d8bc66127512b083b99aa6d",
-        "hash": "1516957970",
-        "path": "outstatic/content/products/spray-wood-set.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p008.jpg",
-      "description": "能隨身攜帶的淨化噴霧，以及傳統的南美聖木，日常靈性實踐必備。",
-      "price": "HKD$ 215",
-      "publishedAt": "2024-04-01T00:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "spray-wood-set",
-      "status": "published",
-      "title": "聖木鼠尾草噴霧+聖木 套裝"
-    },
-    {
-      "__outstatic": {
         "commit": "f6c482536b3dc727020c718705c6c54e05af148e",
         "hash": "2703620482",
         "path": "outstatic/content/products/white-crystal-4.md"
@@ -360,6 +339,27 @@
       "slug": "abalone-shell-1",
       "status": "published",
       "title": "西北太平洋鮑魚殼(1個)"
+    },
+    {
+      "__outstatic": {
+        "commit": "ff37992cd3553f035d45323e38b833e9b1de812e",
+        "hash": "2994120284",
+        "path": "outstatic/content/products/spray-wood-set.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p008.jpg",
+      "description": "能隨身攜帶的淨化噴霧，以及傳統的南美聖木，日常靈性實踐必備。",
+      "price": "HKD$ 215",
+      "publishedAt": "2024-04-01T00:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "spray-wood-set",
+      "status": "published",
+      "title": "聖木鼠尾草噴霧+聖木 套裝"
     }
   ]
 }
