@@ -1,6 +1,6 @@
 {
-  "commit": "a0f9b3b1c08d935738ebd08f73cfe7f3c6963016",
-  "generated": "2026-06-24T13:43:41.546Z",
+  "commit": "3547b06f84bfd2828d8bc66127512b083b99aa6d",
+  "generated": "2026-06-24T14:03:24.271Z",
   "metadata": [
     {
       "__outstatic": {
@@ -342,8 +342,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a0f9b3b1c08d935738ebd08f73cfe7f3c6963016",
-        "hash": "3784655301",
+        "commit": "3547b06f84bfd2828d8bc66127512b083b99aa6d",
+        "hash": "1516957970",
         "path": "outstatic/content/products/spray-wood-set.md"
       },
       "author": {
