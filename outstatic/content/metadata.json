@@ -1,6 +1,6 @@
 {
-  "commit": "0a9759e5866ae10f863381b6f3a084ef7d2e7eb6",
-  "generated": "2026-06-24T07:21:37.211Z",
+  "commit": "eab6c221be1a10c08c848e6ae0aadea84e7fcf62",
+  "generated": "2026-06-24T07:45:47.118Z",
   "metadata": [
     {
       "__outstatic": {
@@ -342,8 +342,8 @@
     },
     {
       "__outstatic": {
-        "commit": "0a9759e5866ae10f863381b6f3a084ef7d2e7eb6",
-        "hash": "218141553",
+        "commit": "eab6c221be1a10c08c848e6ae0aadea84e7fcf62",
+        "hash": "4218039461",
         "path": "outstatic/content/products/shell-wood-sage-set.md"
       },
       "author": {
