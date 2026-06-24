@@ -1,6 +1,6 @@
 {
-  "commit": "f61e2df14be2cc98f03552b16e606c5498d5d343",
-  "generated": "2026-06-24T15:26:14.967Z",
+  "commit": "3533d47d106855c8eef1a3090391cf54610b0ed0",
+  "generated": "2026-06-24T15:32:48.471Z",
   "metadata": [
     {
       "__outstatic": {
@@ -176,27 +176,6 @@
     },
     {
       "__outstatic": {
-        "commit": "756907ffd34d377ea036e30451ac125a5bb05591",
-        "hash": "3718554197",
-        "path": "outstatic/content/products/abalone-shell-1.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p003.jpg",
-      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
-      "price": "HKD$ 58",
-      "publishedAt": "2024-01-31T16:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "abalone-shell-1",
-      "status": "published",
-      "title": "西北太平洋鮑魚殼(1個)"
-    },
-    {
-      "__outstatic": {
         "commit": "ef47abe071daa50621bb68dfb9477dbba63235be",
         "hash": "3331526796",
         "path": "outstatic/content/products/oil.mdx"
@@ -360,6 +339,27 @@
       "slug": "white-sage-2",
       "status": "published",
       "title": "南美白鼠尾草(2束)"
+    },
+    {
+      "__outstatic": {
+        "commit": "3533d47d106855c8eef1a3090391cf54610b0ed0",
+        "hash": "2627924069",
+        "path": "outstatic/content/products/abalone-shell-1.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p003.jpg",
+      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
+      "price": "HKD$ 58",
+      "publishedAt": "2024-01-31T16:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "abalone-shell-1",
+      "status": "published",
+      "title": "西北太平洋鮑魚殼(1個)"
     }
   ]
 }
