@@ -1,6 +1,6 @@
 {
-  "commit": "f6c482536b3dc727020c718705c6c54e05af148e",
-  "generated": "2026-06-24T15:15:20.898Z",
+  "commit": "28e0c1fe3d565fe701da709d93a9958f13ce174a",
+  "generated": "2026-06-24T15:18:40.875Z",
   "metadata": [
     {
       "__outstatic": {
@@ -237,27 +237,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ee64867064a7e0fee638f2525986ffd435cf72bd",
-        "hash": "1030937462",
-        "path": "outstatic/content/products/palo-santo-10.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p002.jpg",
-      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
-      "price": "HKD$ 79",
-      "publishedAt": "2024-03-31T18:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "palo-santo-10",
-      "status": "published",
-      "title": "南美洲聖木(10支)"
-    },
-    {
-      "__outstatic": {
         "commit": "5ef2cad002d4f4d802708e575df0696bb961c55f",
         "hash": "1966429690",
         "path": "outstatic/content/products/palo-santo-sage-spray.md"
@@ -360,6 +339,27 @@
       "slug": "white-crystal-4",
       "status": "published",
       "title": "巴西白水晶(4吋)"
+    },
+    {
+      "__outstatic": {
+        "commit": "28e0c1fe3d565fe701da709d93a9958f13ce174a",
+        "hash": "1524707573",
+        "path": "outstatic/content/products/palo-santo-10.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p002.jpg",
+      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
+      "price": "HKD$ 79",
+      "publishedAt": "2024-03-31T18:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "palo-santo-10",
+      "status": "published",
+      "title": "南美洲聖木(10支)"
     }
   ]
 }
