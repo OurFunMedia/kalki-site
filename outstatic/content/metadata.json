@@ -1,6 +1,6 @@
 {
-  "commit": "ee64867064a7e0fee638f2525986ffd435cf72bd",
-  "generated": "2026-06-23T15:28:49.160Z",
+  "commit": "5ef2cad002d4f4d802708e575df0696bb961c55f",
+  "generated": "2026-06-24T06:26:55.376Z",
   "metadata": [
     {
       "__outstatic": {
@@ -197,27 +197,6 @@
     },
     {
       "__outstatic": {
-        "commit": "de04a0b4c7abaf606a1f380e8bae97d8c1d54381",
-        "hash": "1830469140",
-        "path": "outstatic/content/products/palo-santo-sage-spray.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p006.jpg",
-      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
-      "price": "HKD$ 150",
-      "publishedAt": "2024-03-31T22:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "palo-santo-sage-spray",
-      "status": "published",
-      "title": "南美洲聖木鼠尾草純露噴霧"
-    },
-    {
-      "__outstatic": {
         "commit": "4d2d8d04d555b5d1d6e16c80592d369685e72d01",
         "hash": "1433273270",
         "path": "outstatic/content/products/shell-wood-sage-set.md"
@@ -360,6 +339,27 @@
       "slug": "palo-santo-10",
       "status": "published",
       "title": "南美洲聖木(10支)"
+    },
+    {
+      "__outstatic": {
+        "commit": "5ef2cad002d4f4d802708e575df0696bb961c55f",
+        "hash": "1966429690",
+        "path": "outstatic/content/products/palo-santo-sage-spray.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p006.jpg",
+      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
+      "price": "HKD$ 150",
+      "publishedAt": "2024-03-31T22:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "palo-santo-sage-spray",
+      "status": "published",
+      "title": "南加洲聖木鼠尾草純露噴霧"
     }
   ]
 }
