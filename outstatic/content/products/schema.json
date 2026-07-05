@@ -28,6 +28,18 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Cover Image"
+    },
+    "productCode": {
+      "title": "貨號 (Product Code)",
+      "fieldType": "String"
+    },
+    "images": {
+      "title": "額外圖片 (逗號分隔網址)",
+      "fieldType": "String"
+    },
+    "videos": {
+      "title": "影片網址 (逗號分隔)",
+      "fieldType": "String"
     }
   }
 }
