@@ -1,0 +1,16 @@
+{
+    "title": "Instructors",
+    "slug": "instructors",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Name",
+            "fieldType": "String",
+            "required": true
+        },
+        "specialties": {
+            "title": "Specialties",
+            "fieldType": "String"
+        }
+    }
+}
