@@ -34,12 +34,12 @@ export default async function NgoPage() {
                         className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-black opacity-40 mix-blend-multiply" />
-                    <div className="absolute inset-0 z-10 flex flex-col items-center justify-between text-center px-6 py-16">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white drop-shadow-md mt-16">
+                    <div className="absolute inset-0 z-10 flex flex-col items-center justify-between text-center px-6 py-8">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white drop-shadow-md mt-8">
                             外展 及 到校服務 
                             <span className="block text-base md:text-lg font-sans text-stone-200 mt-4 tracking-widest uppercase">Services</span>
                         </h1>
-                        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mb-8">
+                        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mb-0">
                             <a
                                 href="https://forms.gle/qTmiN1kZ2cCuycyX8"
                                 target="_blank"
