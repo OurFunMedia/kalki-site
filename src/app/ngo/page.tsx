@@ -29,7 +29,7 @@ export default async function NgoPage() {
             <div className="max-w-6xl mx-auto py-12">
                 <div className="relative w-full rounded-3xl overflow-hidden mb-16 shadow-xl group" style={{ minHeight: '500px' }}>
                     <img 
-                        src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2000&auto=format&fit=crop" 
+                        src="/DSCF1542.jpg" 
                         alt="一班人正在學習瑜伽" 
                         className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     />
