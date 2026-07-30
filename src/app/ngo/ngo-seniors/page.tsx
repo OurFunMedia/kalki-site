@@ -22,7 +22,7 @@ export default function SeniorsPage() {
                     {/* Card 1 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <Image src="/images/seniors/b001.png" alt="頌缽聲頻療法" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <Image src="/images/elder/e001.png" alt="頌缽聲頻療法" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
@@ -34,7 +34,7 @@ export default function SeniorsPage() {
                     {/* Card 2 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <Image src="/images/seniors/b002.png" alt="肌筋膜按摩" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <Image src="/images/elder/e002.png" alt="肌筋膜按摩" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
@@ -46,7 +46,7 @@ export default function SeniorsPage() {
                     {/* Card 3 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <Image src="/images/seniors/b003.png" alt="力量與平衡瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <Image src="/images/elder/e003.png" alt="力量與平衡瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
@@ -58,7 +58,7 @@ export default function SeniorsPage() {
                     {/* Card 4 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <Image src="/images/seniors/b004.png" alt="痛症陰瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <Image src="/images/elder/e004.png" alt="痛症陰瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
@@ -70,7 +70,7 @@ export default function SeniorsPage() {
                     {/* Card 5 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <Image src="/images/seniors/b005.png" alt="椅子瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <Image src="/images/elder/e005.png" alt="椅子瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
@@ -82,7 +82,7 @@ export default function SeniorsPage() {
                     {/* Card 6 */}
                     <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100 hover:shadow-xl transition-all duration-300 group">
                         <div className="h-48 bg-stone-100 relative overflow-hidden">
-                            <Image src="/images/seniors/b006.png" alt="社交與互動瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <Image src="/images/elder/e006.png" alt="社交與互動瑜伽" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
                         </div>
                         <div className="p-8">
