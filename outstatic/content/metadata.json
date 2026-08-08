@@ -1,6 +1,6 @@
 {
-  "commit": "e40aecb667028aacb5da97d8ae3c0c8a874c91e8",
-  "generated": "2026-06-25T09:44:28.056Z",
+  "commit": "4c80b7306975cf5870c46272b3174836276f6ea6",
+  "generated": "2026-08-08T03:56:18.531Z",
   "metadata": [
     {
       "__outstatic": {
@@ -189,12 +189,12 @@
       "coverImage": "/images/products/p006.jpg",
       "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
       "price": "HKD$ 150",
+      "productCode": "EP-004",
       "publishedAt": "2024-03-31T22:00:00.000Z",
       "purchaseLink": "",
       "slug": "palo-santo-sage-spray",
       "status": "published",
-      "title": "南加洲聖木鼠尾草純露噴霧",
-      "productCode": "EP-004"
+      "title": "南加洲聖木鼠尾草純露噴霧"
     },
     {
       "__outstatic": {
@@ -211,12 +211,12 @@
       "coverImage": "/images/products/p005.jpg",
       "description": "完整的淨化套裝，包含深度淨化、聖木帶來祝福與正能量，以及鮑魚殼作為承托。",
       "price": "HKD$ 195",
+      "productCode": "EP-005",
       "publishedAt": "2024-03-31T21:00:00.000Z",
       "purchaseLink": "",
       "slug": "shell-wood-sage-set",
       "status": "published",
-      "title": "鮑魚殼+聖木+鼠尾草 套裝",
-      "productCode": "EP-005"
+      "title": "鮑魚殼+聖木+鼠尾草 套裝"
     },
     {
       "__outstatic": {
@@ -233,12 +233,12 @@
       "coverImage": "/images/products/p007.jpg",
       "description": "這套組合包含純天然無煙淨化噴霧與傳統鼠尾草。",
       "price": "HKD$ 220",
+      "productCode": "EP-006",
       "publishedAt": "2024-03-31T23:00:00.000Z",
       "purchaseLink": "",
       "slug": "spray-sage-set",
       "status": "published",
-      "title": "聖木鼠尾草噴霧+鼠尾草套裝",
-      "productCode": "EP-006"
+      "title": "聖木鼠尾草噴霧+鼠尾草套裝"
     },
     {
       "__outstatic": {
@@ -255,12 +255,12 @@
       "coverImage": "/images/products/p004.jpg",
       "description": "未經打磨的巴西純白水晶原石，能放大並淨化周圍的磁場。",
       "price": "HKD$ 325",
+      "productCode": "EP-008",
       "publishedAt": "2024-03-31T20:00:00.000Z",
       "purchaseLink": "",
       "slug": "white-crystal-4",
       "status": "published",
-      "title": "巴西白水晶(4吋)",
-      "productCode": "EP-008"
+      "title": "巴西白水晶(4吋)"
     },
     {
       "__outstatic": {
@@ -277,12 +277,12 @@
       "coverImage": "/images/products/p002.jpg",
       "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
       "price": "HKD$ 79",
+      "productCode": "EP-003",
       "publishedAt": "2024-03-31T18:00:00.000Z",
       "purchaseLink": "",
       "slug": "palo-santo-10",
       "status": "published",
-      "title": "南美洲聖木(10支)",
-      "productCode": "EP-003"
+      "title": "南美洲聖木(10支)"
     },
     {
       "__outstatic": {
@@ -299,12 +299,12 @@
       "coverImage": "/images/products/p001.jpg",
       "description": "來自南美洲的純淨鼠尾草，能夠有效淨化空間能量、去除負面磁場。",
       "price": "HKD$ 82",
+      "productCode": "EP-009",
       "publishedAt": "2024-03-30T17:00:00.000Z",
       "purchaseLink": "",
       "slug": "white-sage-2",
       "status": "published",
-      "title": "南美白鼠尾草(2束)",
-      "productCode": "EP-009"
+      "title": "南美白鼠尾草(2束)"
     },
     {
       "__outstatic": {
@@ -321,12 +321,12 @@
       "coverImage": "/images/products/p003.jpg",
       "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
       "price": "HKD$ 58",
+      "productCode": "EP-001",
       "publishedAt": "2024-01-31T16:00:00.000Z",
       "purchaseLink": "",
       "slug": "abalone-shell-1",
       "status": "published",
-      "title": "西北太平洋鮑魚殼(1個)",
-      "productCode": "EP-001"
+      "title": "西北太平洋鮑魚殼(1個)"
     },
     {
       "__outstatic": {
@@ -343,12 +343,12 @@
       "coverImage": "/images/products/p008.jpg",
       "description": "能隨身攜帶的淨化噴霧，以及傳統的南美聖木，日常靈性實踐必備。",
       "price": "HKD$ 215",
+      "productCode": "EP-007",
       "publishedAt": "2024-04-01T00:00:00.000Z",
       "purchaseLink": "",
       "slug": "spray-wood-set",
       "status": "published",
-      "title": "聖木鼠尾草噴霧+聖木 套裝",
-      "productCode": "EP-007"
+      "title": "聖木鼠尾草噴霧+聖木 套裝"
     },
     {
       "__outstatic": {
@@ -364,25 +364,25 @@
       "coverImage": "/images/dscf1519-MwOT.jpeg",
       "description": "這款精油滾珠筆，含有鼠尾草、乳香、黑胡椒、尤加利、桃金娘含等成份，能幫你平靜心神、放鬆隨時隨地都能享受療癒香氣，超適合冥想或放鬆時用。\n精油已用天然基底油稀釋，可直接塗用\n\n溫馨提示\n因為已經用基底油稀釋過，正常皮膚直接用沒問題；如果皮膚特別敏感，建議先塗一點在耳後測試一下\n\n使用方法\n這支精油採用滾珠設計，一般可以塗在手腕、耳後、頸後，或者胸口位置，讓你隨時聞到香氣，放鬆心情\n\n保存方法\n請存放於陰涼地方，避免陽光直接照射\n建議半年至一年內使用完\n\n容量\n9ML",
       "price": "HKD$ 150",
+      "productCode": "EP-002",
       "publishedAt": "2026-05-30T10:26:20.220Z",
       "slug": "oil",
       "status": "published",
       "title": "冥想香薰滾珠精油",
-      "videos": "https://www.w3schools.com/html/mov_bbb.mp4, https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "productCode": "EP-002"
+      "videos": "https://www.w3schools.com/html/mov_bbb.mp4, https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
-      "title": "送貨及須知",
-      "collection": "notices",
-      "slug": "shipping-notice",
-      "publishedAt": "2024-01-01T00:00:00.000Z",
-      "status": "published",
       "author": {
         "name": "Kalki Admin",
         "picture": ""
       },
+      "collection": "notices",
+      "content": "",
       "coverImage": "",
-      "content": ""
+      "publishedAt": "2024-01-01T00:00:00.000Z",
+      "slug": "shipping-notice",
+      "status": "published",
+      "title": "送貨及須知"
     }
   ]
 }
