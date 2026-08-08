@@ -1,6 +1,6 @@
 {
-  "commit": "cd7e645869740928538b204c1189d382f4175b31",
-  "generated": "2026-08-08T04:04:06.465Z",
+  "commit": "07cdae8dc9464ebdee95f1c6226a1eca6fcb14d3",
+  "generated": "2026-08-08T04:05:51.538Z",
   "metadata": [
     {
       "__outstatic": {
@@ -73,28 +73,6 @@
       "slug": "school",
       "status": "published",
       "title": "中小學及幼兒"
-    },
-    {
-      "__outstatic": {
-        "commit": "e5166738d096d8fcca5035520e3155a9419fcebc",
-        "hash": "1868285057",
-        "path": "outstatic/content/workshops/chakra-healing.md"
-      },
-      "author": {
-        "name": "Kalki Yoga",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "collection": "workshops",
-      "coverImage": "",
-      "date": "2024-03-15 14:00-17:00",
-      "description": "深入探索七大脈輪，透過特定的體式、呼吸法與冥想，釋放累積的負面能量，重啟身心靈的平衡。",
-      "location": "Kalki Studio",
-      "price": "HK$ 880",
-      "publishedAt": "2024-03-01T10:00:00.000Z",
-      "registrationLink": "https://forms.google.com",
-      "slug": "chakra-healing",
-      "status": "published",
-      "title": "脈輪淨化工作坊 Chakra Healing Workshop(測試)"
     },
     {
       "__outstatic": {
