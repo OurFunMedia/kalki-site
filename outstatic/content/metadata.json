@@ -1,6 +1,6 @@
 {
-  "commit": "4c80b7306975cf5870c46272b3174836276f6ea6",
-  "generated": "2026-08-08T03:56:18.531Z",
+  "commit": "68176de601ff8ac2b7bf48104e10539d6cadaad2",
+  "generated": "2026-08-08T03:57:23.858Z",
   "metadata": [
     {
       "__outstatic": {
@@ -383,6 +383,25 @@
       "slug": "shipping-notice",
       "status": "published",
       "title": "送貨及須知"
+    },
+    {
+      "__outstatic": {
+        "commit": "68176de601ff8ac2b7bf48104e10539d6cadaad2",
+        "hash": "2878891644",
+        "path": "outstatic/content/classes/hatha-flow.mdx"
+      },
+      "author": {
+        "name": "Toby Yip",
+        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
+      },
+      "collection": "classes",
+      "description": "課程簡介文字",
+      "duration": "60 min",
+      "intensity": "★★☆☆☆",
+      "publishedAt": "2026-08-08T04:44:24.799Z",
+      "slug": "hatha-flow",
+      "status": "published",
+      "title": "Hatha Flow"
     }
   ]
 }
