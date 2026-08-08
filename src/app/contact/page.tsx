@@ -49,7 +49,7 @@ export default function ContactPage() {
             </div>
 
             <footer className="py-6 text-center text-stone-400 text-xs tracking-wider">
-                © 2026 Kalki Yoga Studio. All rights reserved.
+                © 2026 Kalki Wellness. All rights reserved.
             </footer>
         </div>
     )

@@ -21,7 +21,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Kalki Yoga",
+  title: "Kalki Wellness",
   description: "A sanctuary for your mind and body.",
 };
 

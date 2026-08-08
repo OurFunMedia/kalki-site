@@ -77,7 +77,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-cream/10 text-center text-sm text-cream/30">
-          <p>&copy; {new Date().getFullYear()} Kalki Yoga. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Kalki Wellness. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
