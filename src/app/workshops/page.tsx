@@ -20,25 +20,7 @@ async function getWorkshops() {
         .sort({ publishedAt: -1 })
         .toArray()
     
-    // For demonstration, adding the regular class item manually if dynamic content load is delayed
-    const workshopsWithDemo = [...workshops]
-    if (!workshopsWithDemo.find(w => (w as any).slug === 'regular-class-demo')) {
-        workshopsWithDemo.push({
-            title: "恆常瑜伽課堂（示範測試）",
-            date: "每週一、三、五 19:00 - 20:30",
-            location: "Kalki Studio",
-            price: "HK$ 200 / 堂",
-            registrationLink: "https://forms.google.com",
-            description: "這是一個恆常瑜伽課堂的示範測試，旨在向您展示在頁面上新增項目的成效。",
-            slug: "regular-class-demo",
-            content: "",
-            collection: "workshops",
-            status: "published",
-            publishedAt: new Date().toISOString()
-        } as any)
-    }
-    
-    return workshopsWithDemo
+    return workshops
 }
 
 export default async function WorkshopsPage() {
