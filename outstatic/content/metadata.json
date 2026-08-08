@@ -1,6 +1,6 @@
 {
-  "commit": "68176de601ff8ac2b7bf48104e10539d6cadaad2",
-  "generated": "2026-08-08T03:57:23.858Z",
+  "commit": "cd7e645869740928538b204c1189d382f4175b31",
+  "generated": "2026-08-08T04:04:06.465Z",
   "metadata": [
     {
       "__outstatic": {
@@ -402,6 +402,25 @@
       "slug": "hatha-flow",
       "status": "published",
       "title": "Hatha Flow"
+    },
+    {
+      "__outstatic": {
+        "commit": "cd7e645869740928538b204c1189d382f4175b31",
+        "hash": "259233984",
+        "path": "outstatic/content/workshops/gong-zuo-fang-ming-cheng.mdx"
+      },
+      "author": {
+        "name": "Toby Yip",
+        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
+      },
+      "collection": "workshops",
+      "date": "2026-09-12 14:00–17:00",
+      "location": "Kalki Studio",
+      "price": "HK$ 880",
+      "publishedAt": "2026-08-08T04:49:36.439Z",
+      "slug": "gong-zuo-fang-ming-cheng",
+      "status": "published",
+      "title": "工作坊名稱"
     }
   ]
 }
