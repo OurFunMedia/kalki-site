@@ -1,6 +1,17 @@
 {
-  "commit": "1d6b1a6dac11354ce364ae6416e57a804516ba4a",
-  "generated": "2026-08-25T07:23:20.625Z",
+  "commit": "d5561ba6c78f79836594fc381e9c9c6d85d7fbe1",
+  "generated": "2026-08-25T07:26:35.066Z",
   "media": [
+    {
+      "__outstatic": {
+        "commit": "d5561ba6c78f79836594fc381e9c9c6d85d7fbe1",
+        "hash": "4175490709",
+        "path": "public/images/oil-M0OT.jpg"
+      },
+      "alt": "",
+      "filename": "oil-M0OT.jpg",
+      "publishedAt": "2026-08-25T07:26:35.066Z",
+      "type": "image"
+    }
   ]
 }
