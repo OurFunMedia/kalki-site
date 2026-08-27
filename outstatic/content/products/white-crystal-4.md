@@ -1,6 +1,6 @@
 ---
 title: "巴西白水晶(4吋)"
-status: "published"
+status: "draft"
 author:
   name: "Kalki Admin"
   picture: "https://avatars.githubusercontent.com/u/1?v=4"

@@ -1,6 +1,6 @@
 {
-  "commit": "c083ae60f14d22d2d88d3fac2813e266aa49cc0a",
-  "generated": "2026-08-27T11:16:49.032Z",
+  "commit": "c8e83a1c4e9ec2758b69f3938f8b5c4680e512b1",
+  "generated": "2026-08-27T11:17:08.081Z",
   "metadata": [
     {
       "__outstatic": {
@@ -109,28 +109,6 @@
       "slug": "ce-shi-shi-fan-2",
       "status": "published",
       "title": "測試示範2"
-    },
-    {
-      "__outstatic": {
-        "commit": "f6c482536b3dc727020c718705c6c54e05af148e",
-        "hash": "2703620482",
-        "path": "outstatic/content/products/white-crystal-4.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p004.jpg",
-      "description": "未經打磨的巴西純白水晶原石，能放大並淨化周圍的磁場。",
-      "price": "HKD$ 325",
-      "productCode": "EP-008",
-      "publishedAt": "2024-03-31T20:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "white-crystal-4",
-      "status": "published",
-      "title": "巴西白水晶(4吋)"
     },
     {
       "__outstatic": {
@@ -398,6 +376,28 @@
       "slug": "oil",
       "status": "draft",
       "title": "冥想香薰滾珠精油"
+    },
+    {
+      "__outstatic": {
+        "commit": "c8e83a1c4e9ec2758b69f3938f8b5c4680e512b1",
+        "hash": "2073563189",
+        "path": "outstatic/content/products/white-crystal-4.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p004.jpg",
+      "description": "未經打磨的巴西純白水晶原石，能放大並淨化周圍的磁場。",
+      "price": "HKD$ 325",
+      "productCode": "EP-008",
+      "publishedAt": "2024-03-31T20:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "white-crystal-4",
+      "status": "draft",
+      "title": "巴西白水晶(4吋)"
     }
   ]
 }
