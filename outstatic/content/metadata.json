@@ -1,6 +1,6 @@
 {
-  "commit": "24e47cb0b783b91b7e259bf203f7a1f5f11c012a",
-  "generated": "2026-08-27T09:55:11.914Z",
+  "commit": "7d49124f57ee3be9f4e827703971ade3c2d9d4da",
+  "generated": "2026-08-27T10:19:33.403Z",
   "metadata": [
     {
       "__outstatic": {
@@ -91,27 +91,6 @@
       "slug": "enterprise",
       "status": "published",
       "title": "企業及團體"
-    },
-    {
-      "__outstatic": {
-        "commit": "7096af6e4cf2cb37f56393787146f2808c86a2f8",
-        "hash": "1028667708",
-        "path": "outstatic/content/events/charity-yoga.md"
-      },
-      "author": {
-        "name": "Kalki Yoga",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "Charity",
-      "collection": "events",
-      "coverImage": "",
-      "date": "2024-04-20",
-      "description": "我們會將當日所有課程收益捐贈給流浪動物之家。",
-      "location": "Kalki Studio",
-      "publishedAt": "2024-02-05T10:00:00.000Z",
-      "slug": "charity-yoga",
-      "status": "published",
-      "title": "慈善瑜伽日 Charity Yoga Day (測試)"
     },
     {
       "__outstatic": {
@@ -398,6 +377,27 @@
       "slug": "spray-sage-set",
       "status": "draft",
       "title": "聖木鼠尾草噴霧+鼠尾草套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "7d49124f57ee3be9f4e827703971ade3c2d9d4da",
+        "hash": "1405395623",
+        "path": "outstatic/content/events/charity-yoga.md"
+      },
+      "author": {
+        "name": "Kalki Yoga",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "Charity",
+      "collection": "events",
+      "coverImage": "",
+      "date": "2024-04-20",
+      "description": "我們會將當日所有課程收益捐贈給流浪動物之家。",
+      "location": "Kalki Studio",
+      "publishedAt": "2024-02-05T10:00:00.000Z",
+      "slug": "charity-yoga",
+      "status": "draft",
+      "title": "慈善瑜伽日 Charity Yoga Day (測試)"
     }
   ]
 }
