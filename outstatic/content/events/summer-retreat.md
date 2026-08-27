@@ -1,6 +1,6 @@
 ---
 title: "夏季身心靜修營 Summer Retreat (測試)"
-status: "published"
+status: "draft"
 author:
   name: "Kalki Yoga"
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
