@@ -1,6 +1,6 @@
 {
-  "commit": "c8e83a1c4e9ec2758b69f3938f8b5c4680e512b1",
-  "generated": "2026-08-27T11:17:08.081Z",
+  "commit": "64cc9ea2587aca291e641bf158ae028b9c4d9956",
+  "generated": "2026-08-27T11:18:35.020Z",
   "metadata": [
     {
       "__outstatic": {
@@ -91,24 +91,6 @@
       "slug": "enterprise",
       "status": "published",
       "title": "企業及團體"
-    },
-    {
-      "__outstatic": {
-        "commit": "c750697909a9da6e81d962b79eda1b88902c6e0b",
-        "hash": "118308380",
-        "path": "outstatic/content/classes/ce-shi-shi-fan-2.mdx"
-      },
-      "author": {
-        "name": "Toby Yip",
-        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
-      },
-      "collection": "classes",
-      "description": "Test 2 @20260120_1730",
-      "intensity": "★★★★★",
-      "publishedAt": "2026-01-20T10:19:44.687Z",
-      "slug": "ce-shi-shi-fan-2",
-      "status": "published",
-      "title": "測試示範2"
     },
     {
       "__outstatic": {
@@ -398,6 +380,24 @@
       "slug": "white-crystal-4",
       "status": "draft",
       "title": "巴西白水晶(4吋)"
+    },
+    {
+      "__outstatic": {
+        "commit": "64cc9ea2587aca291e641bf158ae028b9c4d9956",
+        "hash": "2583512233",
+        "path": "outstatic/content/classes/ce-shi-shi-fan-2.mdx"
+      },
+      "author": {
+        "name": "Toby Yip",
+        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
+      },
+      "collection": "classes",
+      "description": "Test 2 @20260120_1730",
+      "intensity": "★★★★★",
+      "publishedAt": "2026-01-20T10:19:44.687Z",
+      "slug": "ce-shi-shi-fan-2",
+      "status": "draft",
+      "title": "測試示範2"
     }
   ]
 }
