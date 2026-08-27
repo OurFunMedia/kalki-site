@@ -125,7 +125,7 @@ const guideBody = `
   <div class="cover">
     <div class="brand">KALKI WELLNESS</div>
     <h1>網站內容管理操作指南</h1>
-    <div class="sub">課程頁（Classes）・ 工作坊頁（Workshops）</div>
+    <div class="sub">課程頁（Classes）・ 工作坊頁（Workshops）・ 商品頁（Products）</div>
     <div class="sub" style="margin-top:-16px;">新增・修改・刪除・發布</div>
     <div class="meta">適用版本：Outstatic CMS 2.x ／ Next.js 16<br>最後更新：2026 年 8 月</div>
   </div>
@@ -152,6 +152,15 @@ const guideBody = `
           <li>工作坊欄位說明</li>
         </ol>
       </li>
+      <li>商品頁（/shop）內容管理
+        <ol class="l2">
+          <li>新增一筆商品</li>
+          <li>修改現有商品</li>
+          <li>刪除商品</li>
+          <li>商品欄位說明</li>
+          <li>多張圖片與影片操作</li>
+        </ol>
+      </li>
       <li>發布流程與網站更新</li>
       <li>備用資料（Fallback）機制說明</li>
       <li>常見問題</li>
@@ -169,7 +178,7 @@ const guideBody = `
     <h3>1.1 後台網址</h3>
     <ul>
       <li><strong>本機（開發機）：</strong><code>http://localhost:3000/outstatic</code></li>
-      <li><strong>正式網站：</strong>視部署方式而定，若部署於 Vercel 等平台，後台同樣位於 <code>https://www.kalkiwellness.com/outstatic</code>（需先完成 GitHub OAuth 設定）。</li>
+      <li><strong>正式網站：</strong>後台位於 <code>https://kalki-site.vercel.app/outstatic</code>（需先完成 GitHub OAuth 設定）。</li>
     </ul>
 
     <h3>1.2 內容存放位置（與網站對應）</h3>
@@ -177,6 +186,8 @@ const guideBody = `
       <tr><th>頁面</th><th>網址</th><th>後台集合（Collection）</th><th>檔案位置</th></tr>
       <tr><td>課程頁</td><td><code>/classes</code></td><td><strong>Classes</strong></td><td><code>outstatic/content/classes/</code></td></tr>
       <tr><td>工作坊頁</td><td><code>/workshops</code></td><td><strong>Workshops</strong></td><td><code>outstatic/content/workshops/</code></td></tr>
+      <tr><td>商品列表頁</td><td><code>/shop/energy-products</code></td><td><strong>Products</strong></td><td><code>outstatic/content/products/</code></td></tr>
+      <tr><td>商品詳情頁</td><td><code>/shop/product/&lt;商品網址&gt;</code></td><td><strong>Products</strong></td><td><code>outstatic/content/products/</code></td></tr>
     </table>
 
     <h3>1.3 更新內容的流程</h3>
@@ -341,8 +352,87 @@ OST_TOKEN_SECRET=任意32字元以上亂碼字串</code></pre>
   </div>
 
   <div class="section">
-    <h2>6. 發布流程與網站更新</h2>
-    <h3>6.1 內容發布到上線的完整流程</h3>
+    <h2>6. 商品頁（/shop）內容管理</h2>
+    <p>商品頁分為兩層：<strong>商品列表頁</strong>（<code>/shop/energy-products</code>）以卡片形式展示商品，包含名稱、價格與封面圖；<strong>商品詳情頁</strong>（<code>/shop/product/&lt;商品網址&gt;</code>）展示完整資訊，包括貨號、圖片輪播、影片與詳細描述。本節說明如何在後台管理商品。</p>
+
+    <h3>6.1 新增一筆商品</h3>
+    <ol>
+      <li><span class="stepnum">1</span>登入後台，點擊左側 <strong>Products</strong>。</li>
+      <li><span class="stepnum">2</span>點擊右上角 <strong>New Document</strong>。</li>
+      <li><span class="stepnum">3</span>填寫欄位（必填欄位見 6.4 說明）：
+        <ul>
+          <li><strong>Product Name（Title）</strong>：商品名稱，例如「冥想香薰滾珠精油」。</li>
+          <li><strong>Price</strong>：價格，例如「HKD$ 150」。</li>
+          <li><strong>Description</strong>：商品簡介（列表卡片與搜尋依據）。</li>
+          <li><strong>Category</strong>：商品分類，例如「空間及個人能量用品」。</li>
+          <li><strong>Cover Image（選填）</strong>：商品封面圖（列表卡片與詳情頁輪播第一張）。</li>
+          <li><strong>貨號（Product Code，選填）</strong>：商品編號，例如「EP-002」，顯示於詳情頁。</li>
+          <li><strong>額外圖片（選填）</strong>：多張圖片網址，以英文逗號分隔，會在詳情頁組成圖片輪播。</li>
+          <li><strong>影片網址（選填）</strong>：影片網址，以英文逗號分隔。</li>
+          <li><strong>Content（下方編輯器）</strong>：完整的商品描述，支援 Markdown 格式（顯示於詳情頁「產品描述」）。</li>
+        </ul>
+      </li>
+      <li><span class="stepnum">4</span>點擊 <strong>Publish</strong>（發布）按鈕。</li>
+      <li><span class="stepnum">5</span>等待部署完成，商品即顯示於 <code>/shop/energy-products</code> 列表頁。</li>
+    </ol>
+    <div class="box tip"><strong>小提醒：</strong>商品依「發布時間（publishedAt）」由新到舊排列，最新的顯示在最上方。填寫分類（Category）後，列表頁右上角即可依分類篩選商品。</div>
+
+    <h3>6.2 修改現有商品</h3>
+    <ol>
+      <li><span class="stepnum">1</span>登入後台，點擊左側 <strong>Products</strong>。</li>
+      <li><span class="stepnum">2</span>在內容列表中，點擊想修改的商品標題。</li>
+      <li><span class="stepnum">3</span>修改欄位內容。</li>
+      <li><span class="stepnum">4</span>點擊 <strong>Publish</strong>（或 <strong>Save</strong> 儲存草稿）。</li>
+    </ol>
+    <div class="box tip"><strong>小提醒：</strong>發布新版本後，網站會自動更新。若只想保留修改但暫不上線，選取草稿狀態即可。</div>
+
+    <h3>6.3 刪除商品</h3>
+    <ol>
+      <li><span class="stepnum">1</span>登入後台，點擊左側 <strong>Products</strong>。</li>
+      <li><span class="stepnum">2</span>點擊想刪除的商品標題進入編輯畫面。</li>
+      <li><span class="stepnum">3</span>點擊 <strong>Delete</strong>（刪除）按鈕並確認。</li>
+    </ol>
+    <div class="box warn"><strong>注意：</strong>刪除會直接從 GitHub 儲存庫移除該商品檔案，刪除後無法在後台復原（GitHub 提交歷史中仍可找回，但需開發人員協助）。</div>
+
+    <h3>6.4 商品欄位說明</h3>
+    <table class="field-table">
+      <tr><th>欄位</th><th>顯示位置</th><th>必填</th><th>範例</th></tr>
+      <tr><td>Product Name（Title）</td><td>卡片標題與詳情頁標題</td><td><span class="req">必填</span></td><td>冥想香薰滾珠精油</td></tr>
+      <tr><td>Price</td><td>卡片與詳情頁價格</td><td>選填</td><td>HKD$ 150</td></tr>
+      <tr><td>Description</td><td>列表頁搜尋依據（詳情頁無 Content 時顯示）</td><td>選填</td><td>純露噴霧結合了聖木與鼠尾草的精華…</td></tr>
+      <tr><td>Category</td><td>列表頁分類篩選、詳情頁麵包屑</td><td>選填</td><td>空間及個人能量用品</td></tr>
+      <tr><td>Cover Image</td><td>卡片封面圖與詳情頁輪播</td><td>選填</td><td>商品封面圖</td></tr>
+      <tr><td>貨號（Product Code）</td><td>詳情頁「貨號：」一行</td><td>選填</td><td>EP-002</td></tr>
+      <tr><td>額外圖片（Images）</td><td>詳情頁圖片輪播（逗號分隔）</td><td>選填</td><td>/images/…, /images/…</td></tr>
+      <tr><td>影片網址（Videos）</td><td>詳情頁圖片輪播中的影片</td><td>選填</td><td>https://…, https://…</td></tr>
+      <tr><td>Content（編輯器）</td><td>詳情頁「產品描述」區塊（Markdown）</td><td>選填</td><td>使用方法、保存方法…</td></tr>
+    </table>
+    <div class="box tip"><strong>小提醒：</strong>上傳圖片時，<strong>Cover Image</strong> 欄位會把圖片存入 <code>public/images/</code>；若要製作圖片輪播，請在「額外圖片」欄位貼上圖片網址（多張以英文逗號分隔）。詳細操作見 6.5。</div>
+
+    <h3>6.5 如何加入多張圖片與影片（輪播）</h3>
+    <p>商品詳情頁的圖片區支援<strong>多張圖片輪播</strong>與<strong>影片播放</strong>。請依以下步驟操作：</p>
+
+    <p><strong>① 加入多張圖片（輪播）</strong></p>
+    <ol>
+      <li><span class="stepnum">1</span>第一張（封面）：在 <strong>Cover Image</strong> 欄位上傳圖片，Outstatic 會自動存入 <code>public/images/</code> 並填入網址。</li>
+      <li><span class="stepnum">2</span>其餘圖片：在下方 <strong>Content 編輯器</strong>中輸入 <code>/</code> 叫出指令選單，選擇 <strong>Image</strong> → <strong>從電腦上傳</strong>（也可直接將圖片拖曳或貼上編輯器），逐張上傳。</li>
+      <li><span class="stepnum">3</span>上傳後，從後台的<strong>媒體庫（Media Library）</strong>或編輯器中複製每張圖片的網址（格式如 <code>/images/檔名.jpg</code>）。</li>
+      <li><span class="stepnum">4</span>將網址貼到「<strong>額外圖片（Images）</strong>」欄位，多張以<strong>英文逗號</strong>分隔，例如：<code>/images/1.jpg, /images/2.jpg, /images/3.jpg</code>。</li>
+      <li><span class="stepnum">5</span>點擊 <strong>Publish</strong>，詳情頁即顯示圖片輪播與縮圖導覽。</li>
+    </ol>
+
+    <p><strong>② 加入影片</strong></p>
+    <ul>
+      <li>支援兩種類型：<strong>YouTube 網址</strong>（<code>youtube.com</code> 或 <code>youtu.be</code>），或<strong>影片檔直連網址</strong>（<code>.mp4</code>、<code>.webm</code>、<code>.mov</code>、<code>.ogg</code> 結尾）。</li>
+      <li>將影片網址貼到「<strong>影片網址（Videos）</strong>」欄位，多支影片以<strong>英文逗號</strong>分隔。</li>
+      <li>影片會顯示在詳情頁輪播中（圖片之後），縮圖會加上播放圖示。</li>
+    </ul>
+    <div class="box warn"><strong>注意：</strong>「額外圖片」與「影片網址」欄位只能貼<strong>網址</strong>，無法直接在欄位內上傳檔案。所有圖片請先透過 Cover Image 或內容編輯器上傳後，再將網址複製到欄位中；影片請使用已公開的網址（例如 YouTube 連結）。</div>
+  </div>
+
+  <div class="section">
+    <h2>7. 發布流程與網站更新</h2>
+    <h3>7.1 內容發布到上線的完整流程</h3>
     <ol>
       <li><span class="stepnum">1</span>在後台新增或修改內容。</li>
       <li><span class="stepnum">2</span>點擊 <strong>Publish</strong> —— 內容會以 Markdown 檔案寫入 <code>outstatic/content/</code> 並自動 Commit 到 GitHub。</li>
@@ -350,44 +440,51 @@ OST_TOKEN_SECRET=任意32字元以上亂碼字串</code></pre>
       <li><span class="stepnum">4</span>建置完成（約 1–3 分鐘）後，網站即顯示最新內容。</li>
     </ol>
 
-    <h3>6.2 只有「已發布」的內容會顯示</h3>
-    <p>課程與工作坊頁面都只會讀取 <code>status: published</code> 的內容。草稿（draft）狀態的內容只會出現在後台，不會顯示於網站。</p>
+    <h3>7.2 只有「已發布」的內容會顯示</h3>
+    <p>課程、工作坊與商品頁面都只會讀取 <code>status: published</code> 的內容。草稿（draft）狀態的內容只會出現在後台，不會顯示於網站。</p>
 
-    <h3>6.3 排序規則</h3>
-    <p>課程與工作坊依「發布時間（publishedAt）」由新到舊排列。最新的會顯示在最上方。</p>
+    <h3>7.3 排序規則</h3>
+    <p>課程、工作坊與商品依「發布時間（publishedAt）」由新到舊排列。最新的會顯示在最上方。</p>
     <div class="box info"><strong>如何調整顯示順序？</strong><br>在後台編輯內容，修改其發布時間欄位（publishedAt），較新的時間會排在前面。此欄位若後台未直接顯示，可請開發人員協助調整，或改以編輯內容後重新發布處理。</div>
 
-    <h3>6.4 上傳圖片</h3>
+    <h3>7.4 上傳圖片</h3>
     <ul>
       <li>在編輯畫面的 <strong>Cover Image</strong> 欄位可上傳圖片，Outstatic 會將圖片存入 <code>public/images/</code>。</li>
       <li>目前課程卡片顯示的仍是佔位圖（Image 區塊），若需讓封面圖顯示於網站，需要開發人員調整頁面程式碼。</li>
+      <li>商品的封面圖與額外圖片會直接顯示於列表頁與詳情頁輪播，無需額外調整程式碼。</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>7. 備用資料（Fallback）機制說明</h2>
+    <h2>8. 備用資料（Fallback）機制說明</h2>
     <p>為避免 CMS 尚未設定或沒有內容時網站一片空白，程式內建了備用資料機制。了解它可避免誤會。</p>
 
-    <h3>7.1 課程頁（Classes）</h3>
+    <h3>8.1 課程頁（Classes）</h3>
     <ul>
       <li>當 <strong>Classes 集合中沒有任何已發布的內容</strong>時，頁面會顯示程式內建的 3 筆示範課程（Hatha Flow、Vinyasa、Yin Yoga）。</li>
       <li>只要您在後台發布 <strong>至少一筆</strong>課程，頁面就會改為顯示 CMS 中的真實內容（示範課程不再出現）。</li>
     </ul>
 
-    <h3>7.2 工作坊頁（Workshops）</h3>
+    <h3>8.2 工作坊頁（Workshops）</h3>
     <ul>
       <li>工作坊頁<strong>沒有</strong>內建的備用資料。當 Workshops 集合中沒有任何已發布的內容時，頁面會顯示「目前沒有即將舉辦的工作坊」空狀態訊息。</li>
+    </ul>
+
+    <h3>8.3 商品頁（Products）</h3>
+    <ul>
+      <li>商品列表頁（<code>/shop/energy-products</code>）<strong>沒有</strong>內建的備用資料。當 Products 集合中沒有任何已發布的內容時，頁面會顯示「找不到相關商品」空狀態訊息，屬正常現象。</li>
+      <li>商店主頁（<code>/shop</code>）的宣傳橫幅若無已發布的「商店橫幅（Shop Banners）」內容，會顯示程式內建的示範橫幅。</li>
     </ul>
     <div class="box warn"><strong>重要：</strong>若在課程頁（Classes）看到示範課程（Hatha Flow、Vinyasa、Yin Yoga），表示該集合目前沒有已發布的真實內容 —— 請在後台發布一筆真實課程，示範項目即會消失。</div>
   </div>
 
   <div class="section">
-    <h2>8. 常見問題</h2>
+    <h2>9. 常見問題</h2>
     <h3>Q1. 我發布了內容，但網站沒有更新？</h3>
     <p>請確認：① 內容狀態為「已發布（published）」；② 部署平台已成功完成建置（約需 1–3 分鐘）；③ 若部署失敗，GitHub 儲存庫或部署平台的記錄中會有錯誤訊息，可請開發人員查看。</p>
 
-    <h3>Q2. 為什麼網站顯示的課程和我後台看到的不同？</h3>
-    <p>最可能的原因：網站顯示的是「備用資料」（第 7 章）。當後台 Classes 集合沒有已發布內容時，網站會顯示內建的示範課程（Hatha Flow、Vinyasa、Yin Yoga）。請在後台發布一筆真實課程。工作坊頁則無此機制，沒有已發布內容時會顯示空狀態訊息。</p>
+    <h3>Q2. 為什麼網站顯示的內容和我後台看到的不同？</h3>
+    <p>最可能的原因：網站顯示的是「備用資料」（第 8 章）。當後台 Classes 集合沒有已發布內容時，網站會顯示內建的示範課程（Hatha Flow、Vinyasa、Yin Yoga）。請在後台發布一筆真實課程。工作坊頁與商品列表頁則無此機制，沒有已發布內容時會顯示空狀態訊息。</p>
 
     <h3>Q3. 刪除了內容，可以復原嗎？</h3>
     <p>後台刪除會直接移除 GitHub 中的檔案，無法在後台復原。但由於內容都儲存在 GitHub，開發人員可以從提交歷史（git history）找回被刪除的檔案。</p>
@@ -395,13 +492,13 @@ OST_TOKEN_SECRET=任意32字元以上亂碼字串</code></pre>
     <h3>Q4. 可以在手機上管理內容嗎？</h3>
     <p>可以。只要瀏覽器能開啟後台網址並能以 GitHub 登入，就能管理內容。建議使用電腦操作以獲得較佳體驗。</p>
 
-    <h3>Q5. 新增課程時，後台沒有「Intensity / Duration」等欄位？</h3>
-    <p>這些欄位由集合的 Schema 定義（<code>outstatic/content/classes/schema.json</code>）。若欄位未顯示，可請開發人員在 Schema 中加入，或直接編輯內容檔案的 frontmatter。</p>
+    <h3>Q5. 新增內容時，後台沒有某些欄位？</h3>
+    <p>這些欄位由集合的 Schema 定義（例如 <code>outstatic/content/products/schema.json</code>）。若欄位未顯示，可請開發人員在 Schema 中加入，或直接編輯內容檔案的 frontmatter。</p>
 
     <h3>Q6. 可以直接編輯 Markdown 檔案嗎？</h3>
-    <p>可以。所有內容都是 Markdown 檔案，位於 <code>outstatic/content/classes/</code> 與 <code>outstatic/content/workshops/</code>。直接編輯後 Commit 到 GitHub 同樣會觸發網站更新，但建議以 <strong>後台操作為主</strong>，避免格式錯誤。</p>
+    <p>可以。所有內容都是 Markdown 檔案，位於 <code>outstatic/content/classes/</code>、<code>outstatic/content/workshops/</code> 與 <code>outstatic/content/products/</code>。直接編輯後 Commit 到 GitHub 同樣會觸發網站更新，但建議以 <strong>後台操作為主</strong>，避免格式錯誤。</p>
 
-    <div class="box info"><strong>需要協助？</strong><br>若遇到後台無法登入、建置失敗或需要調整版面，請聯絡網站開發人員。內容更新（新增／修改／刪除課程與工作坊）可由您自行完成。</div>
+    <div class="box info"><strong>需要協助？</strong><br>若遇到後台無法登入、建置失敗或需要調整版面，請聯絡網站開發人員。內容更新（新增／修改／刪除課程、工作坊與商品）可由您自行完成。</div>
 
     <p class="footnote">本指南對應專案：OurFunMedia/kalki-site ・ 技術棧：Next.js 16 + Outstatic CMS 2.x<br>版權所有 © Kalki Wellness</p>
   </div>
