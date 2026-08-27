@@ -41,7 +41,27 @@ export default function Home() {
       </section>
 
       {/* Intro Section */}
-      <section className="py-32 px-6 md:px-12 bg-cream text-center">
+      <section className="pt-16 pb-32 px-6 md:px-12 bg-cream text-center">
+        {/* Gallery: 4 photos above philosophy text — 1 row on desktop, 2x2 on mobile */}
+        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-16">
+          {[
+            { src: "/images/index/index_pic01.jpg", alt: "Kalki Wellness 照片 1" },
+            { src: "/images/index/index_pic02.jpg", alt: "Kalki Wellness 照片 2" },
+            { src: "/images/index/index_pic03.jpg", alt: "Kalki Wellness 照片 3" },
+            { src: "/images/index/index_pic04.jpg", alt: "Kalki Wellness 照片 4" },
+          ].map((pic) => (
+            <div key={pic.src} className="relative aspect-square overflow-hidden">
+              <Image
+                src={pic.src}
+                alt={pic.alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 50vw, 25vw"
+              />
+            </div>
+          ))}
+        </div>
+
         <div className="max-w-3xl mx-auto space-y-8">
           <p className="text-charcoal/80 text-lg max-w-2xl mx-auto mb-16 leading-relaxed italic font-serif">
             「KALKI」源自吠陀哲學，象徵覺知的開始及更新。我們的中文名稱「求其・放心」（Kau Kei・Fong Sam）出自孟子－「尋回迷失的心」－呼喚人們重拾內心的平靜喚醒生活的智慧。我們將東方瑜伽及養生智慧，融合西方正念練習服務社區。
