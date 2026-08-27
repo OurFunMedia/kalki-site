@@ -1,6 +1,6 @@
 {
-  "commit": "55b2192a94a651db38079206d90e111e40c1fc47",
-  "generated": "2026-08-27T09:54:34.040Z",
+  "commit": "24e47cb0b783b91b7e259bf203f7a1f5f11c012a",
+  "generated": "2026-08-27T09:55:11.914Z",
   "metadata": [
     {
       "__outstatic": {
@@ -173,28 +173,6 @@
       "slug": "palo-santo-sage-spray",
       "status": "published",
       "title": "南加洲聖木鼠尾草純露噴霧"
-    },
-    {
-      "__outstatic": {
-        "commit": "ac1929a755d69c2f59b304a36b0e8b8e3d2c01a1",
-        "hash": "1169794735",
-        "path": "outstatic/content/products/spray-sage-set.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p007.jpg",
-      "description": "這套組合包含純天然無煙淨化噴霧與傳統鼠尾草。",
-      "price": "HKD$ 220",
-      "productCode": "EP-006",
-      "publishedAt": "2024-03-31T23:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "spray-sage-set",
-      "status": "published",
-      "title": "聖木鼠尾草噴霧+鼠尾草套裝"
     },
     {
       "__outstatic": {
@@ -398,6 +376,28 @@
       "slug": "shell-wood-sage-set",
       "status": "draft",
       "title": "鮑魚殼+聖木+鼠尾草 套裝"
+    },
+    {
+      "__outstatic": {
+        "commit": "24e47cb0b783b91b7e259bf203f7a1f5f11c012a",
+        "hash": "1807821815",
+        "path": "outstatic/content/products/spray-sage-set.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p007.jpg",
+      "description": "這套組合包含純天然無煙淨化噴霧與傳統鼠尾草。",
+      "price": "HKD$ 220",
+      "productCode": "EP-006",
+      "publishedAt": "2024-03-31T23:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "spray-sage-set",
+      "status": "draft",
+      "title": "聖木鼠尾草噴霧+鼠尾草套裝"
     }
   ]
 }
