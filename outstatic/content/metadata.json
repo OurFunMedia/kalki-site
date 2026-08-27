@@ -1,6 +1,6 @@
 {
-  "commit": "bc0dfbaa45629d9c26317ea6ccbfe370605495e6",
-  "generated": "2026-08-25T07:27:13.430Z",
+  "commit": "5b27873ecb51952758093631408bfe349887c76d",
+  "generated": "2026-08-27T09:53:01.267Z",
   "metadata": [
     {
       "__outstatic": {
@@ -286,28 +286,6 @@
     },
     {
       "__outstatic": {
-        "commit": "3533d47d106855c8eef1a3090391cf54610b0ed0",
-        "hash": "2627924069",
-        "path": "outstatic/content/products/abalone-shell-1.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p003.jpg",
-      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
-      "price": "HKD$ 58",
-      "productCode": "EP-001",
-      "publishedAt": "2024-01-31T16:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "abalone-shell-1",
-      "status": "published",
-      "title": "西北太平洋鮑魚殼(1個)"
-    },
-    {
-      "__outstatic": {
         "commit": "ff37992cd3553f035d45323e38b833e9b1de812e",
         "hash": "2994120284",
         "path": "outstatic/content/products/spray-wood-set.md"
@@ -398,6 +376,28 @@
       "slug": "oil",
       "status": "published",
       "title": "冥想香薰滾珠精油"
+    },
+    {
+      "__outstatic": {
+        "commit": "5b27873ecb51952758093631408bfe349887c76d",
+        "hash": "2988608449",
+        "path": "outstatic/content/products/abalone-shell-1.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p003.jpg",
+      "description": "西北太平洋的美麗鮑魚殼，可用來承托燃燒中的鼠尾草或聖木。",
+      "price": "HKD$ 58",
+      "productCode": "EP-001",
+      "publishedAt": "2024-01-31T16:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "abalone-shell-1",
+      "status": "draft",
+      "title": "西北太平洋鮑魚殼(1個)"
     }
   ]
 }

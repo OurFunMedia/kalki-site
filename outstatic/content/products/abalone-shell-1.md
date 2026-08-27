@@ -1,6 +1,6 @@
 ---
 title: "西北太平洋鮑魚殼(1個)"
-status: "published"
+status: "draft"
 author:
   name: "Kalki Admin"
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
