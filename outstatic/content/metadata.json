@@ -1,6 +1,6 @@
 {
-  "commit": "d86af929305ea77f48e117c921a165160e337523",
-  "generated": "2026-08-27T10:19:49.786Z",
+  "commit": "51f25d5d09fe45151691183fe01a5a5a0729d37c",
+  "generated": "2026-08-27T11:13:07.372Z",
   "metadata": [
     {
       "__outstatic": {
@@ -109,28 +109,6 @@
       "slug": "ce-shi-shi-fan-2",
       "status": "published",
       "title": "測試示範2"
-    },
-    {
-      "__outstatic": {
-        "commit": "5ef2cad002d4f4d802708e575df0696bb961c55f",
-        "hash": "1966429690",
-        "path": "outstatic/content/products/palo-santo-sage-spray.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/products/p006.jpg",
-      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
-      "price": "HKD$ 150",
-      "productCode": "EP-004",
-      "publishedAt": "2024-03-31T22:00:00.000Z",
-      "purchaseLink": "",
-      "slug": "palo-santo-sage-spray",
-      "status": "published",
-      "title": "南加洲聖木鼠尾草純露噴霧"
     },
     {
       "__outstatic": {
@@ -398,6 +376,28 @@
       "slug": "summer-retreat",
       "status": "draft",
       "title": "夏季身心靜修營 Summer Retreat (測試)"
+    },
+    {
+      "__outstatic": {
+        "commit": "51f25d5d09fe45151691183fe01a5a5a0729d37c",
+        "hash": "3058476866",
+        "path": "outstatic/content/products/palo-santo-sage-spray.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/pachamama-spray-------M0Nj.png",
+      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
+      "price": "HKD$ 150",
+      "productCode": "EP-004",
+      "publishedAt": "2024-03-31T22:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "palo-santo-sage-spray",
+      "status": "published",
+      "title": "南加洲聖木鼠尾草純露噴霧"
     }
   ]
 }

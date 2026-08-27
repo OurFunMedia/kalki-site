@@ -6,7 +6,7 @@ author:
   picture: "https://avatars.githubusercontent.com/u/1?v=4"
 slug: "palo-santo-sage-spray"
 description: "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。"
-coverImage: "/images/products/p006.jpg"
+coverImage: "/images/pachamama-spray-------M0Nj.png"
 price: "HKD$ 150"
 purchaseLink: ""
 productCode: "EP-004"
