@@ -52,7 +52,7 @@ export default async function NgoPage() {
                                 href="https://forms.gle/JxyCUSom7s78diJd7"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="px-8 py-3.5 bg-stone-800 text-white border border-stone-700 hover:border-stone-500 rounded-full font-medium hover:bg-stone-700 transition-colors shadow-lg hover:-translate-y-0.5 transform inline-block text-center"
+                                className="px-8 py-3.5 bg-white text-charcoal rounded-full font-medium hover:bg-stone-100 transition-colors shadow-lg hover:-translate-y-0.5 transform inline-block text-center"
                             >
                                 索取報價
                             </a>
