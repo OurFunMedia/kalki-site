@@ -1,6 +1,6 @@
 {
-  "commit": "ee727e671089f9eb41f2ba3a7b59fbd197788570",
-  "generated": "2026-08-29T07:20:43.042Z",
+  "commit": "9cf7e61d001ccaf4db122c0c79f37b23683a1702",
+  "generated": "2026-08-29T07:22:00.506Z",
   "media": [
     {
       "__outstatic": {
@@ -11,6 +11,17 @@
       "alt": "",
       "filename": "oil-M0OT.jpg",
       "publishedAt": "2026-08-25T07:26:35.066Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "9cf7e61d001ccaf4db122c0c79f37b23683a1702",
+        "hash": "3357426661",
+        "path": "public/images/pachamama-spray-m0nj-UwMz.jpg"
+      },
+      "alt": "",
+      "filename": "pachamama-spray-m0nj-UwMz.jpg",
+      "publishedAt": "2026-08-29T07:22:00.506Z",
       "type": "image"
     }
   ]
