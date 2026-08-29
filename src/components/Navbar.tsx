@@ -9,6 +9,7 @@ import { useCart } from '@/context/CartContext'
 export default function Navbar({ transparent = false }: { transparent?: boolean }) {
     const pathname = usePathname()
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [scrolled, setScrolled] = useState(false)
     const { totalItems } = useCart()
 
     // Close menu when route changes
@@ -25,7 +26,18 @@ export default function Navbar({ transparent = false }: { transparent?: boolean 
         }
     }, [isMenuOpen])
 
+    // Switch from transparent to solid background once the user scrolls past the top
+    useEffect(() => {
+        const onScroll = () => setScrolled(window.scrollY > 24)
+        onScroll()
+        window.addEventListener('scroll', onScroll, { passive: true })
+        return () => window.removeEventListener('scroll', onScroll)
+    }, [])
+
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
+
+    // Effective transparency: only when explicitly transparent, menu closed, and still at top
+    const showTransparent = transparent && !isMenuOpen && !scrolled
 
     const navLinks = [
         { href: '/ngo', label: '外展/到校' },
@@ -39,7 +51,7 @@ export default function Navbar({ transparent = false }: { transparent?: boolean 
 
     return (
         <>
-            <nav className={`fixed w-full z-50 top-0 left-0 p-6 flex justify-between items-center transition-all duration-300 ${transparent && !isMenuOpen
+            <nav className={`fixed w-full z-50 top-0 left-0 p-6 flex justify-between items-center transition-all duration-300 ${showTransparent
                 ? 'text-white bg-gradient-to-b from-black/50 to-transparent'
                 : 'bg-cream/80 backdrop-blur-md border-b border-stone-100/50 text-charcoal'
                 }`}>
@@ -57,7 +69,7 @@ export default function Navbar({ transparent = false }: { transparent?: boolean 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex space-x-6 text-sm font-medium tracking-wide items-center">
                     {navLinks.map((link) => (
-                        <NavLink key={link.href} href={link.href} current={pathname} transparent={transparent}>
+                        <NavLink key={link.href} href={link.href} current={pathname} transparent={showTransparent}>
                             {link.label}
                         </NavLink>
                     ))}
@@ -77,9 +89,9 @@ export default function Navbar({ transparent = false }: { transparent?: boolean 
                     className="md:hidden z-50 p-2 focus:outline-none"
                     aria-label="Toggle menu"
                 >
-                    <div className={`w-6 h-0.5 mb-1.5 transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2 bg-charcoal' : (transparent ? 'bg-white' : 'bg-charcoal')}`}></div>
-                    <div className={`w-6 h-0.5 mb-1.5 transition-all duration-300 ${isMenuOpen ? 'opacity-0' : (transparent ? 'bg-white' : 'bg-charcoal')}`}></div>
-                    <div className={`w-6 h-0.5 transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2 bg-charcoal' : (transparent ? 'bg-white' : 'bg-charcoal')}`}></div>
+                    <div className={`w-6 h-0.5 mb-1.5 transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2 bg-charcoal' : (showTransparent ? 'bg-white' : 'bg-charcoal')}`}></div>
+                    <div className={`w-6 h-0.5 mb-1.5 transition-all duration-300 ${isMenuOpen ? 'opacity-0' : (showTransparent ? 'bg-white' : 'bg-charcoal')}`}></div>
+                    <div className={`w-6 h-0.5 transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2 bg-charcoal' : (showTransparent ? 'bg-white' : 'bg-charcoal')}`}></div>
                 </button>
             </nav>
 
