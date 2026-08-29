@@ -24,10 +24,10 @@ export default function Home() {
 
         <div className="relative z-10 text-center text-white space-y-8 px-4">
           <h2 className="text-5xl md:text-7xl font-light tracking-wide drop-shadow-lg">
-            Find Your <span className="font-serif italic">Balance</span>
+            KALKI
           </h2>
           <p className="text-lg md:text-xl font-light max-w-lg mx-auto opacity-95 drop-shadow-md">
-            在城市的喧囂中，尋找一片寧靜。<br />回歸身心的平衡與和諧。
+            瑜伽 - 是覺知的生活 也是身心靈的平衡
           </p>
           <div className="pt-8">
             <Link
@@ -64,16 +64,26 @@ export default function Home() {
 
         <div className="max-w-3xl mx-auto space-y-8">
           <p className="text-charcoal/80 text-lg max-w-2xl mx-auto mb-16 leading-relaxed italic font-serif">
-            「KALKI」源自吠陀哲學，象徵覺知的開始及更新。我們的中文名稱「求其・放心」（Kau Kei・Fong Sam）出自孟子－「尋回迷失的心」－呼喚人們重拾內心的平靜喚醒生活的智慧。我們將東方瑜伽及養生智慧，融合西方正念練習服務社區。
+            KALKI WELLNESS PROJECT - 求其.放心<br></br>KALKI - 源自於吠陀節學，象徵覺知的開始<br></br>「求其。放心」出自孟子，解作尋回迷身的心<br></br>            我們透過活動與社區同行，喚醒內在的平靜，重拾生活的智慧
           </p>
-          <span className="text-primary tracking-[0.2em] text-xs font-bold uppercase">Philosophy</span>
-          <h3 className="text-3xl md:text-5xl font-serif text-charcoal font-light leading-tight">
-            瑜伽不只是體式，<br />而是一種<span className="italic text-primary">生活方式</span>。
-          </h3>
-          <p className="text-charcoal/70 leading-relaxed text-lg pt-4">
-            Kalki Mindfulness & Yoga 致力於提供一個安全、包容的環境，讓每個人都能依照自己的節奏練習。
-            無論你是初學者還是資深練習者，我們都有適合你的課程。
-          </p>
+          <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center mt-4">
+            <a
+              href="https://forms.gle/qTmiN1kZ2cCuycyX8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3.5 bg-primary text-white rounded-full font-medium hover:bg-secondary transition-colors shadow-lg hover:-translate-y-0.5 transform inline-block text-center"
+            >
+              服務內容
+            </a>
+            <a
+              href="https://forms.gle/JxyCUSom7s78diJd7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3.5 bg-primary text-white rounded-full font-medium hover:bg-secondary transition-colors shadow-lg hover:-translate-y-0.5 transform inline-block text-center"
+            >
+              索取報價
+            </a>
+          </div>
         </div>
       </section>
       {/* Footer Section */}
