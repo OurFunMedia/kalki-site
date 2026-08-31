@@ -1,6 +1,6 @@
 {
-  "commit": "d4a63454b93f0c3910a9bef434590e4f7764655e",
-  "generated": "2026-08-31T08:47:04.144Z",
+  "commit": "d6394288d5e9c6d9ce62fa0e6da321bdf1946ea0",
+  "generated": "2026-08-31T08:49:51.959Z",
   "metadata": [
     {
       "__outstatic": {
@@ -384,8 +384,8 @@
     },
     {
       "__outstatic": {
-        "commit": "d4a63454b93f0c3910a9bef434590e4f7764655e",
-        "hash": "1756935869",
+        "commit": "d6394288d5e9c6d9ce62fa0e6da321bdf1946ea0",
+        "hash": "513110301",
         "path": "outstatic/content/products/palo-santo-10.md"
       },
       "author": {
@@ -394,7 +394,7 @@
       },
       "category": "空間及個人能量用品",
       "collection": "products",
-      "coverImage": "",
+      "coverImage": "/images/products/p002.jpg",
       "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
       "ingredients": "由於是全天然原木砍伐，每支聖木的形狀、顏色、重量及油脂分佈皆有不同，此屬正常現象。\n\n10支約55克\n\n產地\n南美洲厄瓜多",
       "price": "HKD$ 79",
