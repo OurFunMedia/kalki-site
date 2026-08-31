@@ -1,6 +1,6 @@
 {
-  "commit": "5bb2a49d06e3ee9b03ccf528966600378c3fb323",
-  "generated": "2026-08-31T08:39:28.484Z",
+  "commit": "dfe04869d6f7da83638a46f0b4fcce3e673877b5",
+  "generated": "2026-08-31T08:42:17.859Z",
   "metadata": [
     {
       "__outstatic": {
@@ -381,8 +381,8 @@
     },
     {
       "__outstatic": {
-        "commit": "5bb2a49d06e3ee9b03ccf528966600378c3fb323",
-        "hash": "430457008",
+        "commit": "dfe04869d6f7da83638a46f0b4fcce3e673877b5",
+        "hash": "1698382230",
         "path": "outstatic/content/products/palo-santo-sage-spray.md"
       },
       "author": {
@@ -392,7 +392,7 @@
       "category": "空間及個人能量用品",
       "collection": "products",
       "coverImage": "/images/products/pachamama-IwNT.jpg",
-      "description": "這款天然純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。非常適合對煙霧敏感，或不方便點火的人士，如辦公室、車廂內等環境，輕輕一噴即刻帶來清新安定的能量。我們還添加了少量膠體銀，以起到防腐和消毒的作用。\n\n容量\n\n30mL\n\n產地\n\n美國",
+      "description": "",
       "ingredients": "聖木純露、白鼠尾草精油、膠體銀。",
       "price": "HKD$ 150",
       "productCode": "EP-004",
