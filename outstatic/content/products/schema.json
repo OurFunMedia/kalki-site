@@ -19,6 +19,10 @@
       "title": "Description",
       "fieldType": "Text"
     },
+    "shortDescription": {
+      "title": "商品簡介 (顯示於產品描述上方)",
+      "fieldType": "Text"
+    },
     "category": {
       "title": "Category",
       "fieldType": "String"

@@ -17,6 +17,7 @@ type OutstaticProduct = {
     purchaseLink?: string
     description?: string
     content?: string
+    shortDescription?: string
     slug: string
     coverImage?: string
     category?: string
@@ -41,7 +42,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         const db = await load()
         product = await db
             .find({ collection: 'products', slug: resolvedParams.slug })
-            .project(['title', 'price', 'purchaseLink', 'description', 'content', 'slug', 'coverImage', 'category', 'images', 'videos', 'productCode'])
+            .project(['title', 'price', 'purchaseLink', 'description', 'content', 'shortDescription', 'slug', 'coverImage', 'category', 'images', 'videos', 'productCode'])
             .first() as unknown as OutstaticProduct;
     } catch (error) {
         console.error('Error loading product details:', error);
@@ -139,6 +140,17 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                                 coverImage={product.coverImage}
                             />
                         </div>
+
+                        {/* 商品簡介（後台可編輯） */}
+                        {product.shortDescription && (
+                            <div className="mb-8">
+                                <div className="border-l-2 border-primary/40 pl-4 text-[#5c4a3a] leading-relaxed text-[15px]">
+                                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                        {product.shortDescription}
+                                    </ReactMarkdown>
+                                </div>
+                            </div>
+                        )}
 
                         <div className="mb-10">
                             <CollapsibleSection title="產品描述" defaultOpen={false}>
