@@ -1,4 +1,4 @@
 {
-  "publicMediaPath": "images/products/",
-  "repoMediaPath": "public/images/"
+  "publicMediaPath": "images/",
+  "repoMediaPath": "public/images/products/"
 }
