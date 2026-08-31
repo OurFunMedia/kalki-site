@@ -1,6 +1,6 @@
 {
-  "commit": "ad581abe877f5d4ddb75a756245cd740566cc5b2",
-  "generated": "2026-08-31T07:14:27.822Z",
+  "commit": "7ae411531957824653b63c66e82c7782af54f8ed",
+  "generated": "2026-08-31T07:22:12.218Z",
   "metadata": [
     {
       "__outstatic": {
@@ -380,8 +380,8 @@
     },
     {
       "__outstatic": {
-        "commit": "ad581abe877f5d4ddb75a756245cd740566cc5b2",
-        "hash": "396268909",
+        "commit": "7ae411531957824653b63c66e82c7782af54f8ed",
+        "hash": "2980083080",
         "path": "outstatic/content/products/palo-santo-sage-spray.md"
       },
       "author": {
@@ -390,7 +390,7 @@
       },
       "category": "空間及個人能量用品",
       "collection": "products",
-      "coverImage": "/images/pachamama-IwNT.jpg",
+      "coverImage": "/images/products/pachamama-IwNT.jpg",
       "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
       "price": "HKD$ 150",
       "productCode": "EP-004",
