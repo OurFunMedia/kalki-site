@@ -1,6 +1,6 @@
 {
-  "commit": "400ed5b795ece097b1e1496b56e36014f2b8ab2e",
-  "generated": "2026-08-31T06:39:47.503Z",
+  "commit": "a465dbe6d5fa5810db79b33abfa9900948afae34",
+  "generated": "2026-08-31T07:04:42.978Z",
   "metadata": [
     {
       "__outstatic": {
@@ -382,8 +382,8 @@
     },
     {
       "__outstatic": {
-        "commit": "400ed5b795ece097b1e1496b56e36014f2b8ab2e",
-        "hash": "1171480506",
+        "commit": "a465dbe6d5fa5810db79b33abfa9900948afae34",
+        "hash": "3775165168",
         "path": "outstatic/content/products/oil.mdx"
       },
       "author": {
@@ -396,7 +396,7 @@
       "price": "HKD$ 150",
       "productCode": "EP-002",
       "publishedAt": "2026-05-30T10:26:20.220Z",
-      "shortDescription": "精油滾珠筆，含有鼠尾草、乳香、黑胡椒、尤加利、香桃木等成份。能幫你平靜心神，放鬆隨時隨地都能享受療癒香氣，超適合冥想或放鬆時用。精油已用天然基底油稀釋，可直接塗用",
+      "shortDescription": "南加洲聖木鼠尾草純露噴霧 —— 無煙淨化新選擇，融合聖木沉穩與鼠尾草清澈能量，隨時一噴、即時淨化。",
       "slug": "oil",
       "status": "draft",
       "title": "冥想香薰滾珠精油"
