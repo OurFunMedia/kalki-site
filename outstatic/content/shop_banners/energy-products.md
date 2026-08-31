@@ -10,7 +10,7 @@ description: "來自各地聖木，鼠尾草，天然香薰，水晶"
 note: "所有產品以生態倫理方式獲得"
 buttonText: "購買"
 buttonLink: "/shop/energy-products"
-coverImage: ""
+coverImage: "/images/pachamama-spray-m0nj-UwMz.jpg"
 publishedAt: "2024-01-01T00:00:00.000Z"
 ---
 
