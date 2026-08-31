@@ -1,49 +1,115 @@
 {
-  "commit": "14e396bda2a6a1c7900ed9a42d5db94d05a45bf9",
-  "generated": "2026-08-31T07:17:27.359Z",
+  "commit": "",
+  "generated": "Mon, 31 Aug 2026 07:20:12 GMT",
   "media": [
     {
       "__outstatic": {
         "commit": "",
         "hash": "0",
-        "path": "public/images/oil-M0OT.jpg"
-      },
-      "alt": "",
-      "filename": "oil-M0OT.jpg",
-      "publishedAt": "2026-08-31T07:07:13.320Z",
-      "type": "image"
-    },
-    {
-      "__outstatic": {
-        "commit": "14e396bda2a6a1c7900ed9a42d5db94d05a45bf9",
-        "hash": "4175490709",
         "path": "public/images/products/oil-m0ot-I4MT.jpg"
       },
       "alt": "",
       "filename": "oil-m0ot-I4MT.jpg",
-      "publishedAt": "2026-08-31T07:17:27.359Z",
-      "type": "image"
-    },
-    {
-      "__outstatic": {
-        "commit": "faa6c959b649f0a29047415c0de36944d782feb2",
-        "hash": "3357426661",
-        "path": "public/images/products/pachamama-IwNT.jpg"
-      },
-      "alt": "",
-      "filename": "pachamama-IwNT.jpg",
-      "publishedAt": "2026-08-31T07:14:09.929Z",
+      "publishedAt": "2026-08-31T07:20:12.367Z",
       "type": "image"
     },
     {
       "__outstatic": {
         "commit": "",
         "hash": "0",
-        "path": "public/images/pachamama-spray-m0nj-UwMz.jpg"
+        "path": "public/images/products/p001.jpg"
       },
       "alt": "",
-      "filename": "pachamama-spray-m0nj-UwMz.jpg",
-      "publishedAt": "2026-08-31T07:07:13.320Z",
+      "filename": "p001.jpg",
+      "publishedAt": "2026-08-31T07:20:12.367Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "public/images/products/p002.jpg"
+      },
+      "alt": "",
+      "filename": "p002.jpg",
+      "publishedAt": "2026-08-31T07:20:12.367Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "public/images/products/p003.jpg"
+      },
+      "alt": "",
+      "filename": "p003.jpg",
+      "publishedAt": "2026-08-31T07:20:12.367Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "public/images/products/p004.jpg"
+      },
+      "alt": "",
+      "filename": "p004.jpg",
+      "publishedAt": "2026-08-31T07:20:12.367Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "public/images/products/p005.jpg"
+      },
+      "alt": "",
+      "filename": "p005.jpg",
+      "publishedAt": "2026-08-31T07:20:12.367Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "public/images/products/p006.jpg"
+      },
+      "alt": "",
+      "filename": "p006.jpg",
+      "publishedAt": "2026-08-31T07:20:12.367Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "public/images/products/p007.jpg"
+      },
+      "alt": "",
+      "filename": "p007.jpg",
+      "publishedAt": "2026-08-31T07:20:12.367Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "public/images/products/p008.jpg"
+      },
+      "alt": "",
+      "filename": "p008.jpg",
+      "publishedAt": "2026-08-31T07:20:12.367Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "public/images/products/pachamama-IwNT.jpg"
+      },
+      "alt": "",
+      "filename": "pachamama-IwNT.jpg",
+      "publishedAt": "2026-08-31T07:20:12.367Z",
       "type": "image"
     }
   ]
