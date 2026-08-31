@@ -1,6 +1,6 @@
 {
-  "commit": "2956d2b9086cceaed91b7f0f40fd466d1e82878a",
-  "generated": "2026-08-31T07:23:12.767Z",
+  "commit": "400ed5b795ece097b1e1496b56e36014f2b8ab2e",
+  "generated": "2026-08-31T06:39:47.503Z",
   "metadata": [
     {
       "__outstatic": {
@@ -73,6 +73,29 @@
       "slug": "enterprise",
       "status": "published",
       "title": "企業及團體"
+    },
+    {
+      "__outstatic": {
+        "commit": "28e0c1fe3d565fe701da709d93a9958f13ce174a",
+        "hash": "1524707573",
+        "path": "outstatic/content/products/palo-santo-10.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/products/p002.jpg",
+      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
+      "price": "HKD$ 79",
+      "productCode": "EP-003",
+      "publishedAt": "2024-03-31T18:00:00.000Z",
+      "purchaseLink": "",
+      "slug": "palo-santo-10",
+      "status": "published",
+      "title": "南美洲聖木(10支)",
+      "shortDescription": "神聖之木，產自南美洲。木質香氣帶有獨特的甘甜與松香，不僅能驅除負面能量，更有助於吸引正能量與創造力。"
     },
     {
       "__outstatic": {
@@ -337,29 +360,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a465dbe6d5fa5810db79b33abfa9900948afae34",
-        "hash": "3775165168",
-        "path": "outstatic/content/products/oil.mdx"
-      },
-      "author": {
-        "name": "Toby Yip",
-        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
-      },
-      "collection": "products",
-      "coverImage": "/images/oil-M0OT.jpg",
-      "description": "這款精油滾珠筆，含有鼠尾草、乳香、黑胡椒、尤加利、桃金娘含等成份，能幫你平靜心神、放鬆隨時隨地都能享受療癒香氣，超適合冥想或放鬆時用。\n精油已用天然基底油稀釋，可直接塗用\n\n溫馨提示\n因為已經用基底油稀釋過，正常皮膚直接用沒問題；如果皮膚特別敏感，建議先塗一點在耳後測試一下\n\n使用方法\n這支精油採用滾珠設計，一般可以塗在手腕、耳後、頸後，或者胸口位置，讓你隨時聞到香氣，放鬆心情\n\n保存方法\n請存放於陰涼地方，避免陽光直接照射\n建議半年至一年內使用完\n\n容量\n9ML",
-      "price": "HKD$ 150",
-      "productCode": "EP-002",
-      "publishedAt": "2026-05-30T10:26:20.220Z",
-      "shortDescription": "南加洲聖木鼠尾草純露噴霧 —— 無煙淨化新選擇，融合聖木沉穩與鼠尾草清澈能量，隨時一噴、即時淨化。",
-      "slug": "oil",
-      "status": "draft",
-      "title": "冥想香薰滾珠精油"
-    },
-    {
-      "__outstatic": {
-        "commit": "7ae411531957824653b63c66e82c7782af54f8ed",
-        "hash": "2980083080",
+        "commit": "798e8c1b6ef9b9dc588db9a83fe5d7b8b879d14e",
+        "hash": "4051782711",
         "path": "outstatic/content/products/palo-santo-sage-spray.md"
       },
       "author": {
@@ -377,30 +379,31 @@
       "shortDescription": "南加洲聖木鼠尾草純露噴霧 — 無煙淨化新選擇，融合聖木沉穩與鼠尾草清澈能量，隨時一噴、即時淨化。",
       "slug": "palo-santo-sage-spray",
       "status": "published",
-      "title": "南加洲聖木鼠尾草純露噴霧"
+      "title": "南加洲聖木鼠尾草純露噴霧",
+      "usage": "鼠尾草聖木噴霧｜什麼時候最適合使用？\n\n當你需要空間淨化、情緒轉化或能量重整時，隨手一噴，讓大自然的療癒香氣為你重新設定當下的氣場。以下是完美的日常使用時機：\n\n**1. 空間與能量淨化**\n\n- 新環境啟動：入住酒店、搬進新家、或租借新的工作室時，清除前人殘留的磁場。\n- 拜訪特定場所後：剛從醫院、喪禮、人多嘈雜或磁場較混亂的地方回家後，幫自己洗滌氣場。\n- 定期居家大掃除：除了物理上的清潔，也為生活空間進行一次深層的能量「斷捨離」。\n\n**2. 日常工作與情緒轉換**\n\n- 工作卡關、缺乏靈感時：腦袋混沌時噴灑於頭頂上方，鼠尾草的清澈與聖木的沉穩能助你集中精神，突破瓶頸。\n- 壓力爆表、情緒起伏時：面對焦慮、憤怒或低潮，藉由香氣深呼吸，快速平復緊繃的神經。\n- 開會前後的能量重整：面對難纏的客戶或結束高壓會議後，送走負能量，迎來新的好運氣。\n\n**3. 身心靈療癒與睡眠**\n\n- 冥想、瑜伽前：噴灑於四周，有助於快速靜心，建立一個神聖且安全的練習結界。\n- 睡前放鬆：睡前在臥室或枕頭上方輕噴，安撫大腦，幫助緊繃的身心進入深度睡眠。\n\n不方便點燃煙燻線香的辦公室、宿舍，或家中有寵物/嬰兒不宜多煙的環境，這支噴霧就是你最完美的隨身純淨選擇。\n\n**使用方法**\n\n使用時請搖勻，維持約 45 度角，在頭頂上方或身體外圍（距離皮膚約 15-20 cm）的空間噴灑 2-3 下，讓霧氣自然落下籠罩全身，或直接噴灑於空間、織物上。\n",
+      "ingredients": "聖木純露、白鼠尾草精油、膠體銀。",
+      "storage": "**注意事項**\n\n- 本產品設計為空間與氣場淨化使用，請避免直接大量噴灑於面部及敏感肌膚。\n- 如不慎接觸眼睛，請立即用大量清水沖洗。\n- 皮膚敏感者，建議先在空氣中試噴，確認對氣味和霧氣無過敏反應再繼續使用。\n- 孕婦不適合使用\n\n**保存方法**\n\n請存放於陰涼地方，避免陽光直接照射。未開封 24 個月，開封後建議12個月內使用完。\n"
     },
     {
       "__outstatic": {
-        "commit": "2956d2b9086cceaed91b7f0f40fd466d1e82878a",
-        "hash": "1848514591",
-        "path": "outstatic/content/products/palo-santo-10.md"
+        "commit": "400ed5b795ece097b1e1496b56e36014f2b8ab2e",
+        "hash": "1171480506",
+        "path": "outstatic/content/products/oil.mdx"
       },
       "author": {
-        "name": "Kalki Admin",
-        "picture": "https://avatars.githubusercontent.com/u/1?v=4"
+        "name": "Toby Yip",
+        "picture": "https://avatars.githubusercontent.com/u/63656845?v=4"
       },
-      "category": "空間及個人能量用品",
       "collection": "products",
-      "coverImage": "/images/products/p002.jpg",
-      "description": "Palo Santo 神聖之木，木質香氣帶有獨特的甘甜與松香。",
-      "price": "HKD$ 79",
-      "productCode": "EP-003",
-      "publishedAt": "2024-03-31T18:00:00.000Z",
-      "purchaseLink": "",
-      "shortDescription": "神聖之木，產自南美洲。木質香氣帶有獨特的甘甜與松香，不僅能驅除負面能量，更有助於吸引正能量與創造力。",
-      "slug": "palo-santo-10",
-      "status": "published",
-      "title": "南美洲聖木(10支)"
+      "coverImage": "/images/oil-M0OT.jpg",
+      "description": "這款精油滾珠筆，含有鼠尾草、乳香、黑胡椒、尤加利、桃金娘含等成份，能幫你平靜心神、放鬆隨時隨地都能享受療癒香氣，超適合冥想或放鬆時用。\n精油已用天然基底油稀釋，可直接塗用\n\n溫馨提示\n因為已經用基底油稀釋過，正常皮膚直接用沒問題；如果皮膚特別敏感，建議先塗一點在耳後測試一下\n\n使用方法\n這支精油採用滾珠設計，一般可以塗在手腕、耳後、頸後，或者胸口位置，讓你隨時聞到香氣，放鬆心情\n\n保存方法\n請存放於陰涼地方，避免陽光直接照射\n建議半年至一年內使用完\n\n容量\n9ML",
+      "price": "HKD$ 150",
+      "productCode": "EP-002",
+      "publishedAt": "2026-05-30T10:26:20.220Z",
+      "shortDescription": "南加洲聖木鼠尾草純露噴霧 —— 無煙淨化新選擇，融合聖木沉穩與鼠尾草清澈能量，隨時一噴、即時淨化。",
+      "slug": "oil",
+      "status": "draft",
+      "title": "冥想香薰滾珠精油"
     }
   ]
 }

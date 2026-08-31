@@ -23,6 +23,18 @@
       "title": "商品簡介 (顯示於產品描述上方)",
       "fieldType": "Text"
     },
+    "usage": {
+      "title": "使用方法",
+      "fieldType": "Text"
+    },
+    "ingredients": {
+      "title": "成份",
+      "fieldType": "Text"
+    },
+    "storage": {
+      "title": "保存須知",
+      "fieldType": "Text"
+    },
     "category": {
       "title": "Category",
       "fieldType": "String"

@@ -18,6 +18,9 @@ type OutstaticProduct = {
     description?: string
     content?: string
     shortDescription?: string
+    usage?: string
+    ingredients?: string
+    storage?: string
     slug: string
     coverImage?: string
     category?: string
@@ -42,7 +45,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         const db = await load()
         product = await db
             .find({ collection: 'products', slug: resolvedParams.slug })
-            .project(['title', 'price', 'purchaseLink', 'description', 'content', 'shortDescription', 'slug', 'coverImage', 'category', 'images', 'videos', 'productCode'])
+            .project(['title', 'price', 'purchaseLink', 'description', 'content', 'shortDescription', 'usage', 'ingredients', 'storage', 'slug', 'coverImage', 'category', 'images', 'videos', 'productCode'])
             .first() as unknown as OutstaticProduct;
     } catch (error) {
         console.error('Error loading product details:', error);
@@ -153,6 +156,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                         )}
 
                         <div className="mb-10">
+                            {/* 產品描述（後台 content / description 欄位） */}
                             <CollapsibleSection title="產品描述" defaultOpen={false}>
                                 {product.content || product.description ? (
                                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
@@ -162,6 +166,30 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                                     <p>（產品描述準備中）</p>
                                 )}
                             </CollapsibleSection>
+                            {/* 使用方法（後台 usage 欄位） */}
+                            {product.usage && (
+                                <CollapsibleSection title="使用方法" defaultOpen={false}>
+                                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                        {product.usage}
+                                    </ReactMarkdown>
+                                </CollapsibleSection>
+                            )}
+                            {/* 成份（後台 ingredients 欄位） */}
+                            {product.ingredients && (
+                                <CollapsibleSection title="成份" defaultOpen={false}>
+                                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                        {product.ingredients}
+                                    </ReactMarkdown>
+                                </CollapsibleSection>
+                            )}
+                            {/* 保存須知（後台 storage 欄位） */}
+                            {product.storage && (
+                                <CollapsibleSection title="保存須知" defaultOpen={false}>
+                                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                        {product.storage}
+                                    </ReactMarkdown>
+                                </CollapsibleSection>
+                            )}
                             <CollapsibleSection title="送貨及須知" defaultOpen={false}>
                                 <ReactMarkdown remarkPlugins={[remarkGfm]}>
                                     {shippingContent}
