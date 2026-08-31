@@ -1,5 +1,5 @@
 ---
-title: "Pachamama Mist "
+title: "PACHAMAMA MIST "
 status: "published"
 author:
   name: "Kalki Admin"
