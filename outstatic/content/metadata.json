@@ -1,6 +1,6 @@
 {
-  "commit": "f821dabb18084c36383b07e1c106fe752af70b99",
-  "generated": "2026-08-31T10:22:41.783Z",
+  "commit": "b21d7b7bbe65cb4085955749c22d5bd12ba2ef63",
+  "generated": "2026-08-31T10:23:01.955Z",
   "metadata": [
     {
       "__outstatic": {
@@ -384,7 +384,7 @@
     },
     {
       "__outstatic": {
-        "commit": "f821dabb18084c36383b07e1c106fe752af70b99",
+        "commit": "b21d7b7bbe65cb4085955749c22d5bd12ba2ef63",
         "hash": "2656915883",
         "path": "outstatic/content/products/palo-santo-sage-spray.md"
       },
