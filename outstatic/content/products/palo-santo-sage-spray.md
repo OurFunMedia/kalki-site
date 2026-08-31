@@ -7,7 +7,7 @@ author:
 slug: "palo-santo-sage-spray"
 description: ""
 coverImage: "/images/products/pachamama-IwNT.jpg"
-price: "HKD$ 180"
+price: "HKD$ 180 會員$150 "
 purchaseLink: ""
 productCode: "EP-004"
 category: "空間及個人能量用品"
