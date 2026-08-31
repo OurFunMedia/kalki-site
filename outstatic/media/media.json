@@ -1,6 +1,6 @@
 {
-  "commit": "a48aa48080757fc1c4208a5efecae891d9e0d362",
-  "generated": "2026-08-31T07:09:32.130Z",
+  "commit": "faa6c959b649f0a29047415c0de36944d782feb2",
+  "generated": "2026-08-31T07:14:09.929Z",
   "media": [
     {
       "__outstatic": {
@@ -11,6 +11,17 @@
       "alt": "",
       "filename": "oil-M0OT.jpg",
       "publishedAt": "2026-08-31T07:07:13.320Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "faa6c959b649f0a29047415c0de36944d782feb2",
+        "hash": "3357426661",
+        "path": "public/images/products/pachamama-IwNT.jpg"
+      },
+      "alt": "",
+      "filename": "pachamama-IwNT.jpg",
+      "publishedAt": "2026-08-31T07:14:09.929Z",
       "type": "image"
     },
     {
