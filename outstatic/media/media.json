@@ -1,6 +1,6 @@
 {
-  "commit": "faa6c959b649f0a29047415c0de36944d782feb2",
-  "generated": "2026-08-31T07:14:09.929Z",
+  "commit": "63dc14cce533dd45d02af9a65a9fa734b4372c5e",
+  "generated": "2026-08-31T07:17:03.000Z",
   "media": [
     {
       "__outstatic": {
@@ -33,17 +33,6 @@
       "alt": "",
       "filename": "pachamama-spray-m0nj-UwMz.jpg",
       "publishedAt": "2026-08-31T07:07:13.320Z",
-      "type": "image"
-    },
-    {
-      "__outstatic": {
-        "commit": "a48aa48080757fc1c4208a5efecae891d9e0d362",
-        "hash": "514913392",
-        "path": "public/images/products/test-M3Nj.jpg"
-      },
-      "alt": "",
-      "filename": "test-M3Nj.jpg",
-      "publishedAt": "2026-08-31T07:09:32.130Z",
       "type": "image"
     }
   ]
