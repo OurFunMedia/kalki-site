@@ -1,6 +1,6 @@
 {
-  "commit": "a465dbe6d5fa5810db79b33abfa9900948afae34",
-  "generated": "2026-08-31T07:04:42.978Z",
+  "commit": "9d6e8b90a279c6da26d8d58c514b71a17ef82db9",
+  "generated": "2026-08-31T07:11:00.433Z",
   "metadata": [
     {
       "__outstatic": {
@@ -359,29 +359,6 @@
     },
     {
       "__outstatic": {
-        "commit": "798e8c1b6ef9b9dc588db9a83fe5d7b8b879d14e",
-        "hash": "4051782711",
-        "path": "outstatic/content/products/palo-santo-sage-spray.md"
-      },
-      "author": {
-        "name": "Kalki Admin",
-        "picture": ""
-      },
-      "category": "空間及個人能量用品",
-      "collection": "products",
-      "coverImage": "/images/pachamama-spray-m0nj-UwMz.jpg",
-      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
-      "price": "HKD$ 150",
-      "productCode": "EP-004",
-      "publishedAt": "2024-03-31T22:00:00.000Z",
-      "purchaseLink": "",
-      "shortDescription": "南加洲聖木鼠尾草純露噴霧 —— 無煙淨化新選擇，融合聖木沉穩與鼠尾草清澈能量，隨時一噴、即時淨化。",
-      "slug": "palo-santo-sage-spray",
-      "status": "published",
-      "title": "南加洲聖木鼠尾草純露噴霧"
-    },
-    {
-      "__outstatic": {
         "commit": "a465dbe6d5fa5810db79b33abfa9900948afae34",
         "hash": "3775165168",
         "path": "outstatic/content/products/oil.mdx"
@@ -400,6 +377,29 @@
       "slug": "oil",
       "status": "draft",
       "title": "冥想香薰滾珠精油"
+    },
+    {
+      "__outstatic": {
+        "commit": "9d6e8b90a279c6da26d8d58c514b71a17ef82db9",
+        "hash": "2138951510",
+        "path": "outstatic/content/products/palo-santo-sage-spray.md"
+      },
+      "author": {
+        "name": "Kalki Admin",
+        "picture": ""
+      },
+      "category": "空間及個人能量用品",
+      "collection": "products",
+      "coverImage": "/images/pachamama-spray-m0nj-UwMz.jpg",
+      "description": "純露噴霧結合了聖木與鼠尾草的精華，提供一種迅速且無煙的淨化方式。",
+      "price": "HKD$ 150",
+      "productCode": "EP-004",
+      "publishedAt": "2024-03-31T22:00:00.000Z",
+      "purchaseLink": "",
+      "shortDescription": "南加洲聖木鼠尾草純露噴霧 — 無煙淨化新選擇，融合聖木沉穩與鼠尾草清澈能量，隨時一噴、即時淨化。",
+      "slug": "palo-santo-sage-spray",
+      "status": "published",
+      "title": "南加洲聖木鼠尾草純露噴霧"
     }
   ]
 }

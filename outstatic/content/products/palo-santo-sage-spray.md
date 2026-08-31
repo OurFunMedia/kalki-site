@@ -11,7 +11,7 @@ price: "HKD$ 150"
 purchaseLink: ""
 productCode: "EP-004"
 category: "空間及個人能量用品"
-shortDescription: "南加洲聖木鼠尾草純露噴霧 —— 無煙淨化新選擇，融合聖木沉穩與鼠尾草清澈能量，隨時一噴、即時淨化。"
+shortDescription: "南加洲聖木鼠尾草純露噴霧 — 無煙淨化新選擇，融合聖木沉穩與鼠尾草清澈能量，隨時一噴、即時淨化。"
 publishedAt: "2024-03-31T22:00:00.000Z"
 ---
 
