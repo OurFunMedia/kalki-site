@@ -1,6 +1,6 @@
 {
-  "commit": "63dc14cce533dd45d02af9a65a9fa734b4372c5e",
-  "generated": "2026-08-31T07:17:03.000Z",
+  "commit": "14e396bda2a6a1c7900ed9a42d5db94d05a45bf9",
+  "generated": "2026-08-31T07:17:27.359Z",
   "media": [
     {
       "__outstatic": {
@@ -11,6 +11,17 @@
       "alt": "",
       "filename": "oil-M0OT.jpg",
       "publishedAt": "2026-08-31T07:07:13.320Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "14e396bda2a6a1c7900ed9a42d5db94d05a45bf9",
+        "hash": "4175490709",
+        "path": "public/images/products/oil-m0ot-I4MT.jpg"
+      },
+      "alt": "",
+      "filename": "oil-m0ot-I4MT.jpg",
+      "publishedAt": "2026-08-31T07:17:27.359Z",
       "type": "image"
     },
     {
