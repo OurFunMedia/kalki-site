@@ -1,6 +1,6 @@
 {
-  "commit": "d88e5c7872f58d6c04be48f51c4358394cf98412",
-  "generated": "2026-08-31T10:24:13.229Z",
+  "commit": "9e0085f347d158bb2ce2059d0384fa71a06b7514",
+  "generated": "2026-09-01T01:14:20.298Z",
   "metadata": [
     {
       "__outstatic": {
@@ -384,8 +384,8 @@
     },
     {
       "__outstatic": {
-        "commit": "d88e5c7872f58d6c04be48f51c4358394cf98412",
-        "hash": "1125646376",
+        "commit": "9e0085f347d158bb2ce2059d0384fa71a06b7514",
+        "hash": "3318291678",
         "path": "outstatic/content/products/palo-santo-sage-spray.md"
       },
       "author": {
@@ -397,7 +397,8 @@
       "coverImage": "/images/products/pachamama-IwNT.jpg",
       "description": "",
       "ingredients": "聖木純露、白鼠尾草精油、膠體銀。",
-      "price": "HKD$ 180 會員$150 ",
+      "memberPrice": "HKD $150",
+      "price": "HKD$ 180",
       "productCode": "EP-004",
       "publishedAt": "2024-03-31T22:00:00.000Z",
       "purchaseLink": "",
