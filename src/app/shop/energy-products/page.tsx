@@ -74,8 +74,8 @@ export default async function EnergyProductsPage({
                             <span className="mx-3">&gt;</span>
                             <span className="text-primary font-medium">空間及個人能量用品</span>
                         </div>
-                        <div className="text-xl md:text-2xl tracking-widest text-[#4A3B32] pb-1 font-serif">
-                            消費滿$1000 <span className="text-[#8B7355]">包郵</span>
+                        <div className="text-xl md:text-2xl tracking-widest text-[#4A3B32] pb-1 font-sans">
+                            消費滿$500包郵
                         </div>
                     </div>
 
@@ -115,7 +115,7 @@ export default async function EnergyProductsPage({
                                         <span>Product Image</span>
                                     )}
                                 </div>
-                                <h3 className="text-xl font-serif text-[#1a1a1a] mb-2 z-20 relative pointer-events-none">{product.title}</h3>
+                                <h3 className="text-xl font-sans text-[#1a1a1a] mb-2 z-20 relative pointer-events-none">{product.title}</h3>
                                 {product.price && <p className="text-[#8B7355] font-medium z-20 relative pointer-events-none">{product.price}</p>}
                             </div>
                         ))}
