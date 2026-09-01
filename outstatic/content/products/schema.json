@@ -61,6 +61,11 @@
       "fieldType": "Text",
       "dataType": "string",
       "title": "Member Price"
+    },
+    "origin": {
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "Origin"
     }
   }
 }
