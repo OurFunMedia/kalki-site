@@ -126,7 +126,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
                     {/* Right: Product Details */}
                     <div className="flex flex-col justify-start">
-                        <h1 className="text-3xl md:text-4xl font-serif text-[#1a1a1a] mb-4">{product.title}</h1>
+                        <h1 className="text-3xl md:text-4xl font-sans text-[#1a1a1a] mb-4">{product.title}</h1>
                         <div className="flex flex-wrap items-baseline justify-between gap-x-6 mb-2">
                             <p className="text-2xl text-[#8B7355] font-medium">
                                 {product.price}
