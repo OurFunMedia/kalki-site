@@ -14,6 +14,8 @@ import CollapsibleSection from "@/components/shop/CollapsibleSection";
 type OutstaticProduct = {
     title: string
     price: string
+    memberPrice?: string
+    origin?: string
     purchaseLink?: string
     description?: string
     content?: string
@@ -45,7 +47,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         const db = await load()
         product = await db
             .find({ collection: 'products', slug: resolvedParams.slug })
-            .project(['title', 'price', 'purchaseLink', 'description', 'content', 'shortDescription', 'usage', 'ingredients', 'storage', 'slug', 'coverImage', 'category', 'images', 'videos', 'productCode'])
+            .project(['title', 'price', 'memberPrice', 'origin', 'purchaseLink', 'description', 'content', 'shortDescription', 'usage', 'ingredients', 'storage', 'slug', 'coverImage', 'category', 'images', 'videos', 'productCode'])
             .first() as unknown as OutstaticProduct;
     } catch (error) {
         console.error('Error loading product details:', error);
@@ -125,9 +127,21 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                     {/* Right: Product Details */}
                     <div className="flex flex-col justify-start">
                         <h1 className="text-3xl md:text-4xl font-serif text-[#1a1a1a] mb-4">{product.title}</h1>
-                        <p className="text-2xl text-[#8B7355] font-medium mb-2">
-                            {product.price}
-                        </p>
+                        <div className="flex flex-wrap items-baseline justify-between gap-x-6 mb-2">
+                            <p className="text-2xl text-[#8B7355] font-medium">
+                                {product.price}
+                            </p>
+                            {product.origin && (
+                                <p className="text-sm text-stone-500">
+                                    產地：{product.origin}
+                                </p>
+                            )}
+                        </div>
+                        {product.memberPrice && (
+                            <p className="text-base text-[#C47B5F] font-medium mb-2">
+                                會員價：{product.memberPrice}
+                            </p>
+                        )}
                         {product.productCode && (
                             <p className="text-sm text-stone-400 mb-4">
                                 貨號：{product.productCode}
