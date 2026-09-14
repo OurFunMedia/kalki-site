@@ -97,6 +97,28 @@ export default async function SchoolActivityPage({ params }: PageProps) {
                         ))}
                     </ul>
                 </div>
+
+                {/* CTA Footer */}
+                <div className="mt-16 pt-10 border-t border-stone-200 text-center">
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a
+                            href="https://forms.gle/qTmiN1kZ2cCuycyX8"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-8 py-3.5 bg-primary text-white rounded-full font-medium hover:bg-secondary transition-colors shadow-lg hover:-translate-y-0.5 transform inline-block text-center"
+                        >
+                            服務內容
+                        </a>
+                        <a
+                            href="https://forms.gle/JxyCUSom7s78diJd7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-8 py-3.5 bg-primary text-white rounded-full font-medium hover:bg-secondary transition-colors shadow-lg hover:-translate-y-0.5 transform inline-block text-center"
+                        >
+                            索取報價
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     );
