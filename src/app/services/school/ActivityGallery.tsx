@@ -8,7 +8,7 @@ export default function ActivityGallery({ activities }: { activities: SchoolActi
             {activities.map((activity) => (
                 <Link
                     key={activity.slug}
-                    href={`/ngo/school/activity/${activity.slug}`}
+                    href={`/services/school/activity/${activity.slug}`}
                     aria-label={`查看「${activity.title}」詳細介紹`}
                     className="group block cursor-pointer text-left"
                 >

@@ -40,7 +40,7 @@ export default async function SchoolActivityPage({ params }: PageProps) {
             <Navbar />
             <div className="max-w-3xl mx-auto">
                 <Link
-                    href="/ngo/school"
+                    href="/services/school"
                     className="group flex w-fit items-center gap-2 text-stone-500 hover:text-primary transition-all mb-10"
                 >
                     <svg

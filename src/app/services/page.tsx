@@ -26,7 +26,7 @@ export default async function NgoPage() {
     return (
         <div className="min-h-screen pt-24 px-6 md:px-12 bg-cream text-charcoal">
             <Navbar />
-            <div className="max-w-6xl mx-auto py-12">
+            <div className="max-w-6xl mx-auto pt-12 pb-4">
                 <div className="relative w-full rounded-3xl overflow-hidden mb-6 shadow-xl group" style={{ minHeight: '500px' }}>
                     <img 
                         src="/DSCF1542.jpg" 
@@ -67,7 +67,7 @@ export default async function NgoPage() {
                 ) : (
                     <div className="grid md:grid-cols-3 gap-8 md:gap-12">
                         {projects.map(project => (
-                            <Link href={`/ngo/${project.slug}`} key={project.slug} className="block group">
+                            <Link href={`/services/${project.slug}`} key={project.slug} className="block group">
                                 <div className="bg-white rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-all h-full group-hover:-translate-y-1 overflow-hidden flex flex-col">
                                     {project.coverImage && (
                                         <div className="w-full h-48 relative overflow-hidden bg-stone-100">

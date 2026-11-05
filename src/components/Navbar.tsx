@@ -40,7 +40,7 @@ export default function Navbar({ transparent = false }: { transparent?: boolean 
     const showTransparent = transparent && !isMenuOpen && !scrolled
 
     const navLinks = [
-        { href: '/ngo', label: '外展/到校' },
+        { href: '/services', label: '外展/到校' },
         { href: '/workshops', label: '課堂/工作坊' },
         { href: '/classes', label: '培訓/課程' },
         { href: '/shop', label: '商店' },

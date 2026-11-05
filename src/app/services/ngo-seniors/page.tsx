@@ -8,7 +8,7 @@ export default function SeniorsPage() {
             <Navbar />
             <div className="max-w-6xl mx-auto">
                 <div className="mb-12">
-                    <Link href="/ngo" className="group flex w-fit items-center gap-2 text-stone-500 hover:text-primary transition-all mb-8">
+                    <Link href="/services" className="group flex w-fit items-center gap-2 text-stone-500 hover:text-primary transition-all mb-8">
                         <svg className="w-5 h-5 transition-transform group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                         </svg>
