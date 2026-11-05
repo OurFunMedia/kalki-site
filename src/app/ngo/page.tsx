@@ -27,7 +27,7 @@ export default async function NgoPage() {
         <div className="min-h-screen pt-24 px-6 md:px-12 bg-cream text-charcoal">
             <Navbar />
             <div className="max-w-6xl mx-auto py-12">
-                <div className="relative w-full rounded-3xl overflow-hidden mb-16 shadow-xl group" style={{ minHeight: '500px' }}>
+                <div className="relative w-full rounded-3xl overflow-hidden mb-6 shadow-xl group" style={{ minHeight: '500px' }}>
                     <img 
                         src="/DSCF1542.jpg" 
                         alt="一班人正在學習瑜伽" 
