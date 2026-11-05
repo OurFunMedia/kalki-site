@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import { allSchoolActivities, getSchoolActivity } from "../../activities";
+import MechanismSection from "./MechanismSection";
 
 const tagImageMap: Record<string, string> = {
     當下覺察力: "/images/tag/tag_a.png",
@@ -78,6 +79,7 @@ export default async function SchoolActivityPage({ params }: PageProps) {
                 </ul>
 
                 <div className="border-t border-stone-200 pt-10">
+                    <MechanismSection currentSlug={slug} />
                     <h2 className="text-2xl md:text-3xl font-serif text-charcoal mb-6">對學校的價值</h2>
                     <ul className="space-y-4">
                         {activity.schoolValues.map((value) => (
