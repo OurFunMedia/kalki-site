@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { load } from 'outstatic/server';
@@ -224,6 +225,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

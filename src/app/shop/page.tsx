@@ -1,5 +1,6 @@
 import { load } from 'outstatic/server'
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Link from 'next/link';
 
 type ShopBanner = {
@@ -139,6 +140,7 @@ export default async function ShopPage() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

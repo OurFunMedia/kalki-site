@@ -1,5 +1,6 @@
 import { load } from 'outstatic/server'
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 type Event = {
     title: string
@@ -55,6 +56,7 @@ export default async function EventsPage() {
                     </div>
                 )}
             </div>
+            <Footer />
         </div>
     )
 }

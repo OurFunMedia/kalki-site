@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { allSchoolActivities, getSchoolActivity } from "../../activities";
 import MechanismSection from "./MechanismSection";
 
@@ -122,6 +123,7 @@ export default async function SchoolActivityPage({ params }: PageProps) {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

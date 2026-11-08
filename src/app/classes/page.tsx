@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { load } from 'outstatic/server'
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 type Class = {
     slug: string
@@ -76,6 +77,7 @@ export default async function ClassesPage() {
                     ))}
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

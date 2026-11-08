@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function InquiryPage() {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -147,29 +148,7 @@ export default function InquiryPage() {
             </section>
 
             {/* Footer */}
-            <footer className="bg-charcoal text-cream py-16 px-6 md:px-12">
-                <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-                    <div className="space-y-3">
-                        <h4 className="text-primary tracking-widest text-xs font-bold uppercase">WhatsApp</h4>
-                        <a href="https://wa.me/85268091683" target="_blank" rel="noopener noreferrer" className="block text-cream/70 font-light hover:text-white transition-colors">
-                            +852 6809 1683
-                        </a>
-                    </div>
-                    <div className="space-y-3">
-                        <h4 className="text-primary tracking-widest text-xs font-bold uppercase">Email</h4>
-                        <a href="mailto:info@kalkiwellnessproject.com" className="block text-cream/70 font-light hover:text-white transition-colors">
-                            info@kalkiwellnessproject.com
-                        </a>
-                    </div>
-                    <div className="space-y-3 hidden">
-                        <h4 className="text-primary tracking-widest text-xs font-bold uppercase">Address</h4>
-                        <p className="text-cream/70 font-light leading-relaxed">[請填寫地址]</p>
-                    </div>
-                </div>
-                <div className="mt-12 pt-8 border-t border-cream/10 text-center text-sm text-cream/30">
-                    <p>&copy; {new Date().getFullYear()} Kalki Wellness. All Rights Reserved.</p>
-                </div>
-            </footer>
+            <Footer />
         </div>
     );
 }

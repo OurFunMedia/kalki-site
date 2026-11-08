@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Link from "next/link";
 import ActivityGallery from "./ActivityGallery";
 import { kidsActivities, teenActivities } from "./activities";
@@ -29,6 +30,7 @@ export default function HealingPage() {
                 </div>
                 <ActivityGallery activities={teenActivities} />
             </div>
+            <Footer />
         </div>
     );
 }

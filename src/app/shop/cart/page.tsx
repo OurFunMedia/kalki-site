@@ -1,6 +1,7 @@
 'use client'
 
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Link from "next/link";
 import { useCart } from "@/context/CartContext";
 import QuantitySelector from "@/components/shop/QuantitySelector";
@@ -139,6 +140,7 @@ export default function CartPage() {
                     </>
                 )}
             </div>
+            <Footer />
         </div>
     )
 }

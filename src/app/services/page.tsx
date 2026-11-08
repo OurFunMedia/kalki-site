@@ -1,5 +1,6 @@
 import { load } from 'outstatic/server'
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Link from 'next/link';
 import NgoCarousel from '@/components/NgoCarousel';
 
@@ -101,6 +102,7 @@ export default async function NgoPage() {
             </div>
             
             <NgoCarousel />
+            <Footer />
         </div>
     )
 }

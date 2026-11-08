@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function ContactPage() {
     return (
@@ -48,9 +49,7 @@ export default function ContactPage() {
                 </div>
             </div>
 
-            <footer className="py-6 text-center text-stone-400 text-xs tracking-wider">
-                © 2026 Kalki Wellness. All rights reserved.
-            </footer>
+            <Footer />
         </div>
     )
 }

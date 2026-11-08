@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Link from "next/link";
 import ProductFilters from "@/components/shop/ProductFilters";
 import { Suspense } from "react";
@@ -122,6 +123,7 @@ export default async function EnergyProductsPage({
                     </div>
                 )}
             </div>
+            <Footer />
         </div>
     )
 }

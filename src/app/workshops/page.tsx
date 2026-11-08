@@ -1,5 +1,6 @@
 import { load } from 'outstatic/server'
 import Navbar from "@/components/Navbar"; // Page refresh trigger
+import Footer from "@/components/Footer";
 import Link from 'next/link';
 
 type Workshop = {
@@ -66,6 +67,7 @@ export default async function WorkshopsPage() {
                     ))}
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
