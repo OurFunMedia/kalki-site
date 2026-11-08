@@ -26,7 +26,7 @@ interface FooterProps {
 export default function Footer({ id }: FooterProps) {
     return (
         <footer id={id} className="bg-charcoal text-cream py-16 px-6 md:px-12">
-            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <div className="max-w-4xl mx-auto flex flex-col gap-8 text-center md:flex-row md:justify-between md:text-left">
                 <div className="space-y-3">
                     <h4 className="text-primary tracking-widest text-xs font-bold uppercase">WhatsApp</h4>
                     <a href="https://wa.me/85268091683" target="_blank" rel="noopener noreferrer" className="block text-cream/70 font-light hover:text-white transition-colors">
