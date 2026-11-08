@@ -44,7 +44,7 @@ export default function Navbar({ transparent = false }: { transparent?: boolean 
         { href: '/workshops', label: '課堂/工作坊' },
         { href: '/classes', label: '培訓/課程' },
         { href: '/shop', label: '商店' },
-        { href: '/instructors', label: '導師' },
+        { href: '/ourteam', label: '導師' },
         { href: '/about', label: '關於我們' },
         { href: '/inquiry', label: '查詢及報價' },
     ]

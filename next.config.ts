@@ -14,6 +14,16 @@ const nextConfig: NextConfig = {
         destination: '/services/:path*',
         permanent: true,
       },
+      {
+        source: '/instructors',
+        destination: '/ourteam',
+        permanent: true,
+      },
+      {
+        source: '/instructors/:path*',
+        destination: '/ourteam/:path*',
+        permanent: true,
+      },
     ];
   },
 };
