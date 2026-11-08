@@ -16,6 +16,8 @@ const SOCIAL_LINKS = [
     },
 ];
 
+import FloatingWhatsApp from "./FloatingWhatsApp";
+
 interface FooterProps {
     /** 可選錨點 id，例如首頁的 "contact" */
     id?: string;
@@ -67,6 +69,9 @@ export default function Footer({ id }: FooterProps) {
             <div className="mt-12 pt-8 border-t border-cream/10 text-center text-sm text-cream/30">
                 <p>&copy; {new Date().getFullYear()} Kalki Wellness. All Rights Reserved.</p>
             </div>
+
+            {/* 全站浮動 WhatsApp 查詢按鈕 */}
+            <FloatingWhatsApp />
         </footer>
     );
 }
