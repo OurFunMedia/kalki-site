@@ -102,7 +102,7 @@ export default async function SchoolActivityPage({ params }: PageProps) {
                 </div>
 
                 {/* CTA Footer */}
-                <div className="mt-16 pt-10 border-t border-stone-200 text-center">
+                <div className="mt-16 pt-10 pb-16 border-t border-stone-200 text-center">
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
                             href="https://forms.gle/qTmiN1kZ2cCuycyX8"

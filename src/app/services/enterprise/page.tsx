@@ -7,7 +7,7 @@ export default function SchoolPage() {
     return (
         <div className="min-h-screen pt-36 pb-24 px-6 md:px-12 bg-cream text-charcoal">
             <Navbar />
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-6xl mx-auto pb-16">
                 <div className="mb-12">
                     <Link href="/services" className="group flex w-fit items-center gap-2 text-stone-500 hover:text-primary transition-all mb-8">
                         <svg className="w-5 h-5 transition-transform group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
