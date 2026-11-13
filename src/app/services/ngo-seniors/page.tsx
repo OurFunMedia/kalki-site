@@ -2,12 +2,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import CollapsibleSection from "@/components/shop/CollapsibleSection";
 
 export default function SeniorsPage() {
     return (
         <div className="min-h-screen pt-36 pb-24 px-6 md:px-12 bg-cream text-charcoal">
             <Navbar />
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-6xl mx-auto pb-16">
                 <div className="mb-12">
                     <Link href="/services" className="group flex w-fit items-center gap-2 text-stone-500 hover:text-primary transition-all mb-8">
                         <svg className="w-5 h-5 transition-transform group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -94,7 +95,7 @@ export default function SeniorsPage() {
                 </div>
 
                 {/* CTA Section */}
-                <div className="mt-20 text-center py-16 border-t border-stone-200/60">
+                <div className="mt-20 text-center pt-16 border-t border-stone-200/60">
                     <p className="text-stone-600 text-lg mb-8 font-serif">想了解更多細節或預約服務？</p>
                     <Link 
                         href="https://wa.me/85268091683?text=%E6%88%91%E6%83%B3%E7%B4%A2%E5%8F%96%E5%A0%B1%E5%83%B9" 
@@ -104,6 +105,28 @@ export default function SeniorsPage() {
                     >
                         索取報價
                     </Link>
+                </div>
+
+                {/* 常見問題 */}
+                <div className="mt-24 mb-8 text-center pt-16 border-t border-stone-200">
+                    <h2 className="text-3xl font-serif text-charcoal">常見問題</h2>
+                </div>
+                <div className="max-w-3xl mx-auto">
+                    <CollapsibleSection title="學員的體能和活動能力差異很大，有些行動不便，如何配合？" defaultOpen={false}>
+                        <p>
+                            課程按學員的需要和能力設計，由坐姿開始，再按進度逐步加入站立及平衡練習，導師會提供不同程度的選擇。椅子瑜伽以椅子作支撐，適合活動能力有限的學員。查詢時請簡述學員情況，我們會與負責職員商討合適的安排。
+                        </p>
+                    </CollapsibleSection>
+                    <CollapsibleSection title="活動進行時，需要我們的職員協助嗎？" defaultOpen={false}>
+                        <p>
+                            建議機構安排職員在場，協助照顧學員及維持秩序。具體人手會按學員人數及情況，與主辦機構商討。
+                        </p>
+                    </CollapsibleSection>
+                    <CollapsibleSection title="活動可以在我們的中心或社區場地進行嗎？" defaultOpen={false}>
+                        <p>
+                            可以。一般的中心活動室或社區場地均可。確認安排前，我們會說明所需的空間及椅子、輔具等物資。
+                        </p>
+                    </CollapsibleSection>
                 </div>
             </div>
             <Footer />
