@@ -38,7 +38,7 @@ export default function CollapsibleSection({ title, children, defaultOpen = fals
                     open ? 'max-h-[2000px] pb-5' : 'max-h-0 pb-0'
                 }`}
             >
-                <div className="text-stone-600 leading-relaxed tracking-wide space-y-4">
+                <div className="text-left text-stone-600 leading-relaxed tracking-wide space-y-4">
                     {children}
                 </div>
             </div>
