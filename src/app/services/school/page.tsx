@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import ActivityGallery from "./ActivityGallery";
+import CollapsibleSection from "@/components/shop/CollapsibleSection";
 import { kidsActivities, teenActivities } from "./activities";
 
 export default function HealingPage() {
@@ -29,6 +30,28 @@ export default function HealingPage() {
                     <h2 className="text-3xl font-serif text-charcoal">青少年正念活動</h2>
                 </div>
                 <ActivityGallery activities={teenActivities} />
+
+                {/* 常見問題 */}
+                <div className="mt-24 mb-8 text-center pt-16 border-t border-stone-200">
+                    <h2 className="text-3xl font-serif text-charcoal">常見問題</h2>
+                </div>
+                <div className="max-w-3xl mx-auto">
+                    <CollapsibleSection title="如何為學校挑選活動組合？" defaultOpen={false}>
+                        <p>
+                            我們會先了解貴校希望達到的目標（例如專注、情緒表達或人際連結），再按每節可用的時間，從 18 個活動中挑選合適的組合；時間較長可串連多個活動。這些活動可組成單次體驗，亦可配搭為長期、恆常的校本課程，並按進度調整內容。
+                        </p>
+                    </CollapsibleSection>
+                    <CollapsibleSection title="每節最多多少人？" defaultOpen={false}>
+                        <p>
+                            人數按活動類型及場地而定。查詢時請提供預計人數及參與年級，我們會建議合適的分組方式，以維持活動質素及參加者安全。
+                        </p>
+                    </CollapsibleSection>
+                    <CollapsibleSection title="場地與物資有什麼要求？" defaultOpen={false}>
+                        <p>
+                            一般禮堂、課室或活動室均可，視乎活動類型而定。確認安排前，我們會列明所需的空間大小及物資，方便學校預早準備。
+                        </p>
+                    </CollapsibleSection>
+                </div>
             </div>
             <Footer />
         </div>
