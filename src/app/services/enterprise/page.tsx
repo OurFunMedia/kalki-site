@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import CollapsibleSection from "@/components/shop/CollapsibleSection";
 
 export default function SchoolPage() {
     return (
@@ -91,6 +92,28 @@ export default function SchoolPage() {
                             <p className="text-stone-600 line-clamp-4">透過呼吸練習、筋膜放鬆，伸展和靜觀，提升團隊的認知能力，增強幸福感與信任感，促進更良好的合作氛圍</p>
                         </div>
                     </div>
+                </div>
+
+                {/* 常見問題 */}
+                <div className="mt-24 mb-8 text-center pt-16 border-t border-stone-200">
+                    <h2 className="text-3xl font-serif text-charcoal">常見問題</h2>
+                </div>
+                <div className="max-w-3xl mx-auto">
+                    <CollapsibleSection title="同事工作繁忙，活動會佔用多少工作時間？可以做成恆常的員工福利嗎？" defaultOpen={false}>
+                        <p>
+                            活動時長可以靈活安排，例如午間 Lunch & Learn、半日或全日，時段與時長可按公司的運作調整。如希望成為恆常的員工福利，我們亦可安排 4 至 8 堂的系列課程或恆常班，內容按員工人數、程度及目標調整。
+                        </p>
+                    </CollapsibleSection>
+                    <CollapsibleSection title="同事沒有運動習慣，辦公室空間又有限，也能參加嗎？" defaultOpen={false}>
+                        <p>
+                            可以。活動以放鬆身心、體驗正念為主，動作簡單溫和，導師會示範並提供不同程度的選擇，無需任何運動經驗，同事可按自己的舒適程度參與。我們亦會事先了解場地的空間，再調整活動內容，確認安排前會列明所需物資，方便主辦方預早準備。
+                        </p>
+                    </CollapsibleSection>
+                    <CollapsibleSection title="活動可以用甚麼語言進行？" defaultOpen={false}>
+                        <p>
+                            活動可按團隊需要，以〔粵語／英語／普通話〕進行。如團隊成員來自不同背景，請在查詢時告知，我們會安排合適的導師。
+                        </p>
+                    </CollapsibleSection>
                 </div>
             </div>
             <Footer />
